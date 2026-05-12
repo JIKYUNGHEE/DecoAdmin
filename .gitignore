@@ -27,6 +27,8 @@ MANIFEST
 venv/
 ENV/
 env/
+.cache/
+.matplotlib-cache/
 
 # IDE
 .vscode/

@@ -1,201 +1,341 @@
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-import koreanize_matplotlib
+import json
 import os
+import warnings
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+os.environ.setdefault("MPLCONFIGDIR", str(ROOT / ".matplotlib-cache"))
+os.environ.setdefault("XDG_CACHE_HOME", str(ROOT / ".cache"))
+warnings.filterwarnings("ignore", category=FutureWarning)
+
+import koreanize_matplotlib  # noqa: F401
+import matplotlib.pyplot as plt
+import pandas as pd
+import seaborn as sns
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-# 1. 데이터 로드 및 환경 설정
-file_path = 'data/서울시 문화행사 정보.csv'
-report_dir = 'report'
-image_dir = 'images'
-os.makedirs(report_dir, exist_ok=True)
-os.makedirs(image_dir, exist_ok=True)
 
-# 인코딩 확인 (CP949 시도)
-try:
-    df = pd.read_csv(file_path, encoding='cp949')
-except UnicodeDecodeError:
-    df = pd.read_csv(file_path, encoding='utf-8')
+DATA_PATH = ROOT / "data" / "서울시 문화행사 정보.csv"
+REPORT_DIR = ROOT / "report"
+DOCS_IMAGE_DIR = ROOT / "docs" / "images"
+DOCS_DATA_DIR = ROOT / "docs" / "data"
 
-# 데이터 기초 정보
-info_str = f"전체 데이터 수: {len(df)}행, {len(df.columns)}열\n"
-info_str += f"중복 데이터 수: {df.duplicated().sum()}\n"
+COLUMNS = {
+    "category": "분류",
+    "gu": "자치구",
+    "title": "공연/행사명",
+    "date": "날짜",
+    "venue": "장소",
+    "audience": "이용대상",
+    "fee": "이용요금",
+    "free_paid": "유무료",
+    "theme": "테마분류",
+    "longitude": "경도(Y좌표)",
+    "latitude": "위도(X좌표)",
+    "url": "문화포털상세URL",
+    "time": "행사시간",
+}
 
-# 컬럼명 확인 및 분석에 사용할 주요 컬럼 정의
-# 컬럼명이 한글일 가능성이 높으므로 실제 로드된 컬럼명을 기반으로 작업
-cols = df.columns.tolist()
+TAG_RULES = {
+    "무료": ["가성비", "무료"],
+    "유료": ["유료"],
+    "전시/미술": ["전시", "실내"],
+    "교육/체험": ["체험", "이색데이트"],
+    "클래식": ["공연", "클래식", "감성"],
+    "콘서트": ["공연", "음악"],
+    "연극": ["공연", "연극"],
+    "뮤지컬/오페라": ["공연", "뮤지컬"],
+    "축제": ["축제", "야외"],
+    "도서": ["북데이트", "정적인"],
+}
 
-# 2. 기술통계 분석 (Numerical & Categorical)
-desc_num = df.describe().to_markdown()
-desc_cat = df.describe(include=['O']).to_markdown()
 
-# 3. 시각화 및 인사이트 도출
-graphs = []
+def read_csv() -> pd.DataFrame:
+    try:
+        return pd.read_csv(DATA_PATH, encoding="cp949")
+    except UnicodeDecodeError:
+        return pd.read_csv(DATA_PATH, encoding="utf-8")
 
-def save_plot(filename):
+
+def require_columns(df: pd.DataFrame) -> None:
+    missing = [column for column in COLUMNS.values() if column not in df.columns]
+    if missing:
+        raise KeyError(f"필수 컬럼이 없습니다: {', '.join(missing)}")
+
+
+def save_plot(filename: str) -> str:
     plt.tight_layout()
-    path = os.path.join(image_dir, filename)
-    plt.savefig(path)
+    DOCS_IMAGE_DIR.mkdir(parents=True, exist_ok=True)
+    path = DOCS_IMAGE_DIR / filename
+    plt.savefig(path, dpi=160)
     plt.close()
-    return f"../{path}"
+    return f"../docs/images/{filename}"
 
-# 시각화 1: 분류별 행사 빈도 (Bar Chart)
-plt.figure(figsize=(12, 6))
-sns.countplot(data=df, y=cols[0], order=df[cols[0]].value_counts().index[:30], palette='viridis')
-plt.title('행사 분류별 빈도 (상위 30개)')
-img_path1 = save_plot('01_event_category_counts.png')
-graphs.append({
-    'title': '행사 분류별 빈도 분석',
-    'image': img_path1,
-    'insight': '어떤 종류의 문화 행사가 가장 많이 개최되는지 확인할 수 있습니다. 대중적인 장르와 비주류 장르의 격차를 파악할 수 있는 지표입니다.',
-    'table': df[cols[0]].value_counts().head(10).to_frame().to_markdown()
-})
 
-# 시각화 2: 자치구별 행사 빈도 (Bar Chart)
-# 구(GU) 정보가 있는 컬럼 찾기 (일반적으로 두 번째나 세 번째 컬럼)
-gu_col = cols[1] # 자치구 컬럼으로 추정
-plt.figure(figsize=(12, 8))
-sns.countplot(data=df, y=gu_col, order=df[gu_col].value_counts().index, palette='magma')
-plt.title('자치구별 문화 행사 개최 현황')
-img_path2 = save_plot('02_gu_event_counts.png')
-graphs.append({
-    'title': '자치구별 행사 개최 현황',
-    'image': img_path2,
-    'insight': '서울시 내 자치구별 문화 인프라 및 행사 집중도를 시각적으로 나타냅니다. 특정 지역에 행사가 편중되어 있는지 확인할 수 있습니다.',
-    'table': df[gu_col].value_counts().head(10).to_frame().to_markdown()
-})
+def normalize_dates(df: pd.DataFrame) -> pd.DataFrame:
+    result = df.copy()
+    date_range = result[COLUMNS["date"]].astype(str).str.split("~")
+    result["분석_시작일"] = pd.to_datetime(date_range.str[0], errors="coerce")
+    result["분석_종료일"] = pd.to_datetime(date_range.str[-1], errors="coerce")
+    result["분석_월"] = result["분석_시작일"].dt.month
+    result["분석_요일"] = result["분석_시작일"].dt.day_name()
+    result["분석_기간"] = (result["분석_종료일"] - result["분석_시작일"]).dt.days + 1
+    result["분석_기간분류"] = pd.cut(
+        result["분석_기간"],
+        bins=[0, 3, 14, float("inf")],
+        labels=["단기(3일이내)", "중기(4-14일)", "장기(15일이상)"],
+        include_lowest=True,
+    )
+    return result
 
-# 시각화 3: 유료/무료 여부 비중 (Pie Chart)
-pay_col = [c for c in cols if '이용' in c or '유료' in c or '무료' in c or '입장' in c][0] # 이용료 컬럼 추정
-df['유무료'] = df[pay_col].apply(lambda x: '무료' if '무료' in str(x) else ('유료' if '원' in str(x) or '료' in str(x) else '기타'))
-plt.figure(figsize=(8, 8))
-df['유무료'].value_counts().plot.pie(autopct='%1.1f%%', colors=['#ff9999','#66b3ff','#99ff99'])
-plt.title('행사 유료/무료 비중')
-img_path3 = save_plot('03_is_free_pie.png')
-graphs.append({
-    'title': '행사 유료/무료 비중 분석',
-    'image': img_path3,
-    'insight': '시민들이 무료로 접근할 수 있는 행사의 비율을 보여줍니다. 공공 문화 서비스의 접근성을 판단하는 주요 지표입니다.',
-    'table': df['유무료'].value_counts().to_frame().to_markdown()
-})
 
-# 시각화 4: 월별 행사 개최 트렌드 (Line Chart)
-# 날짜 컬럼 찾기
-date_col = [c for c in cols if '날짜' in c or '기간' in c or '시작' in c][0]
-df['시작일'] = pd.to_datetime(df[date_col].str.split('~').str[0], errors='coerce')
-df['월'] = df['시작일'].dt.month
-monthly_counts = df['월'].value_counts().sort_index()
-plt.figure(figsize=(10, 5))
-sns.lineplot(x=monthly_counts.index, y=monthly_counts.values, marker='o', color='blue')
-plt.xticks(range(1, 13))
-plt.title('월별 문화 행사 개최 트렌드')
-plt.xlabel('월')
-plt.ylabel('행사 수')
-img_path4 = save_plot('04_monthly_trend.png')
-graphs.append({
-    'title': '월별 행사 개최 트렌드',
-    'image': img_path4,
-    'insight': '계절적 요인이 문화 행사 개최에 미치는 영향을 파악합니다. 특정 시기에 행사가 집중되는 경향을 확인할 수 있습니다.',
-    'table': monthly_counts.to_frame().to_markdown()
-})
+def build_tags(row: pd.Series) -> list[str]:
+    tags = []
+    haystack = " ".join(
+        str(row.get(column, ""))
+        for column in [COLUMNS["category"], COLUMNS["title"], COLUMNS["venue"], COLUMNS["free_paid"], COLUMNS["theme"]]
+    )
+    for keyword, mapped_tags in TAG_RULES.items():
+        if keyword in haystack:
+            tags.extend(mapped_tags)
+    if "19:" in str(row.get(COLUMNS["time"], "")) or "20:" in str(row.get(COLUMNS["time"], "")):
+        tags.append("야간")
+    if row.get(COLUMNS["gu"]) in {"종로구", "중구", "서초구", "마포구"}:
+        tags.append("인기지역")
+    return list(dict.fromkeys(tags))[:5]
 
-# 시각화 5: 대상별 행사 빈도 (Bar Chart)
-target_col = [c for c in cols if '대상' in c or '이용' in c][1] # 대상 컬럼 추정
-plt.figure(figsize=(12, 6))
-sns.countplot(data=df, y=target_col, order=df[target_col].value_counts().index[:15], palette='Set3')
-plt.title('주요 관람 대상별 행사 수')
-img_path5 = save_plot('05_target_audience.png')
-graphs.append({
-    'title': '관람 대상별 분포',
-    'image': img_path5,
-    'insight': '어린이, 청소년, 성인 등 누구를 타겟으로 하는 행사가 많은지 보여줍니다. 문화 복지의 수혜 대상을 분석할 수 있습니다.',
-    'table': df[target_col].value_counts().head(10).to_frame().to_markdown()
-})
 
-# 시각화 6: 자치구별 유/무료 교차 분석 (Stacked Bar)
-gu_pay_cross = pd.crosstab(df[gu_col], df['유무료'])
-gu_pay_cross.plot(kind='bar', stacked=True, figsize=(12, 7), color=['#66b3ff', '#ff9999', '#99ff99'])
-plt.title('자치구별 유/무료 행사 비중')
-img_path6 = save_plot('06_gu_pay_cross.png')
-graphs.append({
-    'title': '자치구별 유/무료 행사 교차 분석',
-    'image': img_path6,
-    'insight': '각 자치구가 제공하는 문화 서비스의 성격(공공성 vs 상업성)을 비교할 수 있습니다.',
-    'table': gu_pay_cross.head(10).to_markdown()
-})
+def score_recommendation(row: pd.Series) -> float:
+    score = 6.0
+    category = str(row.get(COLUMNS["category"], ""))
+    free_paid = str(row.get(COLUMNS["free_paid"], ""))
+    gu = str(row.get(COLUMNS["gu"], ""))
+    duration = row.get("분석_기간")
+    weekday = str(row.get("분석_요일", ""))
 
-# 시각화 7: 행사 장소별 빈도 (Bar Chart)
-place_col = [c for c in cols if '장소' in c or '시설' in c][0]
-plt.figure(figsize=(12, 8))
-sns.countplot(data=df, y=place_col, order=df[place_col].value_counts().index[:20], palette='coolwarm')
-plt.title('주요 행사 장소 TOP 20')
-img_path7 = save_plot('07_top_venues.png')
-graphs.append({
-    'title': '주요 행사 장소 분석',
-    'image': img_path7,
-    'insight': '서울시 내에서 어떤 장소가 문화 행사의 거점 역할을 하고 있는지 확인합니다.',
-    'table': df[place_col].value_counts().head(10).to_frame().to_markdown()
-})
+    if category in {"전시/미술", "교육/체험", "클래식", "콘서트"}:
+        score += 1.0
+    if free_paid == "무료":
+        score += 0.8
+    if gu in {"종로구", "중구", "서초구", "마포구", "송파구"}:
+        score += 0.7
+    if pd.notna(duration) and 1 <= duration <= 14:
+        score += 0.5
+    if weekday in {"Friday", "Saturday", "Sunday"}:
+        score += 0.5
+    if pd.notna(row.get(COLUMNS["longitude"])) and pd.notna(row.get(COLUMNS["latitude"])):
+        score += 0.3
+    return round(min(score, 9.8), 1)
 
-# 시각화 8: 기간별 행사 수 (Short term vs Long term)
-df['종료일'] = pd.to_datetime(df[date_col].str.split('~').str[-1], errors='coerce')
-df['기간'] = (df['종료일'] - df['시작일']).dt.days + 1
-df['기간분류'] = df['기간'].apply(lambda x: '단기(3일이내)' if x <= 3 else ('중기(4-14일)' if x <= 14 else '장기(15일이상)'))
-plt.figure(figsize=(8, 8))
-df['기간분류'].value_counts().plot.pie(autopct='%1.1f%%', colors=['#ffcc99','#99ffcc','#cc99ff'])
-plt.title('행사 기간별 비중')
-img_path8 = save_plot('08_duration_pie.png')
-graphs.append({
-    'title': '행사 기간 비중 분석',
-    'image': img_path8,
-    'insight': '일회성 단기 행사와 전시형 장기 행사의 비중을 보여줍니다.',
-    'table': df['기간분류'].value_counts().to_frame().to_markdown()
-})
 
-# 시각화 9: 요일별 시작일 빈도
-df['요일'] = df['시작일'].dt.day_name()
-day_order = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
-plt.figure(figsize=(10, 6))
-sns.countplot(data=df, x='요일', order=day_order, palette='husl')
-plt.title('요일별 행사 시작 빈도')
-img_path9 = save_plot('09_day_of_week.png')
-graphs.append({
-    'title': '요일별 행사 시작 현황',
-    'image': img_path9,
-    'insight': '주말을 겨냥한 행사가 금요일이나 토요일에 얼마나 집중되는지 알 수 있습니다.',
-    'table': df['요일'].value_counts().reindex(day_order).to_frame().to_markdown()
-})
+def build_reason(row: pd.Series) -> str:
+    gu = row.get(COLUMNS["gu"], "서울")
+    category = row.get(COLUMNS["category"], "문화행사")
+    free_paid = row.get(COLUMNS["free_paid"], "")
+    venue = row.get(COLUMNS["venue"], "주요 장소")
+    price_phrase = "무료로 즐길 수 있어 부담이 낮고, " if free_paid == "무료" else ""
+    return f"{price_phrase}{gu}의 {venue}에서 진행되는 {category} 콘텐츠로 데이트 코스에 연결하기 좋습니다."
 
-# 시각화 10: 텍스트 키워드 분석 (TF-IDF)
-title_col = [c for c in cols if '제목' in c or '행사명' in c][0]
-tfidf = TfidfVectorizer(max_features=30)
-tfidf_matrix = tfidf.fit_transform(df[title_col].dropna())
-keywords = tfidf.get_feature_names_out()
-weights = tfidf_matrix.sum(axis=0).A1
-kw_df = pd.DataFrame({'keyword': keywords, 'weight': weights}).sort_values('weight', ascending=False)
 
-plt.figure(figsize=(12, 8))
-sns.barplot(data=kw_df, x='weight', y='keyword', palette='Blues_r')
-plt.title('행사명 주요 키워드 TOP 30 (TF-IDF)')
-img_path10 = save_plot('10_keywords_tfidf.png')
-graphs.append({
-    'title': '핵심 키워드 분석 (TF-IDF)',
-    'image': img_path10,
-    'insight': '행사 제목에서 가장 빈번하게 등장하는 단어들을 통해 서울시 문화 행사의 전반적인 테마를 파악합니다.',
-    'table': kw_df.head(20).to_markdown()
-})
+def write_recommendations(df: pd.DataFrame) -> None:
+    DOCS_DATA_DIR.mkdir(parents=True, exist_ok=True)
+    candidates = df.dropna(subset=[COLUMNS["title"], COLUMNS["gu"], COLUMNS["venue"]]).copy()
+    active_or_upcoming = candidates[candidates["분석_종료일"] >= pd.Timestamp.today().normalize()]
+    if not active_or_upcoming.empty:
+        candidates = active_or_upcoming
+    candidates["추천점수"] = candidates.apply(score_recommendation, axis=1)
+    candidates = candidates.sort_values(["추천점수", "분석_시작일"], ascending=[False, True]).head(12)
 
-# 4. 최종 리포트 생성
-report_content = f"""# 서울시 문화행사 정보 탐색적 데이터 분석(EDA) 보고서
+    records = []
+    for _, row in candidates.iterrows():
+        records.append(
+            {
+                "name": row[COLUMNS["title"]],
+                "gu": row[COLUMNS["gu"]],
+                "venue": row[COLUMNS["venue"]],
+                "category": row[COLUMNS["category"]],
+                "tags": build_tags(row),
+                "score": row["추천점수"],
+                "reason": build_reason(row),
+                "startDate": row["분석_시작일"].strftime("%Y-%m-%d") if pd.notna(row["분석_시작일"]) else "",
+                "endDate": row["분석_종료일"].strftime("%Y-%m-%d") if pd.notna(row["분석_종료일"]) else "",
+                "latitude": row[COLUMNS["latitude"]] if pd.notna(row[COLUMNS["latitude"]]) else None,
+                "longitude": row[COLUMNS["longitude"]] if pd.notna(row[COLUMNS["longitude"]]) else None,
+                "url": row[COLUMNS["url"]],
+            }
+        )
+
+    json_text = json.dumps(records, ensure_ascii=False, indent=2)
+    (DOCS_DATA_DIR / "recommendations.json").write_text(json_text + "\n", encoding="utf-8")
+    (DOCS_DATA_DIR / "recommendations.js").write_text(
+        "window.DECO_RECOMMENDATIONS = " + json_text + ";\n",
+        encoding="utf-8",
+    )
+
+
+def main() -> None:
+    REPORT_DIR.mkdir(exist_ok=True)
+    raw_df = read_csv()
+    require_columns(raw_df)
+    df = normalize_dates(raw_df)
+    require_columns(df)
+
+    cols = df.columns.tolist()
+    info_str = f"전체 데이터 수: {len(df)}행, {len(cols)}열\n"
+    info_str += f"중복 데이터 수: {df.duplicated().sum()}\n"
+    info_str += "주요 결측치:\n"
+    info_str += df[list(COLUMNS.values())].isna().sum().to_markdown()
+
+    desc_num = df.describe().to_markdown()
+    desc_cat = df.describe(include=["object", "str", "category"]).to_markdown()
+    graphs = []
+
+    plt.figure(figsize=(12, 6))
+    sns.countplot(data=df, y=COLUMNS["category"], order=df[COLUMNS["category"]].value_counts().index[:30], palette="viridis")
+    plt.title("행사 분류별 빈도 (상위 30개)")
+    graphs.append(
+        {
+            "title": "행사 분류별 빈도 분석",
+            "image": save_plot("01_event_category_counts.png"),
+            "insight": "교육/체험, 전시/미술, 클래식처럼 데이트 테마로 전환하기 쉬운 장르가 어느 정도의 규모를 갖는지 확인하는 기본 분포입니다.",
+            "table": df[COLUMNS["category"]].value_counts().head(10).to_frame("count").to_markdown(),
+        }
+    )
+
+    plt.figure(figsize=(12, 8))
+    sns.countplot(data=df, y=COLUMNS["gu"], order=df[COLUMNS["gu"]].value_counts().index, palette="magma")
+    plt.title("자치구별 문화 행사 개최 현황")
+    graphs.append(
+        {
+            "title": "자치구별 행사 개최 현황",
+            "image": save_plot("02_gu_event_counts.png"),
+            "insight": "종로구와 중구처럼 행사 밀도가 높은 지역은 초기 추천 코스의 거점으로 삼기 좋고, 낮은 지역은 보완 큐레이션이 필요합니다.",
+            "table": df[COLUMNS["gu"]].value_counts().head(10).to_frame("count").to_markdown(),
+        }
+    )
+
+    plt.figure(figsize=(8, 8))
+    df[COLUMNS["free_paid"]].value_counts().plot.pie(autopct="%1.1f%%", colors=["#ff9999", "#66b3ff"])
+    plt.title("행사 유료/무료 비중")
+    graphs.append(
+        {
+            "title": "행사 유료/무료 비중 분석",
+            "image": save_plot("03_is_free_pie.png"),
+            "insight": "원본의 유무료 컬럼을 기준으로 비용 접근성을 확인합니다. 무료 행사는 가성비 데이트 태그와 초기 유입 콘텐츠에 직접 활용할 수 있습니다.",
+            "table": df[COLUMNS["free_paid"]].value_counts().to_frame("count").to_markdown(),
+        }
+    )
+
+    monthly_counts = df["분석_월"].value_counts().sort_index()
+    plt.figure(figsize=(10, 5))
+    sns.lineplot(x=monthly_counts.index, y=monthly_counts.values, marker="o", color="blue")
+    plt.xticks(range(1, 13))
+    plt.title("월별 문화 행사 개최 트렌드")
+    plt.xlabel("월")
+    plt.ylabel("행사 수")
+    graphs.append(
+        {
+            "title": "월별 행사 개최 트렌드",
+            "image": save_plot("04_monthly_trend.png"),
+            "insight": "행사가 집중되는 월을 보면 시즌 기획과 추천 슬롯 운영 시점을 정할 수 있으며, 비수기에는 상설 전시형 콘텐츠를 보강해야 합니다.",
+            "table": monthly_counts.to_frame("count").to_markdown(),
+        }
+    )
+
+    plt.figure(figsize=(12, 6))
+    sns.countplot(data=df, y=COLUMNS["audience"], order=df[COLUMNS["audience"]].value_counts().index[:15], palette="Set3")
+    plt.title("주요 관람 대상별 행사 수")
+    graphs.append(
+        {
+            "title": "관람 대상별 분포",
+            "image": save_plot("05_target_audience.png"),
+            "insight": "커플 데이트에 적합한 누구나, 성인, 청소년 이상 콘텐츠의 비중을 파악해 앱 추천 제외 조건과 우선 조건을 설계할 수 있습니다.",
+            "table": df[COLUMNS["audience"]].value_counts().head(10).to_frame("count").to_markdown(),
+        }
+    )
+
+    gu_pay_cross = pd.crosstab(df[COLUMNS["gu"]], df[COLUMNS["free_paid"]])
+    gu_pay_cross.plot(kind="bar", stacked=True, figsize=(12, 7), color=["#66b3ff", "#ff9999"])
+    plt.title("자치구별 유/무료 행사 비중")
+    graphs.append(
+        {
+            "title": "자치구별 유/무료 행사 교차 분석",
+            "image": save_plot("06_gu_pay_cross.png"),
+            "insight": "지역별 무료 콘텐츠 규모를 비교하면 가성비 코스가 강한 자치구와 유료 공연 중심 자치구를 분리해 큐레이션할 수 있습니다.",
+            "table": gu_pay_cross.head(10).to_markdown(),
+        }
+    )
+
+    plt.figure(figsize=(12, 8))
+    sns.countplot(data=df, y=COLUMNS["venue"], order=df[COLUMNS["venue"]].value_counts().index[:20], palette="coolwarm")
+    plt.title("주요 행사 장소 TOP 20")
+    graphs.append(
+        {
+            "title": "주요 행사 장소 분석",
+            "image": save_plot("07_top_venues.png"),
+            "insight": "반복적으로 행사가 열리는 장소는 운영자가 장소 상세, 주변 이동 동선, 근처 카페를 미리 보강하기 좋은 거점입니다.",
+            "table": df[COLUMNS["venue"]].value_counts().head(10).to_frame("count").to_markdown(),
+        }
+    )
+
+    plt.figure(figsize=(8, 8))
+    df["분석_기간분류"].value_counts().plot.pie(autopct="%1.1f%%", colors=["#ffcc99", "#99ffcc", "#cc99ff"])
+    plt.title("행사 기간별 비중")
+    graphs.append(
+        {
+            "title": "행사 기간 비중 분석",
+            "image": save_plot("08_duration_pie.png"),
+            "insight": "단기 행사는 주말 추천에, 장기 행사는 홈 화면의 안정적인 상시 추천 콘텐츠에 배치하는 식으로 운영 전략을 나눌 수 있습니다.",
+            "table": df["분석_기간분류"].value_counts().to_frame("count").to_markdown(),
+        }
+    )
+
+    day_order = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+    plt.figure(figsize=(10, 6))
+    sns.countplot(data=df, x="분석_요일", order=day_order, palette="husl")
+    plt.title("요일별 행사 시작 빈도")
+    graphs.append(
+        {
+            "title": "요일별 행사 시작 현황",
+            "image": save_plot("09_day_of_week.png"),
+            "insight": "금요일과 토요일 시작 행사의 규모를 보면 주말 데이트 푸시 알림, 홈 추천 갱신, 큐레이션 마감 시점을 정할 수 있습니다.",
+            "table": df["분석_요일"].value_counts().reindex(day_order).to_frame("count").to_markdown(),
+        }
+    )
+
+    tfidf = TfidfVectorizer(max_features=30, token_pattern=r"(?u)\b[^\d\W][\w/+-]{1,}\b")
+    tfidf_matrix = tfidf.fit_transform(df[COLUMNS["title"]].dropna())
+    kw_df = pd.DataFrame(
+        {
+            "keyword": tfidf.get_feature_names_out(),
+            "weight": tfidf_matrix.sum(axis=0).A1,
+        }
+    ).sort_values("weight", ascending=False)
+
+    plt.figure(figsize=(12, 8))
+    sns.barplot(data=kw_df, x="weight", y="keyword", palette="Blues_r")
+    plt.title("행사명 주요 키워드 TOP 30 (TF-IDF)")
+    graphs.append(
+        {
+            "title": "핵심 키워드 분석 (TF-IDF)",
+            "image": save_plot("10_keywords_tfidf.png"),
+            "insight": "연도 숫자 같은 노이즈를 줄이고 실제 테마성 단어를 추출해 앱 태그 후보와 검색 필터 우선순위를 정하는 데 활용합니다.",
+            "table": kw_df.head(20).to_markdown(index=False),
+        }
+    )
+
+    write_recommendations(df)
+
+    report_content = f"""# 서울시 문화행사 정보 탐색적 데이터 분석(EDA) 보고서
 
 ## 1. 요약
-본 보고서는 서울시에서 제공하는 문화행사 데이터를 바탕으로, 행사 분류, 지역별 분포, 비용 구조, 시계열 트렌드 및 핵심 키워드를 분석한 결과를 담고 있습니다.
+본 보고서는 서울시에서 제공하는 문화행사 데이터를 바탕으로, Deco 앱의 초기 추천 콘텐츠 운영에 필요한 행사 분류, 지역별 분포, 비용 구조, 시계열 트렌드 및 핵심 키워드를 분석한 결과를 담고 있습니다.
 
 ## 2. 기초 데이터 정보
 - **전체 데이터 규모**: {len(df)}건
-- **컬럼 구성**: {', '.join(cols)}
-- **데이터 결측치 및 무결성**: {info_str}
+- **컬럼 구성**: {", ".join(cols)}
+- **데이터 결측치 및 무결성**
+{info_str}
 
 ## 3. 기술통계 분석
 
@@ -210,29 +350,31 @@ report_content = f"""# 서울시 문화행사 정보 탐색적 데이터 분석(
 ## 4. 상세 시각화 인사이트
 """
 
-for g in graphs:
-    report_content += f"""
-### {g['title']}
-![{g['title']}]({g['image']})
+    for graph in graphs:
+        report_content += f"""
+### {graph["title"]}
+![{graph["title"]}]({graph["image"]})
 
 **[분석 결과 및 인사이트]**
-{g['insight']}
+{graph["insight"]}
 
 **[통계표]**
-{g['table']}
+{graph["table"]}
 
 ---
 """
 
-report_content += """
-## 5. 결론 및 제언
-- **지역적 편중**: 특정 자치구에 행사가 집중되어 있는 경향이 확인되었습니다. 문화 소외 지역에 대한 인프라 확충이 필요합니다.
-- **다양한 타겟층**: 전 연령대를 대상으로 하는 행사가 많으나, 특정 취약 계층이나 정교한 타겟팅을 가진 행사의 비중을 높일 필요가 있습니다.
-- **무료 행사의 가치**: 높은 무료 행사 비중은 시민들의 문화 향유 기회를 확대하는 긍정적인 요소입니다.
-- **계절성 고려**: 월별 트렌드에 따라 행사 개최 시기를 조정하여 방문객 분산 및 활성화를 도모할 수 있습니다.
+    report_content += """
+## 5. Deco Admin 운영 제언
+- **초기 거점**: 종로구, 중구, 서초구, 마포구처럼 행사가 많은 지역을 중심으로 홈 추천 코스를 먼저 구성합니다.
+- **태그 체계**: 무료, 전시, 체험, 공연, 야간처럼 원본 데이터에서 안정적으로 추출 가능한 태그를 1차 필터로 사용합니다.
+- **주말 운영**: 금요일과 토요일 시작 행사를 기준으로 목요일 오후에 주말 추천 후보를 확정하는 운영 흐름이 적합합니다.
+- **데이터 연결**: 생성된 `docs/data/recommendations.json` 파일은 Deco 앱 홈 추천, 상세 설명, 지도 후보 데이터의 초기 원천으로 활용할 수 있습니다.
 """
 
-with open(os.path.join(report_dir, 'EDA_Report.md'), 'w', encoding='utf-8') as f:
-    f.write(report_content)
+    (REPORT_DIR / "EDA_Report.md").write_text(report_content, encoding="utf-8")
+    print("EDA 리포트와 추천 후보 데이터 생성이 완료되었습니다.")
 
-print("EDA 리포트 생성이 완료되었습니다.")
+
+if __name__ == "__main__":
+    main()

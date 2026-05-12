@@ -23,13 +23,17 @@ Admin에서 관리되는 데이터는 다음과 같이 유기적으로 Deco 앱 
 - `docs/`: 정적 웹 대시보드 소스 (GitHub Pages 배포용)
   - `index.html`: 서비스 맥락이 반영된 대시보드 UI
   - `style.css`: 프리미엄 관리자 디자인 테마
-  - `app.js`: 추천 데이터 매핑 로직
+  - `app.js`: 추천 데이터 렌더링 로직
+  - `data/`: EDA 스크립트가 생성한 추천 후보 JSON/JS 데이터
+  - `images/`: EDA 스크립트가 생성한 대시보드 그래프
   - `reference/`: Deco 앱 기획 및 화면 참고 자료
+- `data/`: 원본 CSV 데이터
 - `report/`: 탐색적 데이터 분석(EDA) 상세 보고서
-- `scripts/`: 데이터 전처리 및 키워드 분석 스크립트
+- `scripts/`: 데이터 전처리, 리포트, 추천 후보 데이터 생성 스크립트
 
 ## 🛠 실행 및 확인
 - **대시보드 보기**: `docs/index.html` 파일을 브라우저에서 실행
+- **분석 재실행**: `uv run python scripts/eda_analysis.py`
 - **배포 주소**: GitHub 저장소 설정에서 Pages 배포 후 확인 가능
 
 ---
