@@ -174,6 +174,65 @@ section h2::before {
 }
 
 /* Table */
+.candidate-toolbar {
+    display: grid;
+    grid-template-columns: minmax(220px, 1.5fr) repeat(4, minmax(140px, 1fr)) auto;
+    gap: 0.75rem;
+    align-items: end;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding: 1rem;
+    margin-bottom: 0.75rem;
+}
+
+.field {
+    display: grid;
+    gap: 0.35rem;
+}
+
+.field span,
+.check-field span {
+    color: var(--text-muted);
+    font-size: 0.78rem;
+    font-weight: 700;
+}
+
+.field input,
+.field select {
+    width: 100%;
+    height: 42px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: white;
+    color: var(--text-main);
+    font: inherit;
+    padding: 0 0.75rem;
+}
+
+.check-field {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+    height: 42px;
+    padding: 0 0.75rem;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: #fff;
+    white-space: nowrap;
+}
+
+.candidate-summary {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+}
+
 .table-container {
     overflow-x: auto;
     background: white;
@@ -206,6 +265,38 @@ tr:hover {
     background: #FFF9FA;
 }
 
+tr.is-active {
+    background: #FFF0F3;
+}
+
+.candidate-check {
+    width: 18px;
+    height: 18px;
+    accent-color: var(--primary);
+}
+
+.candidate-meta {
+    display: block;
+    color: var(--text-muted);
+    font-size: 0.8rem;
+    margin-top: 0.35rem;
+    white-space: nowrap;
+}
+
+.date-cell {
+    white-space: nowrap;
+}
+
+a {
+    color: var(--primary);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 .tag {
     display: inline-block;
     padding: 0.2rem 0.6rem;
@@ -221,6 +312,64 @@ tr:hover {
 .score {
     font-weight: 700;
     color: #FFB703;
+}
+
+.candidate-detail {
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    margin-top: 1rem;
+    padding: 1.25rem;
+}
+
+.candidate-detail h3 {
+    font-size: 1.05rem;
+    margin-bottom: 1rem;
+}
+
+.empty-detail {
+    color: var(--text-muted);
+}
+
+.detail-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.detail-grid div {
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0.75rem;
+}
+
+.detail-grid span {
+    display: block;
+    color: var(--text-muted);
+    font-size: 0.78rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+}
+
+.detail-grid strong {
+    font-size: 0.95rem;
+}
+
+.detail-tags {
+    margin-bottom: 0.75rem;
+}
+
+.detail-reason {
+    color: var(--text-main);
+    margin-bottom: 1rem;
+}
+
+.detail-link {
+    display: inline-flex;
+    align-items: center;
+    min-height: 40px;
 }
 
 /* Roadmap */
@@ -273,5 +422,11 @@ footer {
     }
     .eda-grid {
         grid-template-columns: 1fr;
+    }
+    .candidate-toolbar {
+        grid-template-columns: 1fr;
+    }
+    .candidate-summary {
+        display: block;
     }
 }
