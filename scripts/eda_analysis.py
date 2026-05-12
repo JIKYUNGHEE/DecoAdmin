@@ -15,7 +15,7 @@ import seaborn as sns
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 
-DATA_PATH = ROOT / "data" / "서울시 문화행사 정보.csv"
+DATA_PATH = ROOT / "data" / "seoul_culture_events.csv"
 REPORT_DIR = ROOT / "report"
 DOCS_IMAGE_DIR = ROOT / "docs" / "images"
 DOCS_DATA_DIR = ROOT / "docs" / "data"
