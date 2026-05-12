@@ -90,24 +90,25 @@
 
         <!-- Deco Operator Insights -->
         <section id="operator-insights">
-            <h2>Deco 운영자 전략</h2>
+            <h2>운영자 초기 큐레이션 전략</h2>
             <div class="insight-box">
+                <p style="margin-bottom: 1.5rem; color: var(--text-main); font-weight: 600;">앱 출시 초기, 사용자 코스 데이터 부족 문제를 공공데이터 기반 큐레이션으로 해결합니다.</p>
                 <div class="insight-list">
                     <div class="insight-item">
-                        <strong>📍 우선 추천 지역</strong>
-                        <p>종로구와 중구는 도보 데이트 코스 구성에 최적화된 지역입니다. 자치구별 밀집도를 활용해 '종로 원데이 코스' 등을 기획하세요.</p>
+                        <strong>📍 초기 거점 확보</strong>
+                        <p>종로/중구 등 행사가 밀집된 지역을 중심으로 '실패 없는 정석 코스'를 먼저 등록하여 초기 사용자 체류 시간을 확보합니다.</p>
                     </div>
                     <div class="insight-item">
-                        <strong>🏷️ 추천 태그 활용</strong>
-                        <p>무료 행사가 60% 이상이므로 '가성비 데이트' 태그를 적극 활용하고, 전시/미술은 '실내 데이트'로 분류합니다.</p>
+                        <strong>🏷️ 앱 검색 태그 최적화</strong>
+                        <p>EDA로 도출된 '전시', '체험', '무료' 등의 키워드를 앱 필터에 우선 배치하여 사용자가 원하는 테마를 빠르게 찾게 합니다.</p>
                     </div>
                     <div class="insight-item">
-                        <strong>⏰ 타임라인 전략</strong>
-                        <p>토요일 시작 행사가 가장 많으므로, 목요일 저녁에 '이번 주말 추천 코스' 푸시 알림을 발송하는 것이 효과적입니다.</p>
+                        <strong>⏰ 마케팅 타이밍</strong>
+                        <p>금/토 시작 행사가 압도적이므로, 목요일 오후 '주말 데이트 치트키' 푸시 알림을 통해 앱 접속을 유도하는 전략이 유효합니다.</p>
                     </div>
                     <div class="insight-item">
-                        <strong>🎯 타겟 확장</strong>
-                        <p>현재 교육/체험 비중이 높으므로 '이색 체험 데이트' 카테고리를 강화하여 일반적인 맛집/카페 외의 차별점을 제공합니다.</p>
+                        <strong>🎯 큐레이션 가이드</strong>
+                        <p>단순 정보 제공이 아닌, 운영자의 '추천 이유'를 앱 가이드 텍스트로 활용해 Deco만의 전문적이고 친절한 톤앤매너를 구축합니다.</p>
                     </div>
                 </div>
             </div>
@@ -115,18 +116,19 @@
 
         <!-- Recommendation Candidate Management -->
         <section id="recommendations">
-            <h2>추천 후보 리스트 (Sample)</h2>
+            <h2>추천 후보 리스트 (Deco 앱 데이터 공급원)</h2>
+            <p class="section-desc" style="margin-bottom: 1rem; color: var(--text-muted);">아래 선별된 데이터는 Deco 앱의 <strong>홈 화면 추천 코스</strong> 및 <strong>상세 페이지</strong>의 원천 데이터로 활용됩니다.</p>
             <div class="table-container">
                 <table>
                     <thead>
                         <tr>
-                            <th>행사명</th>
-                            <th>자치구</th>
+                            <th>행사명 (Deco 홈 노출)</th>
+                            <th>지역 (지도 연동)</th>
                             <th>장소</th>
                             <th>분류</th>
-                            <th>추천 태그</th>
-                            <th>점수</th>
-                            <th>추천 이유</th>
+                            <th>추천 태그 (앱 필터)</th>
+                            <th>추천 점수</th>
+                            <th>추천 이유 (상세 설명 활용)</th>
                         </tr>
                     </thead>
                     <tbody id="recommendation-body">
@@ -138,23 +140,23 @@
 
         <!-- Roadmap Section -->
         <section class="roadmap">
-            <h2>Deco 앱 연동 로드맵</h2>
+            <h2>Deco 앱 서비스 연결 구조</h2>
             <div class="roadmap-grid">
                 <div class="step">
-                    <h4>Step 1. 후보 선별</h4>
-                    <p>공공데이터 API 연동을 통해 실시간 문화행사 데이터를 수집하고 필터링합니다.</p>
+                    <h4>1. 데이터 선별 &rarr; 앱 홈 추천</h4>
+                    <p>Admin의 '추천 후보 TOP 5' 데이터는 Deco 앱 홈 화면의 '오늘의 추천 코스' 섹션으로 즉시 공급됩니다.</p>
                 </div>
                 <div class="step">
-                    <h4>Step 2. 코스 등록</h4>
-                    <p>운영자가 선별된 후보를 바탕으로 Deco 앱 내에 공식 데이트 코스를 등록합니다.</p>
+                    <h4>2. 태그 관리 &rarr; 앱 검색 필터</h4>
+                    <p>Admin에서 정의한 '실내', '야간', '가성비' 등의 태그는 앱 내 검색 필터 및 태그 클라우드 시스템과 동기화됩니다.</p>
                 </div>
                 <div class="step">
-                    <h4>Step 3. 반응 수집</h4>
-                    <p>사용자들의 좋아요, 저장, 조회수 데이터를 축적하여 추천 알고리즘을 개선합니다.</p>
+                    <h4>3. 위치 정보 &rarr; 앱 지도 서비스</h4>
+                    <p>공공데이터의 위경도 좌표 정보를 활용하여, 앱의 지도 화면에서 장소 간 이동 경로를 최적화하여 보여줍니다.</p>
                 </div>
                 <div class="step">
-                    <h4>Step 4. AI 고도화</h4>
-                    <p>사용자 취향 기반의 개인화 추천 및 LLM을 활용한 추천 이유 생성을 도입합니다.</p>
+                    <h4>4. 추천 이유 &rarr; 상세 가이드</h4>
+                    <p>운영자가 작성한 '추천 이유'는 앱 코스 상세 페이지에서 사용자에게 신뢰도 높은 가이드 텍스트로 노출됩니다.</p>
                 </div>
             </div>
         </section>
