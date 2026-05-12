@@ -1,5 +1,8 @@
+import argparse
 import json
 import os
+import urllib.error
+import urllib.request
 import warnings
 from pathlib import Path
 
@@ -16,9 +19,12 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 
 
 DATA_PATH = ROOT / "data" / "seoul_culture_events.csv"
+ENV_PATH = ROOT / ".env"
 REPORT_DIR = ROOT / "report"
 DOCS_IMAGE_DIR = ROOT / "docs" / "images"
 DOCS_DATA_DIR = ROOT / "docs" / "data"
+SEOUL_API_BASE_URL = "http://openapi.seoul.go.kr:8088"
+SEOUL_API_SERVICE = "culturalEventInfo"
 
 COLUMNS = {
     "category": "분류",
@@ -36,6 +42,33 @@ COLUMNS = {
     "time": "행사시간",
 }
 
+API_COLUMN_MAP = {
+    "CODENAME": "분류",
+    "GUNAME": "자치구",
+    "TITLE": "공연/행사명",
+    "DATE": "날짜",
+    "PLACE": "장소",
+    "ORG_NAME": "기관명",
+    "USE_TRGT": "이용대상",
+    "USE_FEE": "이용요금",
+    "INQUIRY": "문의",
+    "PLAYER": "출연자정보",
+    "PROGRAM": "프로그램소개",
+    "ETC_DESC": "기타내용",
+    "ORG_LINK": "홈페이지?주소",
+    "MAIN_IMG": "대표이미지",
+    "RGSTDATE": "신청일",
+    "TICKET": "시민/기관",
+    "STRTDATE": "시작일",
+    "END_DATE": "종료일",
+    "THEMECODE": "테마분류",
+    "LOT": "경도(Y좌표)",
+    "LAT": "위도(X좌표)",
+    "IS_FREE": "유무료",
+    "HMPG_ADDR": "문화포털상세URL",
+    "TIME": "행사시간",
+}
+
 TAG_RULES = {
     "무료": ["가성비", "무료"],
     "유료": ["유료"],
@@ -50,11 +83,115 @@ TAG_RULES = {
 }
 
 
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Deco Admin 문화행사 EDA 리포트와 추천 후보 데이터를 생성합니다.")
+    parser.add_argument(
+        "--source",
+        choices=["auto", "api", "csv"],
+        default="auto",
+        help="데이터 원천입니다. auto는 API 키가 있으면 API, 없으면 CSV를 사용합니다.",
+    )
+    parser.add_argument(
+        "--max-rows",
+        type=int,
+        default=0,
+        help="API에서 가져올 최대 행 수입니다. 0이면 전체 데이터를 가져옵니다.",
+    )
+    parser.add_argument(
+        "--batch-size",
+        type=int,
+        default=1000,
+        help="API 1회 요청당 행 수입니다.",
+    )
+    return parser.parse_args()
+
+
+def load_env_file() -> None:
+    if not ENV_PATH.exists():
+        return
+    for line in ENV_PATH.read_text(encoding="utf-8").splitlines():
+        stripped = line.strip()
+        if not stripped or stripped.startswith("#") or "=" not in stripped:
+            continue
+        key, value = stripped.split("=", 1)
+        os.environ.setdefault(key.strip(), value.strip().strip('"').strip("'"))
+
+
 def read_csv() -> pd.DataFrame:
     try:
         return pd.read_csv(DATA_PATH, encoding="cp949")
     except UnicodeDecodeError:
         return pd.read_csv(DATA_PATH, encoding="utf-8")
+
+
+def fetch_api_page(api_key: str, start_index: int, end_index: int) -> dict:
+    url = f"{SEOUL_API_BASE_URL}/{api_key}/json/{SEOUL_API_SERVICE}/{start_index}/{end_index}/"
+    request = urllib.request.Request(url, headers={"User-Agent": "DecoAdmin/1.0"})
+    try:
+        with urllib.request.urlopen(request, timeout=30) as response:
+            return json.loads(response.read().decode("utf-8"))
+    except urllib.error.URLError as exc:
+        raise RuntimeError(f"서울 열린데이터광장 API 호출에 실패했습니다: {exc}") from exc
+
+
+def extract_api_payload(payload: dict) -> tuple[list[dict], int]:
+    if SEOUL_API_SERVICE not in payload:
+        result = payload.get("RESULT") or {}
+        code = result.get("CODE", "UNKNOWN")
+        message = result.get("MESSAGE", "응답에 culturalEventInfo가 없습니다.")
+        raise RuntimeError(f"서울 API 오류: {code} - {message}")
+
+    body = payload[SEOUL_API_SERVICE]
+    result = body.get("RESULT") or {}
+    code = result.get("CODE")
+    if code and code != "INFO-000":
+        raise RuntimeError(f"서울 API 오류: {code} - {result.get('MESSAGE', '')}")
+    return body.get("row", []), int(body.get("list_total_count", 0))
+
+
+def normalize_api_rows(rows: list[dict]) -> pd.DataFrame:
+    df = pd.DataFrame(rows).rename(columns=API_COLUMN_MAP)
+    for column in API_COLUMN_MAP.values():
+        if column not in df.columns:
+            df[column] = None
+    if df["날짜"].isna().all():
+        df["날짜"] = df["시작일"].fillna("") + "~" + df["종료일"].fillna("")
+    for column in ["경도(Y좌표)", "위도(X좌표)"]:
+        df[column] = pd.to_numeric(df[column], errors="coerce")
+    return df[list(API_COLUMN_MAP.values())]
+
+
+def read_api(max_rows: int = 0, batch_size: int = 1000) -> pd.DataFrame:
+    api_key = os.getenv("SEOUL_OPEN_API_KEY")
+    if not api_key:
+        raise RuntimeError("SEOUL_OPEN_API_KEY 환경변수가 없습니다. .env 파일 또는 쉘 환경변수로 설정해 주세요.")
+
+    rows = []
+    start = 1
+    total_count = None
+    batch_size = max(1, min(batch_size, 1000))
+
+    while True:
+        if max_rows:
+            end = min(start + batch_size - 1, max_rows)
+        else:
+            end = start + batch_size - 1
+        page_rows, discovered_total = extract_api_payload(fetch_api_page(api_key, start, end))
+        if total_count is None:
+            total_count = min(discovered_total, max_rows) if max_rows else discovered_total
+        rows.extend(page_rows)
+        if len(rows) >= total_count or not page_rows:
+            break
+        start = end + 1
+
+    return normalize_api_rows(rows[:total_count])
+
+
+def read_source(source: str, max_rows: int, batch_size: int) -> tuple[pd.DataFrame, str]:
+    load_env_file()
+    if source == "api" or (source == "auto" and os.getenv("SEOUL_OPEN_API_KEY")):
+        return read_api(max_rows=max_rows, batch_size=batch_size), "서울 열린데이터광장 Open API"
+    return read_csv(), "로컬 CSV"
 
 
 def require_columns(df: pd.DataFrame) -> None:
@@ -174,8 +311,9 @@ def write_recommendations(df: pd.DataFrame) -> None:
 
 
 def main() -> None:
+    args = parse_args()
     REPORT_DIR.mkdir(exist_ok=True)
-    raw_df = read_csv()
+    raw_df, source_label = read_source(args.source, args.max_rows, args.batch_size)
     require_columns(raw_df)
     df = normalize_dates(raw_df)
     require_columns(df)
@@ -332,6 +470,7 @@ def main() -> None:
 본 보고서는 서울시에서 제공하는 문화행사 데이터를 바탕으로, Deco 앱의 초기 추천 콘텐츠 운영에 필요한 행사 분류, 지역별 분포, 비용 구조, 시계열 트렌드 및 핵심 키워드를 분석한 결과를 담고 있습니다.
 
 ## 2. 기초 데이터 정보
+- **데이터 원천**: {source_label}
 - **전체 데이터 규모**: {len(df)}건
 - **컬럼 구성**: {", ".join(cols)}
 - **데이터 결측치 및 무결성**

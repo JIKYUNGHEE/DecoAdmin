@@ -33,7 +33,11 @@ Admin에서 관리되는 데이터는 다음과 같이 유기적으로 Deco 앱 
 
 ## 🛠 실행 및 확인
 - **대시보드 보기**: `docs/index.html` 파일을 브라우저에서 실행
-- **분석 재실행**: `uv run python scripts/eda_analysis.py`
+- **CSV로 분석 재실행**: `uv run python scripts/eda_analysis.py --source csv`
+- **Open API로 분석 재실행**:
+  1. 서울 열린데이터광장에서 Open API 인증키 발급
+  2. `.env.example`을 참고해 `.env` 파일에 `SEOUL_OPEN_API_KEY=발급키` 입력
+  3. `uv run python scripts/eda_analysis.py --source api`
 - **배포 주소**: GitHub 저장소 설정에서 Pages 배포 후 확인 가능
 
 ---

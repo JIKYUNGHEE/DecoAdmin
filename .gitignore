@@ -29,6 +29,7 @@ ENV/
 env/
 .cache/
 .matplotlib-cache/
+.env
 
 # IDE
 .vscode/
