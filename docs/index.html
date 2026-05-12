@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deco Admin - 서울 데이트 코스 관리</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Deco Admin</h1>
+            <p>서울 문화행사 데이터 기반 데이트 장소 추천 관리 대시보드</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- KPI Cards -->
+        <section class="kpi-grid">
+            <div class="kpi-card">
+                <h3>전체 행사 수</h3>
+                <p class="value">3,907</p>
+            </div>
+            <div class="kpi-card">
+                <h3>주요 집중 자치구</h3>
+                <p class="value">종로구</p>
+            </div>
+            <div class="kpi-card">
+                <h3>최다 행사 분류</h3>
+                <p class="value">교육/체험</p>
+            </div>
+            <div class="kpi-card">
+                <h3>토요일 시작 행사</h3>
+                <p class="value">1,019</p>
+            </div>
+        </section>
+
+        <!-- EDA Insights Section -->
+        <section id="eda-insights">
+            <h2>EDA 핵심 인사이트</h2>
+            <div class="eda-grid">
+                <div class="eda-card">
+                    <img src="images/01_event_category_counts.png" alt="행사 분류">
+                    <div class="content">
+                        <h4>행사 분류별 빈도</h4>
+                        <p>교육/체험, 전시, 클래식이 상위권을 차지하며 다양한 데이트 테마 활용이 가능합니다.</p>
+                    </div>
+                </div>
+                <div class="eda-card">
+                    <img src="images/02_gu_event_counts.png" alt="자치구별 행사">
+                    <div class="content">
+                        <h4>자치구별 개최 현황</h4>
+                        <p>종로구, 중구, 서초구 순으로 문화 인프라가 집중되어 있어 초기 추천 지역으로 적합합니다.</p>
+                    </div>
+                </div>
+                <div class="eda-card">
+                    <img src="images/04_monthly_trend.png" alt="월별 트렌드">
+                    <div class="content">
+                        <h4>월별 행사 트렌드</h4>
+                        <p>5월과 9월~11월 사이 가을 시즌에 행사가 집중되어 시즌별 마케팅이 유효합니다.</p>
+                    </div>
+                </div>
+                <div class="eda-card">
+                    <img src="images/09_day_of_week.png" alt="요일별 현황">
+                    <div class="content">
+                        <h4>요일별 시작 현황</h4>
+                        <p>금요일과 토요일에 행사가 집중되어 있어 주말 데이트 코스 구성에 유리합니다.</p>
+                    </div>
+                </div>
+                <div class="eda-card">
+                    <img src="images/07_top_venues.png" alt="주요 장소">
+                    <div class="content">
+                        <h4>주요 행사 장소</h4>
+                        <p>세종체임버홀, 서울아트책보고 등 반복적으로 개최되는 거점 장소를 집중 관리합니다.</p>
+                    </div>
+                </div>
+                <div class="eda-card">
+                    <img src="images/10_keywords_tfidf.png" alt="키워드 분석">
+                    <div class="content">
+                        <h4>핵심 키워드 분석</h4>
+                        <p>콘서트, 전시, 클래식 등 핵심 키워드를 통해 데이트 태그를 자동 생성할 수 있습니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Deco Operator Insights -->
+        <section id="operator-insights">
+            <h2>Deco 운영자 전략</h2>
+            <div class="insight-box">
+                <div class="insight-list">
+                    <div class="insight-item">
+                        <strong>📍 우선 추천 지역</strong>
+                        <p>종로구와 중구는 도보 데이트 코스 구성에 최적화된 지역입니다. 자치구별 밀집도를 활용해 '종로 원데이 코스' 등을 기획하세요.</p>
+                    </div>
+                    <div class="insight-item">
+                        <strong>🏷️ 추천 태그 활용</strong>
+                        <p>무료 행사가 60% 이상이므로 '가성비 데이트' 태그를 적극 활용하고, 전시/미술은 '실내 데이트'로 분류합니다.</p>
+                    </div>
+                    <div class="insight-item">
+                        <strong>⏰ 타임라인 전략</strong>
+                        <p>토요일 시작 행사가 가장 많으므로, 목요일 저녁에 '이번 주말 추천 코스' 푸시 알림을 발송하는 것이 효과적입니다.</p>
+                    </div>
+                    <div class="insight-item">
+                        <strong>🎯 타겟 확장</strong>
+                        <p>현재 교육/체험 비중이 높으므로 '이색 체험 데이트' 카테고리를 강화하여 일반적인 맛집/카페 외의 차별점을 제공합니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recommendation Candidate Management -->
+        <section id="recommendations">
+            <h2>추천 후보 리스트 (Sample)</h2>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>행사명</th>
+                            <th>자치구</th>
+                            <th>장소</th>
+                            <th>분류</th>
+                            <th>추천 태그</th>
+                            <th>점수</th>
+                            <th>추천 이유</th>
+                        </tr>
+                    </thead>
+                    <tbody id="recommendation-body">
+                        <!-- JS로 채워질 예정 -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Roadmap Section -->
+        <section class="roadmap">
+            <h2>Deco 앱 연동 로드맵</h2>
+            <div class="roadmap-grid">
+                <div class="step">
+                    <h4>Step 1. 후보 선별</h4>
+                    <p>공공데이터 API 연동을 통해 실시간 문화행사 데이터를 수집하고 필터링합니다.</p>
+                </div>
+                <div class="step">
+                    <h4>Step 2. 코스 등록</h4>
+                    <p>운영자가 선별된 후보를 바탕으로 Deco 앱 내에 공식 데이트 코스를 등록합니다.</p>
+                </div>
+                <div class="step">
+                    <h4>Step 3. 반응 수집</h4>
+                    <p>사용자들의 좋아요, 저장, 조회수 데이터를 축적하여 추천 알고리즘을 개선합니다.</p>
+                </div>
+                <div class="step">
+                    <h4>Step 4. AI 고도화</h4>
+                    <p>사용자 취향 기반의 개인화 추천 및 LLM을 활용한 추천 이유 생성을 도입합니다.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Deco Project. Seoul Cultural Event Data Analysis.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
