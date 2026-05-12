@@ -21,6 +21,8 @@ const state = {
     activeId: "",
 };
 
+const DISPLAY_LIMIT = 12;
+
 function getCandidateId(item) {
     return [item.name, item.startDate, item.venue].join("|");
 }
@@ -120,7 +122,8 @@ function appendLinkCell(row, item) {
 }
 
 function updateSummary(data) {
-    document.getElementById("candidate-count").textContent = `추천 후보 ${data.length}개`;
+    const visibleCount = Math.min(data.length, DISPLAY_LIMIT);
+    document.getElementById("candidate-count").textContent = `추천 후보 ${data.length}개 중 ${visibleCount}개 표시`;
     document.getElementById("selected-count").textContent = `앱 등록 후보 ${state.selectedIds.size}개`;
 }
 
@@ -128,7 +131,8 @@ function renderTable(data) {
     const tbody = document.getElementById("recommendation-body");
     tbody.replaceChildren();
 
-    data.forEach((item) => {
+    const visibleData = data.slice(0, DISPLAY_LIMIT);
+    visibleData.forEach((item) => {
         const id = getCandidateId(item);
         const row = document.createElement("tr");
         row.tabIndex = 0;
@@ -266,9 +270,13 @@ function populateSelect(id, values) {
 
 function setupControls() {
     const unique = (values) => [...new Set(values.filter(Boolean))].sort((a, b) => String(a).localeCompare(String(b), "ko"));
-    populateSelect("gu-filter", unique(state.recommendations.map((item) => item.gu)));
-    populateSelect("category-filter", unique(state.recommendations.map((item) => item.category)));
-    populateSelect("tag-filter", unique(state.recommendations.flatMap((item) => item.tags ?? [])));
+    const filterOptions = window.DECO_FILTER_OPTIONS ?? {};
+    populateSelect("gu-filter", filterOptions.gu?.length ? filterOptions.gu : unique(state.recommendations.map((item) => item.gu)));
+    populateSelect(
+        "category-filter",
+        filterOptions.category?.length ? filterOptions.category : unique(state.recommendations.map((item) => item.category)),
+    );
+    populateSelect("tag-filter", filterOptions.tag?.length ? filterOptions.tag : unique(state.recommendations.flatMap((item) => item.tags ?? [])));
 
     ["candidate-search", "gu-filter", "category-filter", "tag-filter", "sort-select", "selected-only"].forEach((id) => {
         document.getElementById(id).addEventListener("input", () => {

@@ -281,7 +281,7 @@ def write_recommendations(df: pd.DataFrame) -> None:
     if not active_or_upcoming.empty:
         candidates = active_or_upcoming
     candidates["추천점수"] = candidates.apply(score_recommendation, axis=1)
-    candidates = candidates.sort_values(["추천점수", "분석_시작일"], ascending=[False, True]).head(12)
+    candidates = candidates.sort_values(["추천점수", "분석_시작일"], ascending=[False, True])
 
     records = []
     for _, row in candidates.iterrows():
@@ -306,6 +306,21 @@ def write_recommendations(df: pd.DataFrame) -> None:
     (DOCS_DATA_DIR / "recommendations.json").write_text(json_text + "\n", encoding="utf-8")
     (DOCS_DATA_DIR / "recommendations.js").write_text(
         "window.DECO_RECOMMENDATIONS = " + json_text + ";\n",
+        encoding="utf-8",
+    )
+
+
+def write_filter_options(df: pd.DataFrame) -> None:
+    DOCS_DATA_DIR.mkdir(parents=True, exist_ok=True)
+    options = {
+        "gu": sorted(df[COLUMNS["gu"]].dropna().unique().tolist()),
+        "category": sorted(df[COLUMNS["category"]].dropna().unique().tolist()),
+        "tag": sorted({tag for _, row in df.iterrows() for tag in build_tags(row)}),
+    }
+    json_text = json.dumps(options, ensure_ascii=False, indent=2)
+    (DOCS_DATA_DIR / "filter-options.json").write_text(json_text + "\n", encoding="utf-8")
+    (DOCS_DATA_DIR / "filter-options.js").write_text(
+        "window.DECO_FILTER_OPTIONS = " + json_text + ";\n",
         encoding="utf-8",
     )
 
@@ -463,6 +478,7 @@ def main() -> None:
     )
 
     write_recommendations(df)
+    write_filter_options(df)
 
     report_content = f"""# 서울시 문화행사 정보 탐색적 데이터 분석(EDA) 보고서
 
@@ -509,6 +525,7 @@ def main() -> None:
 - **태그 체계**: 무료, 전시, 체험, 공연, 야간처럼 원본 데이터에서 안정적으로 추출 가능한 태그를 1차 필터로 사용합니다.
 - **주말 운영**: 금요일과 토요일 시작 행사를 기준으로 목요일 오후에 주말 추천 후보를 확정하는 운영 흐름이 적합합니다.
 - **데이터 연결**: 생성된 `docs/data/recommendations.json` 파일은 Deco 앱 홈 추천, 상세 설명, 지도 후보 데이터의 초기 원천으로 활용할 수 있습니다.
+- **필터 운영**: 생성된 `docs/data/filter-options.json` 파일은 전체 데이터 기준의 지역, 분류, 태그 필터 목록으로 활용할 수 있습니다.
 """
 
     (REPORT_DIR / "EDA_Report.md").write_text(report_content, encoding="utf-8")

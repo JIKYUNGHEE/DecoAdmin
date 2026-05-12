@@ -238,5 +238,7945 @@ window.DECO_RECOMMENDATIONS = [
     "latitude": 37.566370776634,
     "longitude": 126.977918351844,
     "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157748&menuNo=200008"
+  },
+  {
+    "name": "[서울시립미술관 서소문본관] 한국 근대 거장전 《유영국: 산은 내 안에 있다》 전시 연계 특별 학술대회 [추상의 경계 - 유영국 다시 읽기]",
+    "gu": "중구",
+    "venue": "서울시립미술관 서소문본관 B1 세마홀",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "인기지역"
+    ],
+    "score": 9.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 중구의 서울시립미술관 서소문본관 B1 세마홀에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-30",
+    "endDate": "2026-05-30",
+    "latitude": 37.5641060692766,
+    "longitude": 126.973699316136,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157764&menuNo=200011"
+  },
+  {
+    "name": "[서울갤러리] 런치 스테이지 [하모니시스트 이한결]",
+    "gu": "중구",
+    "venue": "서울갤러리 지하 1층 공연장",
+    "category": "콘서트",
+    "tags": [
+      "가성비",
+      "무료",
+      "공연",
+      "음악",
+      "인기지역"
+    ],
+    "score": 9.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 중구의 서울갤러리 지하 1층 공연장에서 진행되는 콘서트 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-30",
+    "endDate": "2026-05-30",
+    "latitude": 37.566370776634,
+    "longitude": 126.977918351844,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157750&menuNo=200008"
+  },
+  {
+    "name": "[서울문화예술교육센터 서초] 6월, 음악가의 사적인 플레이리스트 [감동?기록?추억 사이에 ‘음악’이 있다]",
+    "gu": "서초구",
+    "venue": "서울문화예술교육센터 서초 1층 리스닝 룸",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "인기지역"
+    ],
+    "score": 9.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 서초구의 서울문화예술교육센터 서초 1층 리스닝 룸에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-06-13",
+    "endDate": "2026-06-13",
+    "latitude": 37.5047177127649,
+    "longitude": 126.998308072811,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157612&menuNo=200011"
+  },
+  {
+    "name": "[서울문화예술교육센터 서초] 앙상블시리즈 [지중해의 바로크]",
+    "gu": "서초구",
+    "venue": "서울문화예술교육센터 서초 5층 서울체임버홀",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "야간"
+    ],
+    "score": 9.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 서초구의 서울문화예술교육센터 서초 5층 서울체임버홀에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-06-19",
+    "endDate": "2026-06-19",
+    "latitude": 37.5047177127649,
+    "longitude": 126.998308072811,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157707&menuNo=200011"
+  },
+  {
+    "name": "[송파문화재단] 온라인 전시 [사적 게임 아카이브]",
+    "gu": "송파구",
+    "venue": "온라인 전시",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내"
+    ],
+    "score": 9.3,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 송파구의 온라인 전시에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2025-11-07",
+    "endDate": "2026-12-31",
+    "latitude": 37.5023578475607,
+    "longitude": 127.093490160793,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156322&menuNo=200009"
+  },
+  {
+    "name": "[서울디자인재단] DDP 건축투어",
+    "gu": "중구",
+    "venue": "DDP 뮤지엄 1층 투어데스크",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "인기지역"
+    ],
+    "score": 9.3,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 중구의 DDP 뮤지엄 1층 투어데스크에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-01-02",
+    "endDate": "2026-12-31",
+    "latitude": 37.56735731522952,
+    "longitude": 127.0097797348434,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156552&menuNo=200009"
+  },
+  {
+    "name": "[DDP] Dream in Light",
+    "gu": "중구",
+    "venue": "DDP 전면, 유구전시장 앞, 미래로 상부",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "인기지역"
+    ],
+    "score": 9.3,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 중구의 DDP 전면, 유구전시장 앞, 미래로 상부에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-01-09",
+    "endDate": "2026-12-31",
+    "latitude": 37.56735731522952,
+    "longitude": 127.0097797348434,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156491&menuNo=200009"
+  },
+  {
+    "name": "[서울시립 미술아카이브] 진로 탐색 [아하, 아카이브!]",
+    "gu": "종로구",
+    "venue": "서울시립 미술아카이브 배움동 2층 모두의 교실",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "인기지역"
+    ],
+    "score": 9.3,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 종로구의 서울시립 미술아카이브 배움동 2층 모두의 교실에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-06",
+    "endDate": "2026-12-04",
+    "latitude": 37.6078008399411,
+    "longitude": 126.97190179486,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156983&menuNo=200011"
+  },
+  {
+    "name": "[서울역사박물관] 2026 상반기 우리 가족 박물관 여행(주말) [전차가 달리는 서울풍경]",
+    "gu": "종로구",
+    "venue": "서울역사박물관",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "인기지역"
+    ],
+    "score": 9.3,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 종로구의 서울역사박물관에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-07",
+    "endDate": "2026-06-20",
+    "latitude": 37.570507525011855,
+    "longitude": 126.97052372473162,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156939&menuNo=200011"
+  },
+  {
+    "name": "[한성백제박물관] 2026년 상반기 주말가족교육 [문화유산 보존 연구소]",
+    "gu": "송파구",
+    "venue": "한성백제박물관 교육실",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 9.3,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 송파구의 한성백제박물관 교육실에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-14",
+    "endDate": "2026-07-04",
+    "latitude": 37.51543881335773,
+    "longitude": 127.12088940368128,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156850&menuNo=200011"
+  },
+  {
+    "name": "[한성백제박물관] 2026년 상반기 주말가족탐방 [몽촌토성 탐방]",
+    "gu": "송파구",
+    "venue": "몽촌토성, 박물관 교육실",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 9.3,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 송파구의 몽촌토성, 박물관 교육실에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-14",
+    "endDate": "2026-05-30",
+    "latitude": 37.51543881335773,
+    "longitude": 127.12088940368128,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156851&menuNo=200011"
+  },
+  {
+    "name": "[서울역사박물관] 어린이박물관 개관 기념 국제교류전 [볼 빨간 돼지의 종이 모험]",
+    "gu": "종로구",
+    "venue": "서울역사박물관 기획전시실B",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "인기지역"
+    ],
+    "score": 9.3,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 종로구의 서울역사박물관 기획전시실B에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-27",
+    "endDate": "2026-06-07",
+    "latitude": 37.570507525011855,
+    "longitude": 126.97052372473162,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156972&menuNo=200009"
+  },
+  {
+    "name": "2026 서울로미디어캔버스 봄 전시",
+    "gu": "중구",
+    "venue": "서울시 중구 만리재로 215 우리은행 중림동 지점",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "야간"
+    ],
+    "score": 9.3,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 중구의 서울시 중구 만리재로 215 우리은행 중림동 지점에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-10",
+    "endDate": "2026-06-19",
+    "latitude": 37.55659103776328,
+    "longitude": 126.96821760617011,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157785&menuNo=200009"
+  },
+  {
+    "name": "2026 해치마당 미디어월 봄 전시",
+    "gu": "종로구",
+    "venue": "광화문 역 9번출구 진입로 벽면 해치마당 미디어월",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "인기지역"
+    ],
+    "score": 9.3,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 종로구의 광화문 역 9번출구 진입로 벽면 해치마당 미디어월에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-10",
+    "endDate": "2026-06-19",
+    "latitude": 37.5716228232824,
+    "longitude": 126.976787992565,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157787&menuNo=200009"
+  },
+  {
+    "name": "이상한 K-뷰티 : 엄마의 서랍장",
+    "gu": "중구",
+    "venue": "DDP 마켓 B2F 비더비 다운타운",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "야간"
+    ],
+    "score": 9.3,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 중구의 DDP 마켓 B2F 비더비 다운타운에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-10",
+    "endDate": "2026-06-10",
+    "latitude": 37.56735731522952,
+    "longitude": 127.0097797348434,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157606&menuNo=200009"
+  },
+  {
+    "name": "2026 아뜰리에 광화 봄 전시 [피어나는 빛]",
+    "gu": "종로구",
+    "venue": "세종문화회관 외벽 미디어파사드",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "인기지역"
+    ],
+    "score": 9.3,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 종로구의 세종문화회관 외벽 미디어파사드에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-11",
+    "endDate": "2026-06-19",
+    "latitude": 37.5726241,
+    "longitude": 126.9760053,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157432&menuNo=200009"
+  },
+  {
+    "name": "[낙담치 말라, 요동치는 선의(善意)의 숨결] 이현배 개인전",
+    "gu": "송파구",
+    "venue": "갤러리 무모",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "야간"
+    ],
+    "score": 9.3,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 송파구의 갤러리 무모에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-18",
+    "endDate": "2026-05-16",
+    "latitude": 37.5027201885223,
+    "longitude": 127.111026578851,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157434&menuNo=200009"
+  },
+  {
+    "name": "[서울시립 미술아카이브] 《알렉사에게》 연계 워크숍 [0부터 1까지]",
+    "gu": "종로구",
+    "venue": "서울시립 미술아카이브 나눔동 2층 다목적홀",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "인기지역"
+    ],
+    "score": 9.3,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 종로구의 서울시립 미술아카이브 나눔동 2층 다목적홀에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-25",
+    "endDate": "2026-05-31",
+    "latitude": 37.6078008399411,
+    "longitude": 126.97190179486,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157645&menuNo=200011"
+  },
+  {
+    "name": "2026 자문밖문화포럼 예술강좌 프로그램 [자하아트렉쳐 JAHA ART LECTURE]",
+    "gu": "종로구",
+    "venue": "서울시립미술아카이브 배움동(서울특별시 종로구 평창문화로 101) ",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "인기지역"
+    ],
+    "score": 9.3,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 종로구의 서울시립미술아카이브 배움동(서울특별시 종로구 평창문화로 101) 에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-25",
+    "endDate": "2026-05-30",
+    "latitude": 37.6078008399411,
+    "longitude": 126.97190179486,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157379&menuNo=200011"
+  },
+  {
+    "name": "[서소문성지 역사박물관] 2026 기획 초대전 [안병철: 물성에서 생명으로]",
+    "gu": "중구",
+    "venue": "서소문성지 역사박물관 기획전시실",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "인기지역"
+    ],
+    "score": 9.3,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 중구의 서소문성지 역사박물관 기획전시실에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-25",
+    "endDate": "2026-05-30",
+    "latitude": 37.5605678517575,
+    "longitude": 126.968867161039,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157691&menuNo=200009"
+  },
+  {
+    "name": "[송파 청년아티스트센터] 예술가와 함께하는 풍납 탐구 생활 5월 프로그램",
+    "gu": "송파구",
+    "venue": "송파 청년아티스트센터 1층",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 9.3,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 송파구의 송파 청년아티스트센터 1층에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-01",
+    "endDate": "2026-05-31",
+    "latitude": 37.5340686405498,
+    "longitude": 127.115954729217,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157548&menuNo=200011"
+  },
+  {
+    "name": "Let Dreams Shine! [베베핀 드림랜드]",
+    "gu": "중구",
+    "venue": "동대문디자인플라자 디자인랩1층 DDP쇼룸",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "야간"
+    ],
+    "score": 9.3,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 중구의 동대문디자인플라자 디자인랩1층 DDP쇼룸에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-01",
+    "endDate": "2026-05-31",
+    "latitude": 37.56735731522952,
+    "longitude": 127.0097797348434,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157641&menuNo=200011"
+  },
+  {
+    "name": "DDPlay 버스킹 5월 공연 안내",
+    "gu": "중구",
+    "venue": "DDP 어울림광장, 팔거리",
+    "category": "콘서트",
+    "tags": [
+      "가성비",
+      "무료",
+      "공연",
+      "음악",
+      "인기지역"
+    ],
+    "score": 9.3,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 중구의 DDP 어울림광장, 팔거리에서 진행되는 콘서트 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-01",
+    "endDate": "2026-05-31",
+    "latitude": 37.56735731522952,
+    "longitude": 127.0097797348434,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157546&menuNo=200008"
+  },
+  {
+    "name": "[마포구립서강도서관] 5월 문화프로그램 안내",
+    "gu": "마포구",
+    "venue": "마포구립서강도서관",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "북데이트"
+    ],
+    "score": 9.3,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 마포구의 마포구립서강도서관에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-02",
+    "endDate": "2026-05-31",
+    "latitude": 37.5477347268018,
+    "longitude": 126.932061794829,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157623&menuNo=200011"
+  },
+  {
+    "name": "[마포구립서강도서관] 5월/어린이메이킹 [해봄아 노올자!] 해봄맘껏Time",
+    "gu": "마포구",
+    "venue": "마포구립서강도서관 4층 어린이자료실 내 해봄",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "북데이트"
+    ],
+    "score": 9.3,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 마포구의 마포구립서강도서관 4층 어린이자료실 내 해봄에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-02",
+    "endDate": "2026-05-30",
+    "latitude": 37.5477347268018,
+    "longitude": 126.932061794829,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157568&menuNo=200011"
+  },
+  {
+    "name": "최명숙 개인전 [시-서-화]",
+    "gu": "종로구",
+    "venue": "공간일리",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "야간"
+    ],
+    "score": 9.3,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 종로구의 공간일리에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-02",
+    "endDate": "2026-05-24",
+    "latitude": 37.6039872305834,
+    "longitude": 126.961140135552,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157658&menuNo=200009"
+  },
+  {
+    "name": "[송파 청년아티스트센터] 3기 릴레이 개인전 [Eternal Mansion, 영원을 담은 나의 집-서혜인]",
+    "gu": "송파구",
+    "venue": "송파 청년아티스트센터 지하1층 아트 스페이스",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내"
+    ],
+    "score": 9.3,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 송파구의 송파 청년아티스트센터 지하1층 아트 스페이스에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-07",
+    "endDate": "2026-05-19",
+    "latitude": 37.5340686405498,
+    "longitude": 127.115954729217,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157708&menuNo=200009"
+  },
+  {
+    "name": "기획 전시 [기억가게 2026 - 오래 쓰는 마음]",
+    "gu": "중구",
+    "venue": "모리함 전시관 2-3F",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "인기지역"
+    ],
+    "score": 9.3,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 중구의 모리함 전시관 2-3F에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-07",
+    "endDate": "2026-05-17",
+    "latitude": 37.5587419129145,
+    "longitude": 126.983167890728,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157656&menuNo=200009"
+  },
+  {
+    "name": "김재연 개인전: 호기",
+    "gu": "마포구",
+    "venue": "크리스프 웨지",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "인기지역"
+    ],
+    "score": 9.3,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 마포구의 크리스프 웨지에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-12",
+    "endDate": "2026-05-24",
+    "latitude": 37.5493590071323,
+    "longitude": 126.916412664084,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157741&menuNo=200009"
+  },
+  {
+    "name": "[운현궁] 2026 기획 전시 [단청이 스며든 자리]",
+    "gu": "종로구",
+    "venue": "운현궁 기획전시실",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "인기지역"
+    ],
+    "score": 9.3,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 종로구의 운현궁 기획전시실에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-12",
+    "endDate": "2026-05-17",
+    "latitude": 37.57607864675475,
+    "longitude": 126.987083357962,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157805&menuNo=200009"
+  },
+  {
+    "name": "미림아트갤러리 [쉼, 머무는 곳] 이미경 개인전",
+    "gu": "종로구",
+    "venue": "미림아트 3층 미림아트갤러리",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "인기지역"
+    ],
+    "score": 9.3,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 종로구의 미림아트 3층 미림아트갤러리에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-13",
+    "endDate": "2026-05-18",
+    "latitude": 37.571852756212,
+    "longitude": 126.986681102308,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157784&menuNo=200009"
+  },
+  {
+    "name": "2026 평화나눔음악회",
+    "gu": "종로구",
+    "venue": "세종대극장",
+    "category": "클래식",
+    "tags": [
+      "가성비",
+      "무료",
+      "공연",
+      "클래식",
+      "감성"
+    ],
+    "score": 9.3,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 종로구의 세종대극장에서 진행되는 클래식 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-13",
+    "endDate": "2026-05-13",
+    "latitude": 37.5726241,
+    "longitude": 126.9760053,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157553&menuNo=200008"
+  },
+  {
+    "name": "일상에서 만나는 전통 그리고 고양이 : 묘재 그림전",
+    "gu": "종로구",
+    "venue": "아트센터림 1층 아트윈도우, 2층 제 1/2 전시실",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "인기지역"
+    ],
+    "score": 9.3,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 종로구의 아트센터림 1층 아트윈도우, 2층 제 1/2 전시실에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-15",
+    "endDate": "2026-06-14",
+    "latitude": 37.5790919031737,
+    "longitude": 126.982040842138,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157816&menuNo=200009"
+  },
+  {
+    "name": "[서울시립 미술아카이브] 레퍼런스 라이브러리 2026 책시선들",
+    "gu": "종로구",
+    "venue": "서울시립 미술아카이브 모음동 1층 레퍼런스 라이브러리",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "인기지역"
+    ],
+    "score": 9.3,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 종로구의 서울시립 미술아카이브 모음동 1층 레퍼런스 라이브러리에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-16",
+    "endDate": "2026-06-27",
+    "latitude": 37.6078008399411,
+    "longitude": 126.97190179486,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157759&menuNo=200011"
+  },
+  {
+    "name": "[서울공예박물관] 임페리얼 블루: 청화(5월 3,4,5주차)",
+    "gu": "종로구",
+    "venue": "전시3동 1층 교육실 및 전시1동 3층 기획전시실",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "인기지역"
+    ],
+    "score": 9.3,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 종로구의 전시3동 1층 교육실 및 전시1동 3층 기획전시실에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-16",
+    "endDate": "2026-05-30",
+    "latitude": 37.5766481740232,
+    "longitude": 126.983533363501,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157769&menuNo=200011"
+  },
+  {
+    "name": "[서울갤러리] 런치 스테이지 [1인 오케스트라 로로컴퍼니]",
+    "gu": "중구",
+    "venue": "서울갤러리 지하 1층 공연장",
+    "category": "콘서트",
+    "tags": [
+      "가성비",
+      "무료",
+      "공연",
+      "음악",
+      "인기지역"
+    ],
+    "score": 9.3,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 중구의 서울갤러리 지하 1층 공연장에서 진행되는 콘서트 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-20",
+    "endDate": "2026-05-20",
+    "latitude": 37.566370776634,
+    "longitude": 126.977918351844,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157747&menuNo=200008"
+  },
+  {
+    "name": "[서울도서관] 월간 북돋움 [0~24개월 잘 자는 아이의 비결]",
+    "gu": "중구",
+    "venue": "온라인(Zoom)",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "북데이트"
+    ],
+    "score": 9.3,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 중구의 온라인(Zoom)에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-20",
+    "endDate": "2026-05-20",
+    "latitude": 37.5663174209601,
+    "longitude": 126.977829174031,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157729&menuNo=200011"
+  },
+  {
+    "name": "[마포문화재단] [인디스커버리 : CHALLENGE] STAGE 01-02",
+    "gu": "마포구",
+    "venue": "마포아트센터 플레이맥",
+    "category": "콘서트",
+    "tags": [
+      "가성비",
+      "무료",
+      "공연",
+      "음악",
+      "야간"
+    ],
+    "score": 9.3,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 마포구의 마포아트센터 플레이맥에서 진행되는 콘서트 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-21",
+    "endDate": "2026-05-22",
+    "latitude": 37.5499060881738,
+    "longitude": 126.945533810385,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157802&menuNo=200008"
+  },
+  {
+    "name": "[서울책보고] 첫눈토크#5 [나를 넓히는 오독의 순간들]",
+    "gu": "송파구",
+    "venue": "서울책보고 라운지",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "야간"
+    ],
+    "score": 9.3,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 송파구의 서울책보고 라운지에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-21",
+    "endDate": "2026-05-21",
+    "latitude": 37.52202784263066,
+    "longitude": 127.1038467712633,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157735&menuNo=200011"
+  },
+  {
+    "name": "[서초문화원] 서초인문학 아카데미 [환상의 섬 제주 이어도, 세계를 잇는 한국 문화] 강병철, 양금희 시인",
+    "gu": "서초구",
+    "venue": "서초문화예술회관",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "인기지역"
+    ],
+    "score": 9.3,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 서초구의 서초문화예술회관에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-27",
+    "endDate": "2026-05-27",
+    "latitude": 37.4818278430879,
+    "longitude": 127.035957179608,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157640&menuNo=200011"
+  },
+  {
+    "name": "[서울갤러리] 런치 스테이지 [싱어송라이터 장여름]",
+    "gu": "중구",
+    "venue": "서울갤러리 지하 1층 공연장",
+    "category": "콘서트",
+    "tags": [
+      "가성비",
+      "무료",
+      "공연",
+      "음악",
+      "인기지역"
+    ],
+    "score": 9.3,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 중구의 서울갤러리 지하 1층 공연장에서 진행되는 콘서트 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-27",
+    "endDate": "2026-05-27",
+    "latitude": 37.566370776634,
+    "longitude": 126.977918351844,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157749&menuNo=200008"
+  },
+  {
+    "name": "[예술가의집] 제27회 작곡가의방 [김상욱]",
+    "gu": "종로구",
+    "venue": "예술가의집 다목적홀",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "야간"
+    ],
+    "score": 9.3,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 종로구의 예술가의집 다목적홀에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-27",
+    "endDate": "2026-05-27",
+    "latitude": 37.5805022887696,
+    "longitude": 127.003256182632,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157813&menuNo=200011"
+  },
+  {
+    "name": "2026 서리풀 청년작가 특별전: 작업 진행 중",
+    "gu": "서초구",
+    "venue": "예술의전당 한가람미술관 제7전시실",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "야간"
+    ],
+    "score": 9.3,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 서초구의 예술의전당 한가람미술관 제7전시실에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-30",
+    "endDate": "2026-06-14",
+    "latitude": 37.4802401962069,
+    "longitude": 127.014215239186,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157781&menuNo=200009"
+  },
+  {
+    "name": "[금천구립가산도서관] 다문화페스타 [사서의 가방 속  세 나라 이야기]",
+    "gu": "금천구",
+    "venue": "금천구립가산도서관 6층 강의실",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "북데이트"
+    ],
+    "score": 9.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 금천구의 금천구립가산도서관 6층 강의실에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-09",
+    "endDate": "2026-05-21",
+    "latitude": 37.4734915456014,
+    "longitude": 126.892129831218,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157430&menuNo=200011"
+  },
+  {
+    "name": "[서울문화예술교육센터 강북] 워크숍 'play, play' [말하고 싶은 '탈'_1기]",
+    "gu": "강북구",
+    "venue": "서울문화예술교육센터 강북 4층 대강의실",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 9.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 강북구의 서울문화예술교육센터 강북 4층 대강의실에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-09",
+    "endDate": "2026-05-16",
+    "latitude": 37.6195551709225,
+    "longitude": 127.017722183323,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157510&menuNo=200011"
+  },
+  {
+    "name": "[서울시립교향악단] 2026 서울시향 우리동네 관현악 : 강동아트센터",
+    "gu": "강동구",
+    "venue": "강동아트센터 대극장 한강",
+    "category": "클래식",
+    "tags": [
+      "가성비",
+      "무료",
+      "공연",
+      "클래식",
+      "감성"
+    ],
+    "score": 9.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 강동구의 강동아트센터 대극장 한강에서 진행되는 클래식 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-15",
+    "endDate": "2026-05-15",
+    "latitude": 37.5512204558342,
+    "longitude": 127.157342546961,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157467&menuNo=200008"
+  },
+  {
+    "name": "[구립증산도서관] 책이랑 놀자, 이렇게! 5월 프로그램",
+    "gu": "은평구",
+    "venue": "구립증산도서관 지하문화강좌실",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "북데이트"
+    ],
+    "score": 9.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 은평구의 구립증산도서관 지하문화강좌실에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-16",
+    "endDate": "2026-05-16",
+    "latitude": 37.5828094398328,
+    "longitude": 126.907671330325,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157740&menuNo=200011"
+  },
+  {
+    "name": "[서울아트책보고] 나의 도치에게 [최지예 작가와의 만남 : 내가 보내는 첫 번째 편지]",
+    "gu": "구로구",
+    "venue": "서울아트책보고 워크숍룸",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 9.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 구로구의 서울아트책보고 워크숍룸에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-16",
+    "endDate": "2026-05-16",
+    "latitude": 37.4982125677913,
+    "longitude": 126.867088741096,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157566&menuNo=200011"
+  },
+  {
+    "name": "[중랑구립면목정보도서관] 5월 주말N인문산책: 음악, 시대를 거닐다",
+    "gu": "중랑구",
+    "venue": "면목정보도서관 3층 세미나실",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "북데이트"
+    ],
+    "score": 9.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 중랑구의 면목정보도서관 3층 세미나실에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-16",
+    "endDate": "2026-05-16",
+    "latitude": 37.5873556125386,
+    "longitude": 127.087555200335,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157544&menuNo=200011"
+  },
+  {
+    "name": "[구로문화누리도서관] 북토크 [경쟁 교육은 야만이다]",
+    "gu": "구로구",
+    "venue": "구로문화누리도서관 4층 큰누리홀",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "북데이트"
+    ],
+    "score": 9.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 구로구의 구로문화누리도서관 4층 큰누리홀에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-16",
+    "endDate": "2026-05-16",
+    "latitude": 37.492737181985,
+    "longitude": 126.861159896036,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157448&menuNo=200011"
+  },
+  {
+    "name": "[동작문화재단] 상도어울마당 아트홀 '아트 박스 콘서트' [책 읽는 마법사]",
+    "gu": "동작구",
+    "venue": "상도어울마당 아트홀",
+    "category": "콘서트",
+    "tags": [
+      "가성비",
+      "무료",
+      "공연",
+      "음악"
+    ],
+    "score": 9.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 동작구의 상도어울마당 아트홀에서 진행되는 콘서트 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-16",
+    "endDate": "2026-05-16",
+    "latitude": 37.4992554654409,
+    "longitude": 126.940372169449,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157481&menuNo=200008"
+  },
+  {
+    "name": "리비툼 오케스트라 제4회 정기연주회 : 차이콥스키 현을 위한 세레나데",
+    "gu": "강북구",
+    "venue": "북서울꿈의숲아트센터 콘서트홀",
+    "category": "클래식",
+    "tags": [
+      "가성비",
+      "무료",
+      "공연",
+      "클래식",
+      "감성"
+    ],
+    "score": 9.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 강북구의 북서울꿈의숲아트센터 콘서트홀에서 진행되는 클래식 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-16",
+    "endDate": "2026-05-16",
+    "latitude": 37.6202544613023,
+    "longitude": 127.044324732036,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157639&menuNo=200008"
+  },
+  {
+    "name": "사랑의 열매 복권기금 토크콘서트 [통通하는 시간]",
+    "gu": "성동구",
+    "venue": "KT&G 상상플래닛 커넥트홀",
+    "category": "콘서트",
+    "tags": [
+      "가성비",
+      "무료",
+      "공연",
+      "음악"
+    ],
+    "score": 9.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 성동구의 KT&G 상상플래닛 커넥트홀에서 진행되는 콘서트 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-16",
+    "endDate": "2026-05-16",
+    "latitude": 37.5414102121902,
+    "longitude": 127.058233405781,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157644&menuNo=200008"
+  },
+  {
+    "name": "[서울문화예술교육센터 강북] 워크숍 'play, play' [명탐정의 비밀택배 : 사라진 이야기를 찾아라!] 1기",
+    "gu": "강북구",
+    "venue": "3층 움직임창작실 2",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 9.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 강북구의 3층 움직임창작실 2에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-23",
+    "endDate": "2026-05-30",
+    "latitude": 37.6195551709225,
+    "longitude": 127.017722183323,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157649&menuNo=200011"
+  },
+  {
+    "name": "[서울문화예술교육센터 강북] 워크숍 'play, play' [명탐정의 비밀택배 : 사라진 이야기를 찾아라!] 2기",
+    "gu": "강북구",
+    "venue": "서울문화예술교육센터 강북 3층 움직임창작실 2",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 9.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 강북구의 서울문화예술교육센터 강북 3층 움직임창작실 2에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-23",
+    "endDate": "2026-05-30",
+    "latitude": 37.6195551709225,
+    "longitude": 127.017722183323,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157613&menuNo=200011"
+  },
+  {
+    "name": "[서울역사편찬원] 2026년 [제8차] 엄마아빠와 함께하는 교과서 역사기행",
+    "gu": "서대문구",
+    "venue": "서대문형무소역사관",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 9.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 서대문구의 서대문형무소역사관에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-23",
+    "endDate": "2026-05-23",
+    "latitude": 37.5746085138333,
+    "longitude": 126.955611774864,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157794&menuNo=200011"
+  },
+  {
+    "name": "[서울문화예술교육센터 용산] 다정한 아트라운지 [클래식 콘서트] '프렌치 살롱'(Salon francais)",
+    "gu": "용산구",
+    "venue": "서울문화예술교육센터 용산 업무동 1층 아트라운지",
+    "category": "클래식",
+    "tags": [
+      "가성비",
+      "무료",
+      "공연",
+      "클래식",
+      "감성"
+    ],
+    "score": 9.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 용산구의 서울문화예술교육센터 용산 업무동 1층 아트라운지에서 진행되는 클래식 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-23",
+    "endDate": "2026-05-23",
+    "latitude": 37.5269056148241,
+    "longitude": 126.966566172294,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157614&menuNo=200008"
+  },
+  {
+    "name": "구범서 클라리넷 독주회: 새로운 시작과 동행 ",
+    "gu": "강남구",
+    "venue": "모차르트홀 2층 ",
+    "category": "클래식",
+    "tags": [
+      "가성비",
+      "무료",
+      "공연",
+      "클래식",
+      "감성"
+    ],
+    "score": 9.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 강남구의 모차르트홀 2층 에서 진행되는 클래식 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-23",
+    "endDate": "2026-05-23",
+    "latitude": 37.4864166583391,
+    "longitude": 127.00452491402,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157777&menuNo=200008"
+  },
+  {
+    "name": "[강남힐링센터] 힐링 명사와의 특별한 하루 [이향란의 운동습관 특강]",
+    "gu": "강남구",
+    "venue": "강남힐링센터(개포) 그룹힐링실",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 9.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 강남구의 강남힐링센터(개포) 그룹힐링실에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-29",
+    "endDate": "2026-05-29",
+    "latitude": 37.4841428175435,
+    "longitude": 127.065349831835,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157697&menuNo=200011"
+  },
+  {
+    "name": "[강북문화재단] The Grand Show! 김연자x나태주x조엘라",
+    "gu": "강북구",
+    "venue": "강북문화예술회관 강북소나무홀",
+    "category": "콘서트",
+    "tags": [
+      "가성비",
+      "무료",
+      "공연",
+      "음악",
+      "야간"
+    ],
+    "score": 9.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 강북구의 강북문화예술회관 강북소나무홀에서 진행되는 콘서트 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-29",
+    "endDate": "2026-05-29",
+    "latitude": 37.6409897866256,
+    "longitude": 127.013878144422,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157642&menuNo=200008"
+  },
+  {
+    "name": "[구산동도서관마을] 「SF영화 속 우주과학 빼먹기」 루카 저자와의 만남 : 과학적 상상력을 넓히는 시간",
+    "gu": "은평구",
+    "venue": "구산동도서관마을 3층 힐링캠프",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "북데이트"
+    ],
+    "score": 9.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 은평구의 구산동도서관마을 3층 힐링캠프에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-30",
+    "endDate": "2026-05-30",
+    "latitude": 37.6101785198664,
+    "longitude": 126.9126891869,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157771&menuNo=200011"
+  },
+  {
+    "name": "[성동문화재단] 성동구립도서관 [우리동네 북(BOOK)돋움] 강연 프로그램",
+    "gu": "성동구",
+    "venue": "성동구립도서관",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "북데이트"
+    ],
+    "score": 9.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 성동구의 성동구립도서관에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-30",
+    "endDate": "2026-05-30",
+    "latitude": 37.5591798757923,
+    "longitude": 127.034960654281,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157724&menuNo=200011"
+  },
+  {
+    "name": "[서울시립과학관] 과학북토크: 달작한 사이언스 (5월) [응! 생물학]",
+    "gu": "노원구",
+    "venue": "서울시립과학관 3층 스타홀",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 9.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 노원구의 서울시립과학관 3층 스타홀에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-31",
+    "endDate": "2026-05-31",
+    "latitude": 37.6419941138165,
+    "longitude": 127.07743706477,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157770&menuNo=200011"
+  },
+  {
+    "name": "[성동구립도서관] 5월 영어스토리텔링 수업",
+    "gu": "성동구",
+    "venue": "성동구립도서관",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "북데이트"
+    ],
+    "score": 9.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 성동구의 성동구립도서관에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-31",
+    "endDate": "2026-05-31",
+    "latitude": 37.5591798757923,
+    "longitude": 127.034960654281,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157557&menuNo=200011"
+  },
+  {
+    "name": "[서울문화예술교육센터 강북] 워크숍 'play, play' [말하고 싶은 '탈'_2기]",
+    "gu": "강북구",
+    "venue": "4층 대강의실",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 9.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 강북구의 4층 대강의실에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-06-13",
+    "endDate": "2026-06-20",
+    "latitude": 37.6195551709225,
+    "longitude": 127.017722183323,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157705&menuNo=200011"
+  },
+  {
+    "name": "[세종문화회관] 26세종시즌?스위트석 [해리 포터와 죽음의 성물™ Part II 인 콘서트]",
+    "gu": "종로구",
+    "venue": "세종문화회관 세종대극장",
+    "category": "클래식",
+    "tags": [
+      "유료",
+      "공연",
+      "클래식",
+      "감성",
+      "음악"
+    ],
+    "score": 9.0,
+    "reason": "종로구의 세종문화회관 세종대극장에서 진행되는 클래식 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-15",
+    "endDate": "2026-05-15",
+    "latitude": 37.5726241,
+    "longitude": 126.9760053,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156599&menuNo=200008"
+  },
+  {
+    "name": "[운현궁] 2026 서울 운현궁 맞춤형 전통 문화체험 검무 원데이 클래스_5월",
+    "gu": "종로구",
+    "venue": "서울 운현궁 노락당",
+    "category": "교육/체험",
+    "tags": [
+      "유료",
+      "체험",
+      "이색데이트",
+      "인기지역"
+    ],
+    "score": 9.0,
+    "reason": "종로구의 서울 운현궁 노락당에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-15",
+    "endDate": "2026-05-15",
+    "latitude": 37.57607864675475,
+    "longitude": 126.987083357962,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157727&menuNo=200011"
+  },
+  {
+    "name": "[살롱클래식] Trinity K - 베버를 만나다",
+    "gu": "서초구",
+    "venue": "라율아트홀",
+    "category": "클래식",
+    "tags": [
+      "유료",
+      "공연",
+      "클래식",
+      "감성",
+      "야간"
+    ],
+    "score": 9.0,
+    "reason": "서초구의 라율아트홀에서 진행되는 클래식 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-15",
+    "endDate": "2026-05-15",
+    "latitude": 37.4824452369632,
+    "longitude": 127.012614908746,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157518&menuNo=200008"
+  },
+  {
+    "name": "[남산골한옥마을] 2026 남산골 상반기 한옥콘서트 [시공이음]",
+    "gu": "중구",
+    "venue": "BOOK 남산골한옥마을 이승업 가옥 / MUSIC 남산골한옥마을 민씨 가옥",
+    "category": "콘서트",
+    "tags": [
+      "유료",
+      "공연",
+      "음악",
+      "야간",
+      "인기지역"
+    ],
+    "score": 9.0,
+    "reason": "중구의 BOOK 남산골한옥마을 이승업 가옥 / MUSIC 남산골한옥마을 민씨 가옥에서 진행되는 콘서트 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-23",
+    "endDate": "2026-06-05",
+    "latitude": 37.559304933707146,
+    "longitude": 126.994440072131,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157756&menuNo=200008"
+  },
+  {
+    "name": "[아듀:Adieu] 쎄시봉 The Last 콘서트",
+    "gu": "종로구",
+    "venue": "세종대극장",
+    "category": "콘서트",
+    "tags": [
+      "유료",
+      "공연",
+      "음악",
+      "인기지역"
+    ],
+    "score": 9.0,
+    "reason": "종로구의 세종대극장에서 진행되는 콘서트 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-23",
+    "endDate": "2026-05-24",
+    "latitude": 37.5726241,
+    "longitude": 126.9760053,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157605&menuNo=200008"
+  },
+  {
+    "name": "[서울시립교향악단] 2026 서울시향 마르쿠스 슈텐츠와 바딤 글루즈만 ②",
+    "gu": "서초구",
+    "venue": "예술의전당 콘서트홀",
+    "category": "클래식",
+    "tags": [
+      "유료",
+      "공연",
+      "클래식",
+      "감성",
+      "음악"
+    ],
+    "score": 9.0,
+    "reason": "서초구의 예술의전당 콘서트홀에서 진행되는 클래식 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-29",
+    "endDate": "2026-05-29",
+    "latitude": 37.4802401962069,
+    "longitude": 127.014215239186,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157446&menuNo=200008"
+  },
+  {
+    "name": "[서초문화재단] 2026 서리풀 작곡가 탐구 시리즈 [더블베이스의 시작과 여정]",
+    "gu": "서초구",
+    "venue": "반포심산아트홀",
+    "category": "클래식",
+    "tags": [
+      "유료",
+      "공연",
+      "클래식",
+      "감성",
+      "인기지역"
+    ],
+    "score": 9.0,
+    "reason": "서초구의 반포심산아트홀에서 진행되는 클래식 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-30",
+    "endDate": "2026-05-30",
+    "latitude": 37.4988344628,
+    "longitude": 126.9912424758,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157721&menuNo=200008"
+  },
+  {
+    "name": "이모셔널 데미지 락페스티벌 2026",
+    "gu": "마포구",
+    "venue": "서울 KT&G 상상마당 홍대 라이브홀",
+    "category": "콘서트",
+    "tags": [
+      "유료",
+      "공연",
+      "음악",
+      "인기지역"
+    ],
+    "score": 9.0,
+    "reason": "마포구의 서울 KT&G 상상마당 홍대 라이브홀에서 진행되는 콘서트 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-30",
+    "endDate": "2026-05-30",
+    "latitude": 37.5509576951977,
+    "longitude": 126.921063042067,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157556&menuNo=200008"
+  },
+  {
+    "name": "Violinist 박정현 & Harpist 이진 듀오 리사이틀",
+    "gu": "종로구",
+    "venue": "세종체임버홀",
+    "category": "클래식",
+    "tags": [
+      "유료",
+      "공연",
+      "클래식",
+      "감성",
+      "야간"
+    ],
+    "score": 9.0,
+    "reason": "종로구의 세종체임버홀에서 진행되는 클래식 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-06-05",
+    "endDate": "2026-06-05",
+    "latitude": 37.5726241,
+    "longitude": 126.9760053,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157752&menuNo=200008"
+  },
+  {
+    "name": "[SeMA 백남준기념관] 메가트론 랩소디 Megatron Rhapsody",
+    "gu": "종로구",
+    "venue": "SeMA 백남준기념관",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "야간"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 종로구의 SeMA 백남준기념관에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2025-06-17",
+    "endDate": "2026-06-16",
+    "latitude": 37.5730656233283,
+    "longitude": 127.013775536144,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=153994&menuNo=200009"
+  },
+  {
+    "name": "[서울우리소리박물관] 2025 서울우리소리박물관 기획전 [한강, 소리로 흐르다]",
+    "gu": "종로구",
+    "venue": "서울우리소리박물관 기획전시실",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "인기지역"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 종로구의 서울우리소리박물관 기획전시실에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2025-06-19",
+    "endDate": "2026-05-28",
+    "latitude": 37.577157928122,
+    "longitude": 126.989622047178,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=154089&menuNo=200009"
+  },
+  {
+    "name": "[딜쿠샤] 2025 광복 80주년 기념 딜쿠샤 작은전시 《독립, 일상에서 지킨 염원》 ",
+    "gu": "종로구",
+    "venue": "딜쿠샤(독립문역 3-1번 출구에서 도보 10분)",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "인기지역"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 종로구의 딜쿠샤(독립문역 3-1번 출구에서 도보 10분)에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2025-07-15",
+    "endDate": "2026-06-28",
+    "latitude": 37.5730423068152,
+    "longitude": 126.963476480113,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=154421&menuNo=200009"
+  },
+  {
+    "name": "[종로문화재단] 금빛으로 지은 옷을 여미다",
+    "gu": "종로구",
+    "venue": "배화여자대학교 도서관 1층 전통문화전시실",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "북데이트"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 종로구의 배화여자대학교 도서관 1층 전통문화전시실에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2025-12-16",
+    "endDate": "2026-06-26",
+    "latitude": 37.5795440101952,
+    "longitude": 126.967291871532,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156309&menuNo=200009"
+  },
+  {
+    "name": "[서울우리소리박물관] 2026 자율학습 프로그램 [우리소리 친구들]",
+    "gu": "종로구",
+    "venue": "누마루 또는 교육실",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "인기지역"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 종로구의 누마루 또는 교육실에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-02-09",
+    "endDate": "2026-12-31",
+    "latitude": 37.577157928122,
+    "longitude": 126.989622047178,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156746&menuNo=200011"
+  },
+  {
+    "name": "고소미 개인전 [다양체]",
+    "gu": "마포구",
+    "venue": "스페이스 톤",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "인기지역"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 마포구의 스페이스 톤에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-02-24",
+    "endDate": "2026-08-20",
+    "latitude": 37.5456545675167,
+    "longitude": 126.91580133126,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157050&menuNo=200009"
+  },
+  {
+    "name": "[서울역사박물관] 2026년 상반기 [우리 가족 경희궁 탐험대]",
+    "gu": "종로구",
+    "venue": "서울역사박물관",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "인기지역"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 종로구의 서울역사박물관에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-02",
+    "endDate": "2026-05-16",
+    "latitude": 37.570507525011855,
+    "longitude": 126.97052372473162,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156938&menuNo=200011"
+  },
+  {
+    "name": "[이한열기념관] 2026년 상반기 특별 기획 전시 [내 손안의 광장]",
+    "gu": "마포구",
+    "venue": "이한열기념관 3층 기획전시실 ",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "인기지역"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 마포구의 이한열기념관 3층 기획전시실 에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-10",
+    "endDate": "2026-05-24",
+    "latitude": 37.5550435661865,
+    "longitude": 126.933865358054,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156995&menuNo=200009"
+  },
+  {
+    "name": "[세종문화회관] 세종예술아카데미 [2026 상반기 스포츠 in 아트스테이션]",
+    "gu": "종로구",
+    "venue": "세종문화회관 오픈스테이지의 탁 트인 마루형 공간",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "야간"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 종로구의 세종문화회관 오픈스테이지의 탁 트인 마루형 공간에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-16",
+    "endDate": "2026-06-26",
+    "latitude": 37.5726241,
+    "longitude": 126.9760053,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157023&menuNo=200011"
+  },
+  {
+    "name": "[서울역사박물관] 2026년 작은전시 [사어피: 상어와 가오리로 만든 바다 가죽]",
+    "gu": "종로구",
+    "venue": "서울역사박물관 상설전시 1존 작은 전시실",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "인기지역"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 종로구의 서울역사박물관 상설전시 1존 작은 전시실에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-17",
+    "endDate": "2026-06-28",
+    "latitude": 37.570507525011855,
+    "longitude": 126.97052372473162,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157110&menuNo=200009"
+  },
+  {
+    "name": "[종로여성인력개발센터] AI 파워드 문화?예술 프로젝트 기획 실무 마스터 실무 마스터",
+    "gu": "종로구",
+    "venue": "종로여성인력개발센터",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "인기지역"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 종로구의 종로여성인력개발센터에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-18",
+    "endDate": "2026-06-23",
+    "latitude": 37.5820587995429,
+    "longitude": 127.000418097935,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156487&menuNo=200011"
+  },
+  {
+    "name": "[서울백제어린이박물관] 유단체 대상 [서울역사생태탐험대1] 봄",
+    "gu": "송파구",
+    "venue": "서울백제어린이박물관(교육실, 전시실), 야외생태체험장, 전시실 등",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 송파구의 서울백제어린이박물관(교육실, 전시실), 야외생태체험장, 전시실 등에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-19",
+    "endDate": "2026-05-21",
+    "latitude": 37.523991,
+    "longitude": 127.124412,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156747&menuNo=200011"
+  },
+  {
+    "name": "[서울역사박물관] 2026년 청소년 박물관 톡(TALK) 모집안내",
+    "gu": "종로구",
+    "venue": "서울역사박물관",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "인기지역"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 종로구의 서울역사박물관에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-24",
+    "endDate": "2026-12-11",
+    "latitude": 37.570507525011855,
+    "longitude": 126.97052372473162,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156976&menuNo=200011"
+  },
+  {
+    "name": "[한성백제박물관] 초등 4~6학년 단체 대면 교육 [한강삼국지: 삼국의 한강 쟁탈전]",
+    "gu": "송파구",
+    "venue": "한성백제박물관 교육실",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 송파구의 한성백제박물관 교육실에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-24",
+    "endDate": "2026-07-01",
+    "latitude": 37.51543881335773,
+    "longitude": 127.12088940368128,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156755&menuNo=200011"
+  },
+  {
+    "name": "[한성백제박물관] 초등 4~6학년 학급 비대면 교육 [한강삼국지: 삼국의 한강 쟁탈전]",
+    "gu": "송파구",
+    "venue": "신청 학급 교실",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 송파구의 신청 학급 교실에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-24",
+    "endDate": "2026-07-01",
+    "latitude": 37.51543881335773,
+    "longitude": 127.12088940368128,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156754&menuNo=200011"
+  },
+  {
+    "name": "홍범?김주환 2인전 [틈을 걷다]",
+    "gu": "송파구",
+    "venue": "더 갤러리 호수",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "야간"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 송파구의 더 갤러리 호수에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-24",
+    "endDate": "2026-05-24",
+    "latitude": 37.512296516856,
+    "longitude": 127.107617545434,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157251&menuNo=200009"
+  },
+  {
+    "name": "[서울시립 미술아카이브] 알렉사에게",
+    "gu": "종로구",
+    "venue": "서울시립 미술아카이브",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "야간"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 종로구의 서울시립 미술아카이브에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-26",
+    "endDate": "2026-07-26",
+    "latitude": 37.6078008399411,
+    "longitude": 126.97190179486,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157142&menuNo=200009"
+  },
+  {
+    "name": "[한성백제박물관] 2026 상반기 초등단체 대면 교육 [서울 쏙! 백제 콕!]",
+    "gu": "송파구",
+    "venue": "한성백제박물관 교육실",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 송파구의 한성백제박물관 교육실에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-26",
+    "endDate": "2026-07-03",
+    "latitude": 37.51543881335773,
+    "longitude": 127.12088940368128,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156906&menuNo=200011"
+  },
+  {
+    "name": "[한성백제박물관] 2026 상반기 초등단체 비대면 교육 [서울 쏙! 백제 콕!]",
+    "gu": "송파구",
+    "venue": "각 학급 교실(비대면 원격 교육)",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 송파구의 각 학급 교실(비대면 원격 교육)에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-26",
+    "endDate": "2026-07-03",
+    "latitude": 37.51543881335773,
+    "longitude": 127.12088940368128,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156907&menuNo=200011"
+  },
+  {
+    "name": "[한성백제박물관] 2026년 상반기 문화다양성 교육 [백제와 함께하는 이웃나라들]",
+    "gu": "송파구",
+    "venue": "대면) 박물관 교육실/ (비대면) 각 학급 교실",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 송파구의 대면) 박물관 교육실/ (비대면) 각 학급 교실에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-31",
+    "endDate": "2026-06-30",
+    "latitude": 37.51543881335773,
+    "longitude": 127.12088940368128,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157232&menuNo=200011"
+  },
+  {
+    "name": "[서울역사박물관] 2026년 [느낌있는 박물관] 중?고등학교 특수학급 기관 모집",
+    "gu": "종로구",
+    "venue": "서울역사박물관",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "인기지역"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 종로구의 서울역사박물관에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-01",
+    "endDate": "2026-12-31",
+    "latitude": 37.570507525011855,
+    "longitude": 126.97052372473162,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156940&menuNo=200011"
+  },
+  {
+    "name": "[마포구립서강도서관] 2분기/어린이갤러리 [우리는 당신에 대해 조금 알고 있습니다]",
+    "gu": "마포구",
+    "venue": "마포구립서강도서관 4층 어린이자료실",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "북데이트"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 마포구의 마포구립서강도서관 4층 어린이자료실에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-01",
+    "endDate": "2026-06-29",
+    "latitude": 37.5477347268018,
+    "longitude": 126.932061794829,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157198&menuNo=200009"
+  },
+  {
+    "name": "[서울문화예술교육센터 서초] 상설 마티네콘서트 [스피리오 리사이틀]",
+    "gu": "서초구",
+    "venue": "서울문화예술교육센터 서초 5층 서울체임버홀",
+    "category": "콘서트",
+    "tags": [
+      "가성비",
+      "무료",
+      "공연",
+      "음악",
+      "인기지역"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 서초구의 서울문화예술교육센터 서초 5층 서울체임버홀에서 진행되는 콘서트 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-07",
+    "endDate": "2026-12-29",
+    "latitude": 37.5047177127649,
+    "longitude": 126.998308072811,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157017&menuNo=200008"
+  },
+  {
+    "name": "[서울공예박물관] 공예동행@쇼윈도 #2. 빛의 흐름 The Flow of Light",
+    "gu": "종로구",
+    "venue": "전시3동 1층 쇼윈도 갤러리",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "인기지역"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 종로구의 전시3동 1층 쇼윈도 갤러리에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-08",
+    "endDate": "2026-05-31",
+    "latitude": 37.5766481740232,
+    "longitude": 126.983533363501,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157354&menuNo=200009"
+  },
+  {
+    "name": "[송파문화재단] 2026 송파인생학교: 엄마배우 프로젝트 [엄마, 요즘 뭐해?]",
+    "gu": "송파구",
+    "venue": "송파문화예술회관 2층 강당",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 송파구의 송파문화예술회관 2층 강당에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-15",
+    "endDate": "2026-07-22",
+    "latitude": 37.5023578475607,
+    "longitude": 127.093490160793,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157062&menuNo=200011"
+  },
+  {
+    "name": "[서울시립미술관×중구문화재단] 협력전시 [SeMA Collection: 청록미로]",
+    "gu": "중구",
+    "venue": "충무아트센터 갤러리 G1",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "야간"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 중구의 충무아트센터 갤러리 G1에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-15",
+    "endDate": "2026-05-17",
+    "latitude": 37.5659409687669,
+    "longitude": 127.014790889728,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157621&menuNo=200009"
+  },
+  {
+    "name": "[서울시립미술관 서소문본관] 가나아트컬렉션 《기술의 저변: 경계에 선 장면들》",
+    "gu": "중구",
+    "venue": "서울시립미술관 서소문본관 2층 가나아트컬렉션 전시실/상설 전시실",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "야간"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 중구의 서울시립미술관 서소문본관 2층 가나아트컬렉션 전시실/상설 전시실에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-16",
+    "endDate": "2026-11-22",
+    "latitude": 37.5641060692766,
+    "longitude": 126.973699316136,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157284&menuNo=200009"
+  },
+  {
+    "name": "[서울우리소리박물관] 2026년 상반기 외국인 전통문화체험",
+    "gu": "종로구",
+    "venue": "서울우리소리박물관 상설전시실 및 교육실",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "인기지역"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 종로구의 서울우리소리박물관 상설전시실 및 교육실에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-16",
+    "endDate": "2026-05-14",
+    "latitude": 37.577157928122,
+    "longitude": 126.989622047178,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157200&menuNo=200011"
+  },
+  {
+    "name": "DCW 공모 기획전 : HUMORS(후모어스)",
+    "gu": "종로구",
+    "venue": "두산아트센터 두산갤러리",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "야간"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 종로구의 두산아트센터 두산갤러리에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-22",
+    "endDate": "2026-05-30",
+    "latitude": 37.5718123278145,
+    "longitude": 127.00100010537,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157545&menuNo=200009"
+  },
+  {
+    "name": "[서울시립 미술아카이브] 원문으로 읽는 한국현대미술사",
+    "gu": "종로구",
+    "venue": "서울시립 미술아카이브 나눔동 2층 다목적홀",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "인기지역"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 종로구의 서울시립 미술아카이브 나눔동 2층 다목적홀에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-23",
+    "endDate": "2026-05-15",
+    "latitude": 37.6078008399411,
+    "longitude": 126.97190179486,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157594&menuNo=200011"
+  },
+  {
+    "name": "[노화랑] 기획전 [IN PINK]",
+    "gu": "종로구",
+    "venue": "노화랑 1, 2층 전시장",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "인기지역"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 종로구의 노화랑 1, 2층 전시장에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-23",
+    "endDate": "2026-05-14",
+    "latitude": 37.5748603162364,
+    "longitude": 126.984085733694,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157488&menuNo=200009"
+  },
+  {
+    "name": "[서울공예박물관] 공예협력전시 [안동별궁, 시간의 겹]",
+    "gu": "종로구",
+    "venue": "서울공예박물관 전시1동 3층 기획전시실",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "인기지역"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 종로구의 서울공예박물관 전시1동 3층 기획전시실에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-28",
+    "endDate": "2027-08-29",
+    "latitude": 37.5766481740232,
+    "longitude": 126.983533363501,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157420&menuNo=200009"
+  },
+  {
+    "name": "[서울공예박물관] 한불수교 140주년 기념전시 [더 하이브리드]",
+    "gu": "종로구",
+    "venue": "서울공예박물관 전시1동 3층 기획전시실",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "인기지역"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 종로구의 서울공예박물관 전시1동 3층 기획전시실에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-28",
+    "endDate": "2026-07-26",
+    "latitude": 37.5766481740232,
+    "longitude": 126.983533363501,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157211&menuNo=200009"
+  },
+  {
+    "name": "[서울생활문화센터 체부] 체부작업展 [선 위에 머무는 마음]",
+    "gu": "종로구",
+    "venue": "윈도우 갤러리, 금오재 마실",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "인기지역"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 종로구의 윈도우 갤러리, 금오재 마실에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-28",
+    "endDate": "2026-06-30",
+    "latitude": 37.5767084987432,
+    "longitude": 126.97148941423,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157790&menuNo=200009"
+  },
+  {
+    "name": "[한성백제박물관] 2026년 상반기 성인 대상 [서울 고대유적 탐방]",
+    "gu": "송파구",
+    "venue": "한성백제박물관, 몽촌토성, 풍납동토성, 석촌동고분군 일대",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 송파구의 한성백제박물관, 몽촌토성, 풍납동토성, 석촌동고분군 일대에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-28",
+    "endDate": "2026-06-11",
+    "latitude": 37.51543881335773,
+    "longitude": 127.12088940368128,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157084&menuNo=200011"
+  },
+  {
+    "name": "2026 문화역서울284 [내부 공간투어]",
+    "gu": "중구",
+    "venue": "문화역서울284",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "인기지역"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 중구의 문화역서울284에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-28",
+    "endDate": "2026-05-15",
+    "latitude": 37.5560581817344,
+    "longitude": 126.972115894161,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157698&menuNo=200009"
+  },
+  {
+    "name": "[마포구립서강도서관] 4-6월/어린이강좌 [우리 함께 동화읽을래?, 동화동무씨동무]",
+    "gu": "마포구",
+    "venue": "마포구립서강도서관 3층 세미나실",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "북데이트"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 마포구의 마포구립서강도서관 3층 세미나실에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-29",
+    "endDate": "2026-06-24",
+    "latitude": 37.5477347268018,
+    "longitude": 126.932061794829,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157103&menuNo=200011"
+  },
+  {
+    "name": "[서울시립미술관 서소문본관] 난지미술창작스튜디오 20주년 기념전 《사랑의 기원》",
+    "gu": "중구",
+    "venue": "서울시립미술관 서소문본관 2, 3층 전시실, ",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "야간"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 중구의 서울시립미술관 서소문본관 2, 3층 전시실, 에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-30",
+    "endDate": "2026-09-06",
+    "latitude": 37.5641060692766,
+    "longitude": 126.973699316136,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157688&menuNo=200009"
+  },
+  {
+    "name": "[서울역사박물관] 한성부입니다",
+    "gu": "종로구",
+    "venue": "서울역사박물관 기획전시실A",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "인기지역"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 종로구의 서울역사박물관 기획전시실A에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-30",
+    "endDate": "2026-07-12",
+    "latitude": 37.570507525011855,
+    "longitude": 126.97052372473162,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157570&menuNo=200009"
+  },
+  {
+    "name": "[갤러리지우헌] 허상욱 개인전: 분청 마음",
+    "gu": "종로구",
+    "venue": "갤러리 지우헌",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "인기지역"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 종로구의 갤러리 지우헌에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-06",
+    "endDate": "2026-06-03",
+    "latitude": 37.5833833879584,
+    "longitude": 126.982999426985,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157715&menuNo=200009"
+  },
+  {
+    "name": "[서울무형유산교육전시장] 2026년 운현궁에서 배우는 전통매듭 체험 모집",
+    "gu": "종로구",
+    "venue": "운현궁 이로당",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "인기지역"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 종로구의 운현궁 이로당에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-06",
+    "endDate": "2026-05-27",
+    "latitude": 37.57607864675475,
+    "longitude": 126.987083357962,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157558&menuNo=200011"
+  },
+  {
+    "name": "[송파 청년아티스트센터] 3기 릴레이 개인전 [교차점]",
+    "gu": "송파구",
+    "venue": "송파 청년아티스트센터 지하1층 아트 스페이스",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 송파구의 송파 청년아티스트센터 지하1층 아트 스페이스에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-07",
+    "endDate": "2026-10-31",
+    "latitude": 37.5340686405498,
+    "longitude": 127.115954729217,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157706&menuNo=200009"
+  },
+  {
+    "name": "[서울시지원/ 전액무료] AI 인사이트 공연문화콘텐츠 기획",
+    "gu": "종로구",
+    "venue": "종로여성인력개발센터",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "인기지역"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 종로구의 종로여성인력개발센터에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-12",
+    "endDate": "2026-08-06",
+    "latitude": 37.5820587995429,
+    "longitude": 127.000418097935,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157366&menuNo=200011"
+  },
+  {
+    "name": "[서울공예박물관] 색유만개 : 권순형 기증특별전시",
+    "gu": "종로구",
+    "venue": "서울공예박물관 전시1동  1층 로비, 안내동 일부",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "인기지역"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 종로구의 서울공예박물관 전시1동  1층 로비, 안내동 일부에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-12",
+    "endDate": "2026-08-02",
+    "latitude": 37.5766481740232,
+    "longitude": 126.983533363501,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157607&menuNo=200009"
+  },
+  {
+    "name": "[서울생활문화센터 서교] art1st - 소리로 그리는 마음",
+    "gu": "마포구",
+    "venue": "서울생활문화센터 서교(합정역)",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "야간"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 마포구의 서울생활문화센터 서교(합정역)에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-12",
+    "endDate": "2026-07-28",
+    "latitude": 37.5508138163956,
+    "longitude": 126.916493990351,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157788&menuNo=200011"
+  },
+  {
+    "name": "[한성백제박물관] 상반기 장애인 단체 대면 교육 [옛날옛날, 빛나는 백제 이야기]",
+    "gu": "송파구",
+    "venue": "박물관 로비/교육실",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 송파구의 박물관 로비/교육실에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-12",
+    "endDate": "2026-06-30",
+    "latitude": 37.51543881335773,
+    "longitude": 127.12088940368128,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157690&menuNo=200011"
+  },
+  {
+    "name": "[서울백제어린이박물관] 초등 2-3학년 학급 대상 [어린이백제연구소2] 옛날 도구, 오늘날 도구 (도구의변천)",
+    "gu": "송파구",
+    "venue": "서울백제어린이박물관(교육실, 전시실)",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 송파구의 서울백제어린이박물관(교육실, 전시실)에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-12",
+    "endDate": "2026-06-10",
+    "latitude": 37.523991,
+    "longitude": 127.124412,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156836&menuNo=200011"
+  },
+  {
+    "name": "[서울시립미술관 서소문본관] 2026 모두를 위한 예술 프로그램 [쉬운 미술관] 감각 번역: 페이퍼 글리치 사전",
+    "gu": "중구",
+    "venue": "서울시립미술관 서소문본관 3층 세마엘",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "인기지역"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 중구의 서울시립미술관 서소문본관 3층 세마엘에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-12",
+    "endDate": "2026-05-26",
+    "latitude": 37.5641060692766,
+    "longitude": 126.973699316136,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157765&menuNo=200011"
+  },
+  {
+    "name": "[한성백제박물관] 역사를 알기 쉽게 천천히 배우고 싶은 초등학생을 위한 [신비한 유물도감]",
+    "gu": "송파구",
+    "venue": "한성백제박물관 교육실",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 송파구의 한성백제박물관 교육실에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-13",
+    "endDate": "2026-06-24",
+    "latitude": 37.51543881335773,
+    "longitude": 127.12088940368128,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157455&menuNo=200011"
+  },
+  {
+    "name": "[서울문화예술교육센터 서초] 음악의 여정 [음악을 탄생시킨 사물들]",
+    "gu": "서초구",
+    "venue": "서울문화예술교육센터 서초 3층 앙상블실1",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "야간"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 서초구의 서울문화예술교육센터 서초 3층 앙상블실1에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-13",
+    "endDate": "2026-05-27",
+    "latitude": 37.5047177127649,
+    "longitude": 126.998308072811,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157509&menuNo=200011"
+  },
+  {
+    "name": "[서울문화예술교육센터 서초] 메이커스 워크숍 [몸의 앙상블 (2차)]",
+    "gu": "서초구",
+    "venue": "서울문화예술교육센터 서초 4층 멀티 스튜디오",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "야간"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 서초구의 서울문화예술교육센터 서초 4층 멀티 스튜디오에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-14",
+    "endDate": "2026-05-28",
+    "latitude": 37.5047177127649,
+    "longitude": 126.998308072811,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157508&menuNo=200011"
+  },
+  {
+    "name": "[남산골한옥마을] 월간소반 : 주전부리",
+    "gu": "중구",
+    "venue": "남산골한옥마을(서울시 중구)",
+    "category": "축제-기타",
+    "tags": [
+      "가성비",
+      "무료",
+      "축제",
+      "야외",
+      "야간"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 중구의 남산골한옥마을(서울시 중구)에서 진행되는 축제-기타 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-15",
+    "endDate": "2026-05-16",
+    "latitude": 37.559304933707146,
+    "longitude": 126.994440072131,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157684&menuNo=200010"
+  },
+  {
+    "name": "[서울시청] 2026 제28회 서울드럼페스티벌",
+    "gu": "중구",
+    "venue": "동대문디자인플라자(DDP)",
+    "category": "축제-문화/예술",
+    "tags": [
+      "가성비",
+      "무료",
+      "축제",
+      "야외",
+      "야간"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 중구의 동대문디자인플라자(DDP)에서 진행되는 축제-문화/예술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-16",
+    "endDate": "2026-05-17",
+    "latitude": 37.56735731522952,
+    "longitude": 127.0097797348434,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157531&menuNo=200010"
+  },
+  {
+    "name": "2026 [연등회] YeonDeungHoe",
+    "gu": "종로구",
+    "venue": "동대문~종각사거리(종로 일원), 조계사, 봉은사, 청계천, 광화문광장, 인사동",
+    "category": "축제-문화/예술",
+    "tags": [
+      "가성비",
+      "무료",
+      "축제",
+      "야외",
+      "야간"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 종로구의 동대문~종각사거리(종로 일원), 조계사, 봉은사, 청계천, 광화문광장, 인사동에서 진행되는 축제-문화/예술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-16",
+    "endDate": "2026-05-17",
+    "latitude": 37.5718478584908,
+    "longitude": 126.976168275947,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156678&menuNo=200010"
+  },
+  {
+    "name": "[서울시립미술관 서소문본관] 2026년 한국 근대 거장전 《유영국: 산은 내 안에 있다》",
+    "gu": "중구",
+    "venue": "서울시립미술관 서소문본관 1층 전시실",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "야간"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 중구의 서울시립미술관 서소문본관 1층 전시실에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-19",
+    "endDate": "2026-10-25",
+    "latitude": 37.5641060692766,
+    "longitude": 126.973699316136,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157686&menuNo=200009"
+  },
+  {
+    "name": "[서울시립 미술아카이브] 숨은 그림 찾기-한국 여성 미술가들",
+    "gu": "종로구",
+    "venue": "서울시립 미술아카이브 나눔동 2층 다목적홀",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "인기지역"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 종로구의 서울시립 미술아카이브 나눔동 2층 다목적홀에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-21",
+    "endDate": "2026-06-11",
+    "latitude": 37.6078008399411,
+    "longitude": 126.97190179486,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157763&menuNo=200011"
+  },
+  {
+    "name": "[서울남산국악당] 2026 젊은국악 단장 쇼케이스",
+    "gu": "중구",
+    "venue": "서울남산국악당 크라운해태홀",
+    "category": "국악",
+    "tags": [
+      "가성비",
+      "무료",
+      "인기지역"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 중구의 서울남산국악당 크라운해태홀에서 진행되는 국악 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-23",
+    "endDate": "2026-05-23",
+    "latitude": 37.5583499463987,
+    "longitude": 126.994021611776,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157713&menuNo=200008"
+  },
+  {
+    "name": "[서울시지원/ 전액무료] AI 융합 주얼리 트렌드 MD 및 비주얼 스타일링 실무",
+    "gu": "종로구",
+    "venue": "종로여성인력개발센터",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "인기지역"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 종로구의 종로여성인력개발센터에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-28",
+    "endDate": "2026-09-02",
+    "latitude": 37.5820587995429,
+    "longitude": 127.000418097935,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157367&menuNo=200011"
+  },
+  {
+    "name": "[마포구립서강도서관] 6월/읽는 인간_호모 부커스 II. [유발 하라리의 『넥서스』 읽기]",
+    "gu": "마포구",
+    "venue": "서강도서관 3층 세미나실",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "북데이트"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 마포구의 서강도서관 3층 세미나실에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-06-04",
+    "endDate": "2026-06-25",
+    "latitude": 37.5477347268018,
+    "longitude": 126.932061794829,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157712&menuNo=200011"
+  },
+  {
+    "name": "[한성백제박물관] 2026 초등단체 비대면 [한성부터 서울까지] (서울역사박물관 공동교육)",
+    "gu": "송파구",
+    "venue": "비대면 원격교육",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 송파구의 비대면 원격교육에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-06-18",
+    "endDate": "2026-07-03",
+    "latitude": 37.51543881335773,
+    "longitude": 127.12088940368128,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157541&menuNo=200011"
+  },
+  {
+    "name": "[국립중앙박물관] 이슬람 미술, 찬란한 빛의 여정",
+    "gu": "은평구",
+    "venue": "국립중앙박물관 상설전시관 이슬람실",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내"
+    ],
+    "score": 8.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 은평구의 국립중앙박물관 상설전시관 이슬람실에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2025-11-22",
+    "endDate": "2026-10-11",
+    "latitude": 37.52385582212769,
+    "longitude": 126.98020301648832,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156371&menuNo=200009"
+  },
+  {
+    "name": "[성북근현대문학관] 길 위의 시인, 신경림",
+    "gu": "성북구",
+    "venue": "성북근현대문학관 1층 기획전시실",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내"
+    ],
+    "score": 8.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 성북구의 성북근현대문학관 1층 기획전시실에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2025-12-12",
+    "endDate": "2026-06-07",
+    "latitude": 37.5924971251231,
+    "longitude": 126.997050373072,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156902&menuNo=200009"
+  },
+  {
+    "name": "[서울디자인재단] [해치와 나눔히어로] 장난감 기부, 나눔 체험",
+    "gu": "성동구",
+    "venue": "서울새활용플라자 1층 새활용하우스",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 성동구의 서울새활용플라자 1층 새활용하우스에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-01-02",
+    "endDate": "2026-12-31",
+    "latitude": 37.5586850612677,
+    "longitude": 127.057851176035,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156555&menuNo=200011"
+  },
+  {
+    "name": "[서울디자인재단] SUP 시민참여 프로그램 [자원순환 이야기]",
+    "gu": "성동구",
+    "venue": "서울새활용플라자 1층 새활용하우스",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 성동구의 서울새활용플라자 1층 새활용하우스에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-01-02",
+    "endDate": "2026-12-31",
+    "latitude": 37.5586850612677,
+    "longitude": 127.057851176035,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156557&menuNo=200011"
+  },
+  {
+    "name": "[서울디자인재단] 2025 [Now for Zero-Waste Vol.2 : 새로제로] 展",
+    "gu": "성동구",
+    "venue": "서울새활용플라자 1층 새활용하우스",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내"
+    ],
+    "score": 8.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 성동구의 서울새활용플라자 1층 새활용하우스에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-01-02",
+    "endDate": "2026-12-31",
+    "latitude": 37.5586850612677,
+    "longitude": 127.057851176035,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156558&menuNo=200009"
+  },
+  {
+    "name": "BtheB 뷰티기획전 [Beauty For All]",
+    "gu": "동대문구",
+    "venue": "DDP 지하2층 DDP마켓 비더비",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "야간"
+    ],
+    "score": 8.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 동대문구의 DDP 지하2층 DDP마켓 비더비에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-02-28",
+    "endDate": "2026-06-07",
+    "latitude": 37.56735731522952,
+    "longitude": 127.0097797348434,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156852&menuNo=200009"
+  },
+  {
+    "name": "[서울기록원] 2026년 문화소외층, 시니어 대상 [기록으로 기억을 잇다!]",
+    "gu": "은평구",
+    "venue": "단체별 상이",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 은평구의 단체별 상이에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-01",
+    "endDate": "2026-08-31",
+    "latitude": 37.6075510290657,
+    "longitude": 126.93482332974094,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156806&menuNo=200011"
+  },
+  {
+    "name": "[평화문화진지] 2026년 평화문화진지 정기 예술교육 프로그램 [예술 피움]",
+    "gu": "도봉구",
+    "venue": "평화문화진지 (서울특별시 도봉구 마들로 932)",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 도봉구의 평화문화진지 (서울특별시 도봉구 마들로 932)에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-07",
+    "endDate": "2026-12-05",
+    "latitude": 37.690780138783,
+    "longitude": 127.046812594303,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156807&menuNo=200011"
+  },
+  {
+    "name": "2026년 경운박물관 특별기획전 [노라 노, First and Forever]",
+    "gu": "강남구",
+    "venue": "경운박물관 기획전시실(경기여고 100주년기념관 1층)",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내"
+    ],
+    "score": 8.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 강남구의 경운박물관 기획전시실(경기여고 100주년기념관 1층)에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-21",
+    "endDate": "2026-07-16",
+    "latitude": 37.48783935741881,
+    "longitude": 127.06604493487576,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157008&menuNo=200009"
+  },
+  {
+    "name": "[서울문화재단] 2026 신당창작아케이드 [어쩌다 마주친 공예 in 노들섬]",
+    "gu": "용산구",
+    "venue": "노들섬 노들서가 내 아트스페이스 엣지 1층 (서울특별시 용산구 양녕로 445)",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "야간"
+    ],
+    "score": 8.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 용산구의 노들섬 노들서가 내 아트스페이스 엣지 1층 (서울특별시 용산구 양녕로 445)에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-27",
+    "endDate": "2026-12-31",
+    "latitude": 37.5176638307111,
+    "longitude": 126.958036465507,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157363&menuNo=200009"
+  },
+  {
+    "name": "[용산역사박물관] 인문학, 용산공방: 색으로 만나는 박물관",
+    "gu": "용산구",
+    "venue": "용산역사박물관",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 용산구의 용산역사박물관에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-27",
+    "endDate": "2026-07-31",
+    "latitude": 37.5256680404431,
+    "longitude": 126.965769395985,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156878&menuNo=200011"
+  },
+  {
+    "name": "[서울시립과학관] 2026 토요과학강연",
+    "gu": "노원구",
+    "venue": "서울시립과학관 1층 사이언스홀",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 노원구의 서울시립과학관 1층 사이언스홀에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-28",
+    "endDate": "2026-10-31",
+    "latitude": 37.6419941138165,
+    "longitude": 127.07743706477,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157772&menuNo=200011"
+  },
+  {
+    "name": "[YDP창의예술교육센터] 2026 나다운 문화예술소풍",
+    "gu": "영등포구",
+    "venue": "YDP창의예술교육센터, 여의도?마포 일대",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 영등포구의 YDP창의예술교육센터, 여의도?마포 일대에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-28",
+    "endDate": "2026-05-30",
+    "latitude": 37.5377136039448,
+    "longitude": 126.895802789396,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157072&menuNo=200011"
+  },
+  {
+    "name": "[청계천박물관] 2026년 상반기 초등 특수학급 교육 [오감으로 만지는 청계천이야기]",
+    "gu": "성동구",
+    "venue": "청계천박물관(성동구)",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 성동구의 청계천박물관(성동구)에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-03",
+    "endDate": "2026-05-29",
+    "latitude": 37.5712661734969,
+    "longitude": 127.03504316401,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156941&menuNo=200011"
+  },
+  {
+    "name": "[오에이오에이] 양하?유리 [미시적 재난 Micro-Disaster]",
+    "gu": "강남구",
+    "venue": "오에이오에이",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내"
+    ],
+    "score": 8.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 강남구의 오에이오에이에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-10",
+    "endDate": "2026-05-23",
+    "latitude": 37.5000442067308,
+    "longitude": 127.057072857318,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157391&menuNo=200009"
+  },
+  {
+    "name": "[서울하수도과학관] 이름 없는 오염원 '비점' 미스테리!",
+    "gu": "성동구",
+    "venue": "서울하수도과학관 ",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 성동구의 서울하수도과학관 에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-11",
+    "endDate": "2026-06-27",
+    "latitude": 37.5604666954517,
+    "longitude": 127.060364943935,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157225&menuNo=200011"
+  },
+  {
+    "name": "[서울하수도과학관] 날아라! 재이용수 물로켓",
+    "gu": "성동구",
+    "venue": "서울하수도과학관 ",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 성동구의 서울하수도과학관 에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-11",
+    "endDate": "2026-06-27",
+    "latitude": 37.5604666954517,
+    "longitude": 127.060364943935,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157215&menuNo=200011"
+  },
+  {
+    "name": "[서울하수도과학관] 팡!팡! 우리 가족 재이용수 물로켓",
+    "gu": "성동구",
+    "venue": "서울하수도과학관 ",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 성동구의 서울하수도과학관 에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-11",
+    "endDate": "2026-06-27",
+    "latitude": 37.5604666954517,
+    "longitude": 127.060364943935,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157227&menuNo=200011"
+  },
+  {
+    "name": "[서울시립 사진미술관] 2026 서울사진축제 : 포토라이브러리 워크숍 [일요일의 독서클럽]",
+    "gu": "도봉구",
+    "venue": "2층 영상홀, 4층 포토라이브러리",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "축제"
+    ],
+    "score": 8.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 도봉구의 2층 영상홀, 4층 포토라이브러리에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-12",
+    "endDate": "2026-06-07",
+    "latitude": 37.6555150225578,
+    "longitude": 127.048947814686,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157487&menuNo=200011"
+  },
+  {
+    "name": "서울대학교미술관 개관 20주년 기념 아카이브 전시 [안과 밖 Inside/Outside]",
+    "gu": "관악구",
+    "venue": "서울대학교미술관 전관",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내"
+    ],
+    "score": 8.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 관악구의 서울대학교미술관 전관에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-17",
+    "endDate": "2026-06-28",
+    "latitude": 37.4662872666604,
+    "longitude": 126.94815644252,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157495&menuNo=200009"
+  },
+  {
+    "name": "[서울문화예술교육센터 은평] 예술마스터 [감정출구]",
+    "gu": "은평구",
+    "venue": "서울문화예술교육센터 은평 댄스스튜디오1 서울무용창작센터",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 은평구의 서울문화예술교육센터 은평 댄스스튜디오1 서울무용창작센터에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-18",
+    "endDate": "2026-05-31",
+    "latitude": 37.5851270962157,
+    "longitude": 126.893782364905,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157015&menuNo=200011"
+  },
+  {
+    "name": "[서울기록원] 2026년 예비 기록 전문가의 날",
+    "gu": "은평구",
+    "venue": "서울기록원 5층 컨퍼런스룸",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 은평구의 서울기록원 5층 컨퍼런스룸에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-24",
+    "endDate": "2026-10-30",
+    "latitude": 37.6075510290657,
+    "longitude": 126.93482332974094,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157377&menuNo=200011"
+  },
+  {
+    "name": "[한솥아트스페이스] 전이수 우린사랑하기에도시간이부족하다 : We don't have enough time to love",
+    "gu": "강남구",
+    "venue": "한솥아트스페이스 (서울시 강남구 압구정로 459 B1F)",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "야간"
+    ],
+    "score": 8.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 강남구의 한솥아트스페이스 (서울시 강남구 압구정로 459 B1F)에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-24",
+    "endDate": "2026-05-30",
+    "latitude": 37.5254941585008,
+    "longitude": 127.047030515103,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157533&menuNo=200009"
+  },
+  {
+    "name": "[동대문문화재단] 2026년 생생 국가유산 사업 [지구를 지키는 선농단] - 어린이도시농부학교",
+    "gu": "동대문구",
+    "venue": "선농단역사문화관 및 선농단역사공원",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 동대문구의 선농단역사문화관 및 선농단역사공원에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-25",
+    "endDate": "2026-05-23",
+    "latitude": 37.5811837728607,
+    "longitude": 127.031888509482,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157382&menuNo=200011"
+  },
+  {
+    "name": "2026 서울거리공연 구석구석라이브",
+    "gu": "용산구",
+    "venue": "공연별 상이",
+    "category": "콘서트",
+    "tags": [
+      "가성비",
+      "무료",
+      "공연",
+      "음악"
+    ],
+    "score": 8.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 용산구의 공연별 상이에서 진행되는 콘서트 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-01",
+    "endDate": "2026-12-31",
+    "latitude": 37.5176638307111,
+    "longitude": 126.958036465507,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157655&menuNo=200008"
+  },
+  {
+    "name": "[영등포아트스퀘어] Living Geometry(생동 기하학)",
+    "gu": "영등포구",
+    "venue": "영등포아트스퀘어",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내"
+    ],
+    "score": 8.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 영등포구의 영등포아트스퀘어에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-01",
+    "endDate": "2026-06-28",
+    "latitude": 37.5172332566615,
+    "longitude": 126.903715993779,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157433&menuNo=200009"
+  },
+  {
+    "name": "[서울시립 사진미술관] 어린이를 위한 감상교육 [미술관 탐험]",
+    "gu": "도봉구",
+    "venue": "서울시립 사진미술관 전시실 및 1교육실",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 도봉구의 서울시립 사진미술관 전시실 및 1교육실에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-02",
+    "endDate": "2026-06-13",
+    "latitude": 37.6555150225578,
+    "longitude": 127.048947814686,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157761&menuNo=200011"
+  },
+  {
+    "name": "[구립증산도서관] 가족열람실 5월 북큐레이션 [같이 놀아요, 가족]",
+    "gu": "은평구",
+    "venue": "구립증산도서관  3층 가족열람실",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "북데이트"
+    ],
+    "score": 8.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 은평구의 구립증산도서관  3층 가족열람실에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-02",
+    "endDate": "2026-05-31",
+    "latitude": 37.5828094398328,
+    "longitude": 126.907671330325,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157736&menuNo=200011"
+  },
+  {
+    "name": "[구립증산도서관] 테마로 즐기는 도서관 - 5월 테마전시체험전 [도서관 고양이: 두 번째 이야기]",
+    "gu": "은평구",
+    "venue": "구립증산도서관 지하 1층 북갤러리 및 3층 가족열람실",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "북데이트"
+    ],
+    "score": 8.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 은평구의 구립증산도서관 지하 1층 북갤러리 및 3층 가족열람실에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-02",
+    "endDate": "2026-05-23",
+    "latitude": 37.5828094398328,
+    "longitude": 126.907671330325,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157734&menuNo=200009"
+  },
+  {
+    "name": "[영등포문화재단] 술술센터 [BayVer the ㅔㅣㅏㅣ ? 전통의 결구와 인공지능의 결핍 展] 이영후",
+    "gu": "영등포구",
+    "venue": "술술센터 B1 술술갤러리",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "야간"
+    ],
+    "score": 8.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 영등포구의 술술센터 B1 술술갤러리에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-02",
+    "endDate": "2026-05-17",
+    "latitude": 37.5130103533725,
+    "longitude": 126.894145367557,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157823&menuNo=200009"
+  },
+  {
+    "name": "[서울아트책보고] 처음 만나는 미술사 - 이소영 미술 교육인ㆍ미술 에세이스트",
+    "gu": "구로구",
+    "venue": "서울아트책보고 워크숍룸",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 구로구의 서울아트책보고 워크숍룸에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-02",
+    "endDate": "2026-05-16",
+    "latitude": 37.4982125677913,
+    "longitude": 126.867088741096,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157567&menuNo=200011"
+  },
+  {
+    "name": "[서울시립과학관] 2026 일상실험실: 실험 체험 프로그램 (5월)",
+    "gu": "노원구",
+    "venue": "서울시립과학관 1층 별관 메이커스튜디오",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 노원구의 서울시립과학관 1층 별관 메이커스튜디오에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-03",
+    "endDate": "2026-05-31",
+    "latitude": 37.6419941138165,
+    "longitude": 127.07743706477,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157773&menuNo=200011"
+  },
+  {
+    "name": "[서울문화예술교육센터 양천] 예술작업실 [사진으로 만나는 장면들]",
+    "gu": "양천구",
+    "venue": "서울문화예술교육센터 양천 다목적홀, 야외수조",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 양천구의 서울문화예술교육센터 양천 다목적홀, 야외수조에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-09",
+    "endDate": "2026-05-30",
+    "latitude": 37.5282197824835,
+    "longitude": 126.832145349117,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157507&menuNo=200011"
+  },
+  {
+    "name": "[서울문화예술교육센터 은평] 성인 원데이 클래스 [나를 세우는 발레핏(5월)]",
+    "gu": "은평구",
+    "venue": "서울문화예술교육센터 은평 댄스스튜디오1",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 은평구의 서울문화예술교육센터 은평 댄스스튜디오1에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-12",
+    "endDate": "2026-05-12",
+    "latitude": 37.5851270962157,
+    "longitude": 126.893782364905,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157647&menuNo=200011"
+  },
+  {
+    "name": "[서울문화예술교육센터 은평] 영유아 원데이 [베베음악요가(오후반)]",
+    "gu": "은평구",
+    "venue": "서울문화예술교육센터 은평 댄스스튜디오1",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 은평구의 서울문화예술교육센터 은평 댄스스튜디오1에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-13",
+    "endDate": "2026-05-13",
+    "latitude": 37.5851270962157,
+    "longitude": 126.893782364905,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157648&menuNo=200011"
+  },
+  {
+    "name": "제46회 전통공예명품전",
+    "gu": "강남구",
+    "venue": "국가무형유산전수교육관 3층 전시장 「올」",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "야간"
+    ],
+    "score": 8.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 강남구의 국가무형유산전수교육관 3층 전시장 「올」에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-14",
+    "endDate": "2026-05-22",
+    "latitude": 37.5100930706802,
+    "longitude": 127.044624837573,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157387&menuNo=200009"
+  },
+  {
+    "name": "[서울시립교향악단] 2026 서울시향 우리동네 관현악 - 동작구",
+    "gu": "동작구",
+    "venue": "숭실대학교 한경직기념관",
+    "category": "클래식",
+    "tags": [
+      "가성비",
+      "무료",
+      "공연",
+      "클래식",
+      "감성"
+    ],
+    "score": 8.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 동작구의 숭실대학교 한경직기념관에서 진행되는 클래식 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-14",
+    "endDate": "2026-05-14",
+    "latitude": 37.4964289688636,
+    "longitude": 126.955157917408,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157449&menuNo=200008"
+  },
+  {
+    "name": "[서울문화예술교육센터강북] 상설프로젝트 [일상의 무대] 체험 전시 및 연계 워크숍",
+    "gu": "강북구",
+    "venue": "서울문화예술교육센터 강북 1층 예술도담",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 강북구의 서울문화예술교육센터 강북 1층 예술도담에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-15",
+    "endDate": "2027-03-31",
+    "latitude": 37.6195551709225,
+    "longitude": 127.017722183323,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157809&menuNo=200011"
+  },
+  {
+    "name": "[서울아트책보고] 현대 소설 깊이 읽기 - 한유주 소설가",
+    "gu": "구로구",
+    "venue": "서울아트책보고 워크숍룸",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 구로구의 서울아트책보고 워크숍룸에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-15",
+    "endDate": "2026-06-19",
+    "latitude": 37.4982125677913,
+    "longitude": 126.867088741096,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157714&menuNo=200011"
+  },
+  {
+    "name": "[구산동도서관마을] 「도서관이 된 마을, 마을이 된 도서관」 출간 기념 북토크",
+    "gu": "은평구",
+    "venue": "구산동도서관마을 3층 힐링캠프",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "북데이트"
+    ],
+    "score": 8.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 은평구의 구산동도서관마을 3층 힐링캠프에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-20",
+    "endDate": "2026-05-20",
+    "latitude": 37.6101785198664,
+    "longitude": 126.9126891869,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157780&menuNo=200011"
+  },
+  {
+    "name": "[서울로봇인공지능과학관] 2026년 제 2회 라임 콜로키엄 [비인간 지능이 재편하는 세계]",
+    "gu": "도봉구",
+    "venue": "서울로봇인공지능과학관 1층",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 도봉구의 서울로봇인공지능과학관 1층에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-20",
+    "endDate": "2026-05-20",
+    "latitude": 37.6555838047766,
+    "longitude": 127.049506212905,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157695&menuNo=200011"
+  },
+  {
+    "name": "[구립증산도서관] 보호자 게임리터러시 교육 [게임시대를 살고있는 부모는 이렇게 키운다]",
+    "gu": "은평구",
+    "venue": "구립증산도서관 2층 강당",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "북데이트"
+    ],
+    "score": 8.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 은평구의 구립증산도서관 2층 강당에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-20",
+    "endDate": "2026-05-20",
+    "latitude": 37.5828094398328,
+    "longitude": 126.907671330325,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157738&menuNo=200011"
+  },
+  {
+    "name": "[서울문화예술교육센터 용산] 다정한 아트라운지 [계절 엮기] 1회차",
+    "gu": "용산구",
+    "venue": "서울문화예술교육센터 용산 업무동 1층 아트라운지",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 용산구의 서울문화예술교육센터 용산 업무동 1층 아트라운지에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-21",
+    "endDate": "2026-05-21",
+    "latitude": 37.5269056148241,
+    "longitude": 126.966566172294,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157617&menuNo=200011"
+  },
+  {
+    "name": "[서울문화예술교육센터 용산] 서울미술산책 [서울에 도착한 파리 현대미술의 성지]",
+    "gu": "용산구",
+    "venue": "서울문화예술교육센터 용산 6층 다목적홀",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "야간"
+    ],
+    "score": 8.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 용산구의 서울문화예술교육센터 용산 6층 다목적홀에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-26",
+    "endDate": "2026-05-26",
+    "latitude": 37.5269056148241,
+    "longitude": 126.966566172294,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157646&menuNo=200011"
+  },
+  {
+    "name": "2026 까망돌어울마당 아트홀 상반기 정기 기획공연 [까망돌 칸타빌레] 5회차 주현정의 [그림책을 입은 바로크 음악]",
+    "gu": "동작구",
+    "venue": "까망돌어울마당 아트홀",
+    "category": "콘서트",
+    "tags": [
+      "가성비",
+      "무료",
+      "공연",
+      "음악",
+      "야간"
+    ],
+    "score": 8.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 동작구의 까망돌어울마당 아트홀에서 진행되는 콘서트 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-27",
+    "endDate": "2026-05-27",
+    "latitude": 37.5051202142839,
+    "longitude": 126.960611023195,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157742&menuNo=200008"
+  },
+  {
+    "name": "[은평문화재단] 숲속라이브(앙상블 아티스) [비올리스트 공세정의 Love Songs in Spring]",
+    "gu": "은평구",
+    "venue": "은평문화예술회관 숲속극장",
+    "category": "클래식",
+    "tags": [
+      "가성비",
+      "무료",
+      "공연",
+      "클래식",
+      "감성"
+    ],
+    "score": 8.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 은평구의 은평문화예술회관 숲속극장에서 진행되는 클래식 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-27",
+    "endDate": "2026-05-27",
+    "latitude": 37.6036996869964,
+    "longitude": 126.927901672834,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157443&menuNo=200008"
+  },
+  {
+    "name": "[서울문화예술교육센터 용산] 힐링북콘서트 [마음퇴근, 쉼을 읽는 저녁 5월]",
+    "gu": "용산구",
+    "venue": "서울문화예술교육센터 용산 1층 아트라운지",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "공연"
+    ],
+    "score": 8.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 용산구의 서울문화예술교육센터 용산 1층 아트라운지에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-28",
+    "endDate": "2026-05-28",
+    "latitude": 37.5269056148241,
+    "longitude": 126.966566172294,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157619&menuNo=200011"
+  },
+  {
+    "name": "김진환 비올라 독주회 : 존재의 교향곡",
+    "gu": "서대문구",
+    "venue": "금호아트홀 연세",
+    "category": "클래식",
+    "tags": [
+      "가성비",
+      "무료",
+      "공연",
+      "클래식",
+      "감성"
+    ],
+    "score": 8.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 서대문구의 금호아트홀 연세에서 진행되는 클래식 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-06-02",
+    "endDate": "2026-06-02",
+    "latitude": 37.5660508394158,
+    "longitude": 126.943916239886,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157299&menuNo=200008"
+  },
+  {
+    "name": "2026 K컬쳐?공연 글로벌 마케팅 전문인력양성 아카데미 1기",
+    "gu": "강북구",
+    "venue": "서울사이버대학교 및 서울 일원",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 강북구의 서울사이버대학교 및 서울 일원에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-06-10",
+    "endDate": "2026-06-12",
+    "latitude": 37.6299013887235,
+    "longitude": 127.027175084651,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157814&menuNo=200011"
+  },
+  {
+    "name": "2026 핸드아티코리아",
+    "gu": "강남구",
+    "venue": "코엑스전시장 B홀",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내"
+    ],
+    "score": 8.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 강남구의 코엑스전시장 B홀에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-08-13",
+    "endDate": "2026-08-16",
+    "latitude": 37.5118239121138,
+    "longitude": 127.059159043842,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156698&menuNo=200009"
+  },
+  {
+    "name": "[종로문화재단] 박노수미술관 개관12주년 기념전시 [산수?격물]",
+    "gu": "종로구",
+    "venue": "종로구립 박노수미술관",
+    "category": "전시/미술",
+    "tags": [
+      "유료",
+      "전시",
+      "실내",
+      "인기지역"
+    ],
+    "score": 8.5,
+    "reason": "종로구의 종로구립 박노수미술관에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2025-09-19",
+    "endDate": "2026-12-06",
+    "latitude": 37.5813191962491,
+    "longitude": 126.966818545949,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=155699&menuNo=200009"
+  },
+  {
+    "name": "융(C. G. Jung)과 함께 읽는 회복의 12단계 대장정",
+    "gu": "종로구",
+    "venue": "온라인 ZOOM 또는 자기사랑 세미나실",
+    "category": "교육/체험",
+    "tags": [
+      "유료",
+      "체험",
+      "이색데이트",
+      "인기지역"
+    ],
+    "score": 8.5,
+    "reason": "종로구의 온라인 ZOOM 또는 자기사랑 세미나실에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-08",
+    "endDate": "2027-01-31",
+    "latitude": 37.5851782770352,
+    "longitude": 126.997231245152,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156914&menuNo=200011"
+  },
+  {
+    "name": "2026 국립극장 어린이 예술학교 유아반 (1학기)",
+    "gu": "중구",
+    "venue": "국립극장 뜰아래연습장 B2 다목적교육실",
+    "category": "교육/체험",
+    "tags": [
+      "유료",
+      "체험",
+      "이색데이트",
+      "인기지역"
+    ],
+    "score": 8.5,
+    "reason": "중구의 국립극장 뜰아래연습장 B2 다목적교육실에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-14",
+    "endDate": "2026-05-23",
+    "latitude": 37.5519949082942,
+    "longitude": 126.999267349473,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156884&menuNo=200011"
+  },
+  {
+    "name": "스펙트로신테시스 서울 Spectrosynthesis Seoul",
+    "gu": "종로구",
+    "venue": "아트선재센터",
+    "category": "전시/미술",
+    "tags": [
+      "유료",
+      "전시",
+      "실내",
+      "인기지역"
+    ],
+    "score": 8.5,
+    "reason": "종로구의 아트선재센터에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-20",
+    "endDate": "2026-06-28",
+    "latitude": 37.5794635323506,
+    "longitude": 126.981839239613,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157262&menuNo=200009"
+  },
+  {
+    "name": "[서울디자인재단] DDP 루프탑 투어_2026",
+    "gu": "중구",
+    "venue": "DDP 뮤지엄 1층(M3 출입문) 투어 데스크 (시작장소)",
+    "category": "교육/체험",
+    "tags": [
+      "유료",
+      "체험",
+      "이색데이트",
+      "인기지역"
+    ],
+    "score": 8.5,
+    "reason": "중구의 DDP 뮤지엄 1층(M3 출입문) 투어 데스크 (시작장소)에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-21",
+    "endDate": "2026-05-31",
+    "latitude": 37.56735731522952,
+    "longitude": 127.0097797348434,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157428&menuNo=200011"
+  },
+  {
+    "name": "[세종문화회관] 세종예술아카데미 [정연석 작가] 스테들러와 함께하는 여행드로잉 클래스",
+    "gu": "종로구",
+    "venue": "세종예술아카데미 스퀘어홀",
+    "category": "교육/체험",
+    "tags": [
+      "유료",
+      "체험",
+      "이색데이트",
+      "인기지역"
+    ],
+    "score": 8.5,
+    "reason": "종로구의 세종예술아카데미 스퀘어홀에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-28",
+    "endDate": "2026-09-05",
+    "latitude": 37.5726241,
+    "longitude": 126.9760053,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157028&menuNo=200011"
+  },
+  {
+    "name": "[세종문화회관] 세종예술아카데미 [이승익 작가] 스테들러와 함께하는 여행드로잉 클래스",
+    "gu": "종로구",
+    "venue": "세종예술아카데미 스퀘어홀",
+    "category": "교육/체험",
+    "tags": [
+      "유료",
+      "체험",
+      "이색데이트",
+      "인기지역"
+    ],
+    "score": 8.5,
+    "reason": "종로구의 세종예술아카데미 스퀘어홀에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-28",
+    "endDate": "2026-08-29",
+    "latitude": 37.5726241,
+    "longitude": 126.9760053,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157027&menuNo=200011"
+  },
+  {
+    "name": "[세종문화회관] 2026 상반기 세종 어린이 발레 아카데미",
+    "gu": "종로구",
+    "venue": "세종문화회관 예술동 4층 종합연습실\t",
+    "category": "교육/체험",
+    "tags": [
+      "유료",
+      "체험",
+      "이색데이트",
+      "인기지역"
+    ],
+    "score": 8.5,
+    "reason": "종로구의 세종문화회관 예술동 4층 종합연습실\t에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-28",
+    "endDate": "2026-06-27",
+    "latitude": 37.5726241,
+    "longitude": 126.9760053,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157104&menuNo=200011"
+  },
+  {
+    "name": "[남산골한옥마을] 2026 남산골 전통체험 [예술가의 시간]",
+    "gu": "중구",
+    "venue": "남산골한옥마을 전통가옥 프로그램별 상이",
+    "category": "교육/체험",
+    "tags": [
+      "유료",
+      "체험",
+      "이색데이트",
+      "인기지역"
+    ],
+    "score": 8.5,
+    "reason": "중구의 남산골한옥마을 전통가옥 프로그램별 상이에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-03",
+    "endDate": "2026-10-25",
+    "latitude": 37.559304933707146,
+    "longitude": 126.994440072131,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157090&menuNo=200011"
+  },
+  {
+    "name": "이승택 개인전 [조각의 바깥에서]",
+    "gu": "송파구",
+    "venue": "소마미술관",
+    "category": "전시/미술",
+    "tags": [
+      "유료",
+      "전시",
+      "실내"
+    ],
+    "score": 8.5,
+    "reason": "송파구의 소마미술관에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-10",
+    "endDate": "2026-07-26",
+    "latitude": 37.516920655117,
+    "longitude": 127.118166964751,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157317&menuNo=200009"
+  },
+  {
+    "name": "[소마미술관] 조각이 꿈+틀 [올림픽조각체험프로젝트#02] 상설전",
+    "gu": "송파구",
+    "venue": "소마미술관 2관 상설전시실",
+    "category": "전시/미술",
+    "tags": [
+      "유료",
+      "전시",
+      "실내"
+    ],
+    "score": 8.5,
+    "reason": "송파구의 소마미술관 2관 상설전시실에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-17",
+    "endDate": "2026-09-06",
+    "latitude": 37.516920655117,
+    "longitude": 127.118166964751,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157117&menuNo=200009"
+  },
+  {
+    "name": "올림픽 조각체험 프로젝트#2 [조각이 꿈+틀]",
+    "gu": "송파구",
+    "venue": "소마미술관",
+    "category": "전시/미술",
+    "tags": [
+      "유료",
+      "전시",
+      "실내"
+    ],
+    "score": 8.5,
+    "reason": "송파구의 소마미술관에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-17",
+    "endDate": "2026-09-06",
+    "latitude": 37.516920655117,
+    "longitude": 127.118166964751,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157318&menuNo=200009"
+  },
+  {
+    "name": "[소마미술관] 그림책이 살아있다!",
+    "gu": "송파구",
+    "venue": "소마미술관 2관 기획전시실",
+    "category": "전시/미술",
+    "tags": [
+      "유료",
+      "전시",
+      "실내"
+    ],
+    "score": 8.5,
+    "reason": "송파구의 소마미술관 2관 기획전시실에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-17",
+    "endDate": "2026-09-06",
+    "latitude": 37.516920655117,
+    "longitude": 127.118166964751,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157116&menuNo=200009"
+  },
+  {
+    "name": "[서울디자인재단] 키크니 특별전 : 그렸고 그런 사이",
+    "gu": "중구",
+    "venue": "뮤지엄 전시1관",
+    "category": "전시/미술",
+    "tags": [
+      "유료",
+      "전시",
+      "실내",
+      "야간",
+      "인기지역"
+    ],
+    "score": 8.5,
+    "reason": "중구의 뮤지엄 전시1관에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-25",
+    "endDate": "2026-09-06",
+    "latitude": 37.56735731522952,
+    "longitude": 127.0097797348434,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157351&menuNo=200009"
+  },
+  {
+    "name": "2026년 창경궁 야연(상반기)",
+    "gu": "종로구",
+    "venue": "창경궁 문정전 일원",
+    "category": "교육/체험",
+    "tags": [
+      "유료",
+      "체험",
+      "이색데이트",
+      "야간",
+      "인기지역"
+    ],
+    "score": 8.5,
+    "reason": "종로구의 창경궁 문정전 일원에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-07",
+    "endDate": "2026-05-17",
+    "latitude": 37.5776239475981,
+    "longitude": 126.993841430623,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157796&menuNo=200011"
+  },
+  {
+    "name": "[앙상블 결 공연을 위한 어린이 클래스] w. 음악박사 스텔라",
+    "gu": "서초구",
+    "venue": "라율아트홀",
+    "category": "교육/체험",
+    "tags": [
+      "유료",
+      "체험",
+      "이색데이트",
+      "인기지역"
+    ],
+    "score": 8.5,
+    "reason": "서초구의 라율아트홀에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-10",
+    "endDate": "2026-05-31",
+    "latitude": 37.4824452369632,
+    "longitude": 127.012614908746,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157779&menuNo=200011"
+  },
+  {
+    "name": "피아노 듀오 MINO 리사이틀",
+    "gu": "종로구",
+    "venue": "세종체임버홀",
+    "category": "클래식",
+    "tags": [
+      "유료",
+      "공연",
+      "클래식",
+      "감성",
+      "야간"
+    ],
+    "score": 8.5,
+    "reason": "종로구의 세종체임버홀에서 진행되는 클래식 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-14",
+    "endDate": "2026-05-14",
+    "latitude": 37.5726241,
+    "longitude": 126.9760053,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157591&menuNo=200008"
+  },
+  {
+    "name": "[종로문화재단] 2026 박노수미술관 작가 협업전시 [향, 산수를 물들이다]",
+    "gu": "종로구",
+    "venue": "종로구립 박노수미술관",
+    "category": "전시/미술",
+    "tags": [
+      "유료",
+      "전시",
+      "실내",
+      "인기지역"
+    ],
+    "score": 8.5,
+    "reason": "종로구의 종로구립 박노수미술관에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-15",
+    "endDate": "2026-12-06",
+    "latitude": 37.5813191962491,
+    "longitude": 126.966818545949,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157807&menuNo=200009"
+  },
+  {
+    "name": "[세종문화회관] 2026 누구나 클래식 with KBS교향악단",
+    "gu": "종로구",
+    "venue": "세종문화회관 세종대극장",
+    "category": "클래식",
+    "tags": [
+      "유료",
+      "공연",
+      "클래식",
+      "감성",
+      "야간"
+    ],
+    "score": 8.5,
+    "reason": "종로구의 세종문화회관 세종대극장에서 진행되는 클래식 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-19",
+    "endDate": "2026-05-19",
+    "latitude": 37.5726241,
+    "longitude": 126.9760053,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157253&menuNo=200008"
+  },
+  {
+    "name": "[세종문화회관] 26세종시즌 [명작시리즈 II 카르미나 부라나]",
+    "gu": "종로구",
+    "venue": "세종대극장",
+    "category": "클래식",
+    "tags": [
+      "유료",
+      "공연",
+      "클래식",
+      "감성",
+      "야간"
+    ],
+    "score": 8.5,
+    "reason": "종로구의 세종대극장에서 진행되는 클래식 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-21",
+    "endDate": "2026-05-21",
+    "latitude": 37.5726241,
+    "longitude": 126.9760053,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157554&menuNo=200008"
+  },
+  {
+    "name": "재능 혜화 마티네",
+    "gu": "종로구",
+    "venue": "JCC 재능아트센터 콘서트홀",
+    "category": "클래식",
+    "tags": [
+      "유료",
+      "공연",
+      "클래식",
+      "감성",
+      "음악"
+    ],
+    "score": 8.5,
+    "reason": "종로구의 JCC 재능아트센터 콘서트홀에서 진행되는 클래식 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-21",
+    "endDate": "2026-05-21",
+    "latitude": 37.5871831839413,
+    "longitude": 127.001885702262,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157702&menuNo=200008"
+  },
+  {
+    "name": "앙상블 Knoll 제 4회 정기연주회",
+    "gu": "종로구",
+    "venue": "세종체임버홀",
+    "category": "클래식",
+    "tags": [
+      "유료",
+      "공연",
+      "클래식",
+      "감성",
+      "야간"
+    ],
+    "score": 8.5,
+    "reason": "종로구의 세종체임버홀에서 진행되는 클래식 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-25",
+    "endDate": "2026-05-25",
+    "latitude": 37.5726241,
+    "longitude": 126.9760053,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157683&menuNo=200008"
+  },
+  {
+    "name": "[라율 영재&영아티스트] 허에린 첼로 독주회",
+    "gu": "서초구",
+    "venue": "라율아트홀",
+    "category": "클래식",
+    "tags": [
+      "유료",
+      "공연",
+      "클래식",
+      "감성",
+      "야간"
+    ],
+    "score": 8.5,
+    "reason": "서초구의 라율아트홀에서 진행되는 클래식 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-27",
+    "endDate": "2026-05-27",
+    "latitude": 37.4824452369632,
+    "longitude": 127.012614908746,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157520&menuNo=200008"
+  },
+  {
+    "name": "[마포문화재단] M 마티네 [2026 MAC 모닝 콘서트 ＃3]",
+    "gu": "마포구",
+    "venue": "마포아트센터 아트홀맥",
+    "category": "클래식",
+    "tags": [
+      "유료",
+      "공연",
+      "클래식",
+      "감성",
+      "음악"
+    ],
+    "score": 8.5,
+    "reason": "마포구의 마포아트센터 아트홀맥에서 진행되는 클래식 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-27",
+    "endDate": "2026-05-27",
+    "latitude": 37.5499060881738,
+    "longitude": 126.945533810385,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157453&menuNo=200008"
+  },
+  {
+    "name": "[서울시립교향악단] 2026 서울시향 마르쿠스 슈텐츠와 바딤 글루즈만 ①",
+    "gu": "송파구",
+    "venue": "롯데콘서트홀",
+    "category": "클래식",
+    "tags": [
+      "유료",
+      "공연",
+      "클래식",
+      "감성",
+      "음악"
+    ],
+    "score": 8.5,
+    "reason": "송파구의 롯데콘서트홀에서 진행되는 클래식 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-28",
+    "endDate": "2026-05-28",
+    "latitude": 37.5137519612953,
+    "longitude": 127.104446890835,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157445&menuNo=200008"
+  },
+  {
+    "name": "[서초문화재단] 모차르트 피아노 협주곡 전곡 시리즈 VI",
+    "gu": "서초구",
+    "venue": "반포심산아트홀",
+    "category": "클래식",
+    "tags": [
+      "유료",
+      "공연",
+      "클래식",
+      "감성",
+      "야간"
+    ],
+    "score": 8.5,
+    "reason": "서초구의 반포심산아트홀에서 진행되는 클래식 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-28",
+    "endDate": "2026-05-28",
+    "latitude": 37.4988344628,
+    "longitude": 126.9912424758,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157719&menuNo=200008"
+  },
+  {
+    "name": "[마포문화재단]  2026 M 아티스트 [선율 피아노 리사이틀Ⅰ]",
+    "gu": "마포구",
+    "venue": "마포아트센터 아트홀맥",
+    "category": "클래식",
+    "tags": [
+      "유료",
+      "공연",
+      "클래식",
+      "감성",
+      "야간"
+    ],
+    "score": 8.5,
+    "reason": "마포구의 마포아트센터 아트홀맥에서 진행되는 클래식 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-06-04",
+    "endDate": "2026-06-04",
+    "latitude": 37.5499060881738,
+    "longitude": 126.945533810385,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157451&menuNo=200008"
+  },
+  {
+    "name": "[서울무형유산교육전시장] 2026년 2차 일반교육(12주) 모집 안내",
+    "gu": "종로구",
+    "venue": "서울무형유산 교육전시장",
+    "category": "교육/체험",
+    "tags": [
+      "유료",
+      "체험",
+      "이색데이트",
+      "인기지역"
+    ],
+    "score": 8.5,
+    "reason": "종로구의 서울무형유산 교육전시장에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-06-05",
+    "endDate": "2026-08-29",
+    "latitude": 37.5769351431409,
+    "longitude": 126.991104508988,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157774&menuNo=200011"
+  },
+  {
+    "name": "(사)서울윈드오케스트라 제 119회 정기연주회 [윈드 오케스트라로 만나는 국악음악]",
+    "gu": "서초구",
+    "venue": "예술의 전당 콘서트홀",
+    "category": "콘서트",
+    "tags": [
+      "유료",
+      "공연",
+      "음악",
+      "야간",
+      "인기지역"
+    ],
+    "score": 8.5,
+    "reason": "서초구의 예술의 전당 콘서트홀에서 진행되는 콘서트 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-06-10",
+    "endDate": "2026-06-10",
+    "latitude": 37.4802401962069,
+    "longitude": 127.014215239186,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157675&menuNo=200008"
+  },
+  {
+    "name": "[마포문화재단] 2026 MAC 모닝 콘서트 ＃4",
+    "gu": "마포구",
+    "venue": "마포아트센터 아트홀맥",
+    "category": "클래식",
+    "tags": [
+      "유료",
+      "공연",
+      "클래식",
+      "감성",
+      "음악"
+    ],
+    "score": 8.5,
+    "reason": "마포구의 마포아트센터 아트홀맥에서 진행되는 클래식 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-06-24",
+    "endDate": "2026-06-24",
+    "latitude": 37.5499060881738,
+    "longitude": 126.945533810385,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157457&menuNo=200008"
+  },
+  {
+    "name": "2026 마포문화재단 가족?어린이 축제 [해피 마포 와글와글] 이머시브 뮤지컬 [고래밥 - 바다 대운동회]",
+    "gu": "마포구",
+    "venue": "마포아트센터 아트홀맥",
+    "category": "클래식",
+    "tags": [
+      "유료",
+      "공연",
+      "클래식",
+      "감성",
+      "축제"
+    ],
+    "score": 8.5,
+    "reason": "마포구의 마포아트센터 아트홀맥에서 진행되는 클래식 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-07-24",
+    "endDate": "2026-08-16",
+    "latitude": 37.5499060881738,
+    "longitude": 126.945533810385,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157804&menuNo=200008"
+  },
+  {
+    "name": "2026 의정부지 역사유적광장 전통무예행사",
+    "gu": "종로구",
+    "venue": "의정부지 역사유적광장",
+    "category": "축제-전통/역사",
+    "tags": [
+      "가성비",
+      "무료",
+      "축제",
+      "야외",
+      "인기지역"
+    ],
+    "score": 8.3,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 종로구의 의정부지 역사유적광장에서 진행되는 축제-전통/역사 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-11",
+    "endDate": "2026-10-31",
+    "latitude": 37.5748036513699,
+    "longitude": 126.977967142855,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157327&menuNo=200010"
+  },
+  {
+    "name": "[마포구립서강도서관] 5월/팟캐스트 서강도서관 피셜 67회 [사랑은 하트 모양이 아니야]",
+    "gu": "마포구",
+    "venue": "팟빵(온라인)",
+    "category": "기타",
+    "tags": [
+      "가성비",
+      "무료",
+      "북데이트",
+      "정적인",
+      "인기지역"
+    ],
+    "score": 8.3,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 마포구의 팟빵(온라인)에서 진행되는 기타 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-01",
+    "endDate": "2026-05-31",
+    "latitude": 37.5477347268018,
+    "longitude": 126.932061794829,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157716&menuNo=200013"
+  },
+  {
+    "name": "2026 서울시 태권도 공연",
+    "gu": "중구",
+    "venue": "남산골한옥마을, DDP(동대문디자인플라자) 등",
+    "category": "기타",
+    "tags": [
+      "가성비",
+      "무료",
+      "인기지역"
+    ],
+    "score": 8.3,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 중구의 남산골한옥마을, DDP(동대문디자인플라자) 등에서 진행되는 기타 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-09",
+    "endDate": "2026-10-18",
+    "latitude": 37.559304933707146,
+    "longitude": 126.994440072131,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157783&menuNo=200013"
+  },
+  {
+    "name": "[서울갤러리] 런치 스테이지 [해금 아티스트 우하린]",
+    "gu": "중구",
+    "venue": "서울갤러리 지하 1층 공연장",
+    "category": "국악",
+    "tags": [
+      "가성비",
+      "무료",
+      "인기지역"
+    ],
+    "score": 8.3,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 중구의 서울갤러리 지하 1층 공연장에서 진행되는 국악 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-13",
+    "endDate": "2026-05-13",
+    "latitude": 37.566370776634,
+    "longitude": 126.977918351844,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157745&menuNo=200008"
+  },
+  {
+    "name": "[서울생활문화센터 체부] 체부국악실내악단 정기공연 [인간이도]",
+    "gu": "종로구",
+    "venue": "서울생활문화센터 체부 체부홀",
+    "category": "국악",
+    "tags": [
+      "가성비",
+      "무료",
+      "야간",
+      "인기지역"
+    ],
+    "score": 8.3,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 종로구의 서울생활문화센터 체부 체부홀에서 진행되는 국악 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-14",
+    "endDate": "2026-05-14",
+    "latitude": 37.5767084987432,
+    "longitude": 126.97148941423,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157789&menuNo=200008"
+  },
+  {
+    "name": "문예북흥 No.61 - 『5.18 푸른 눈의 증인』 폴 코트라이트가 증언하고 우리가 기억해야 할 오월의 광주",
+    "gu": "은평구",
+    "venue": "이호철북콘서트홀",
+    "category": "교육/체험",
+    "tags": [
+      "유료",
+      "체험",
+      "이색데이트",
+      "공연",
+      "음악"
+    ],
+    "score": 8.3,
+    "reason": "은평구의 이호철북콘서트홀에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-16",
+    "endDate": "2026-05-16",
+    "latitude": 37.6139964990436,
+    "longitude": 126.926499742667,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157699&menuNo=200011"
+  },
+  {
+    "name": "[관학문화재단] 로열인문학 [윤일상의 창작 노트]를 훔치다]",
+    "gu": "관악구",
+    "venue": "관악아트홀 공연장",
+    "category": "콘서트",
+    "tags": [
+      "유료",
+      "공연",
+      "음악"
+    ],
+    "score": 8.3,
+    "reason": "관악구의 관악아트홀 공연장에서 진행되는 콘서트 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-16",
+    "endDate": "2026-05-16",
+    "latitude": 37.4675533645757,
+    "longitude": 126.944962394132,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157477&menuNo=200008"
+  },
+  {
+    "name": "2026 삼일로창고극장 [WHAT'S NEXT PROJECT 인큐베이팅 팩토리]",
+    "gu": "중구",
+    "venue": "삼일로창고극장",
+    "category": "축제-문화/예술",
+    "tags": [
+      "가성비",
+      "무료",
+      "축제",
+      "야외",
+      "야간"
+    ],
+    "score": 8.3,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 중구의 삼일로창고극장에서 진행되는 축제-문화/예술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-19",
+    "endDate": "2026-05-23",
+    "latitude": 37.563469,
+    "longitude": 126.9879706,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157504&menuNo=200010"
+  },
+  {
+    "name": "[서초문화재단] 2026 심산영화관 [하얼빈]",
+    "gu": "서초구",
+    "venue": "반포심산아트홀",
+    "category": "영화",
+    "tags": [
+      "가성비",
+      "무료",
+      "인기지역"
+    ],
+    "score": 8.3,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 서초구의 반포심산아트홀에서 진행되는 영화 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-19",
+    "endDate": "2026-05-19",
+    "latitude": 37.4988344628,
+    "longitude": 126.9912424758,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157720&menuNo=200013"
+  },
+  {
+    "name": "[성동문화재단] 2026 소월아트홀에서 떠나는 유럽여행 콘서트",
+    "gu": "성동구",
+    "venue": "소월아트홀",
+    "category": "콘서트",
+    "tags": [
+      "유료",
+      "공연",
+      "음악",
+      "야간"
+    ],
+    "score": 8.3,
+    "reason": "성동구의 소월아트홀에서 진행되는 콘서트 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-22",
+    "endDate": "2026-05-23",
+    "latitude": 37.5593072327953,
+    "longitude": 127.036006376334,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157498&menuNo=200008"
+  },
+  {
+    "name": "[성북문화재단] 크로스오버 아티스트 박현수 [오, 솔레미오]",
+    "gu": "성북구",
+    "venue": "꿈빛극장",
+    "category": "클래식",
+    "tags": [
+      "유료",
+      "공연",
+      "클래식",
+      "감성"
+    ],
+    "score": 8.3,
+    "reason": "성북구의 꿈빛극장에서 진행되는 클래식 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-23",
+    "endDate": "2026-05-23",
+    "latitude": 37.6037552097988,
+    "longitude": 127.022203675321,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157398&menuNo=200008"
+  },
+  {
+    "name": "빛과 모래로 만나는 동화콘서트",
+    "gu": "구로구",
+    "venue": "구로꿈나무극장",
+    "category": "콘서트",
+    "tags": [
+      "유료",
+      "공연",
+      "음악"
+    ],
+    "score": 8.3,
+    "reason": "구로구의 구로꿈나무극장에서 진행되는 콘서트 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-23",
+    "endDate": "2026-05-23",
+    "latitude": 37.489562316814336,
+    "longitude": 126.88629292183346,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157536&menuNo=200008"
+  },
+  {
+    "name": "[서울생활문화센터 체부] 2026 청년문화기획자 네트워크 [살롱, 내일] 기획자 시그널",
+    "gu": "종로구",
+    "venue": "서울생활문화센터 체부홀",
+    "category": "기타",
+    "tags": [
+      "가성비",
+      "무료",
+      "인기지역"
+    ],
+    "score": 8.3,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 종로구의 서울생활문화센터 체부홀에서 진행되는 기타 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-25",
+    "endDate": "2026-05-25",
+    "latitude": 37.5767084987432,
+    "longitude": 126.97148941423,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157806&menuNo=200013"
+  },
+  {
+    "name": "[금천문화재단] 2026 공연장상주단체 영유아 예술체험 프로그램 [동그라미, 세모, 네모]",
+    "gu": "금천구",
+    "venue": "금천뮤지컬센터",
+    "category": "교육/체험",
+    "tags": [
+      "유료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.3,
+    "reason": "금천구의 금천뮤지컬센터에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-29",
+    "endDate": "2026-05-30",
+    "latitude": 37.468777055274,
+    "longitude": 126.894474890365,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157401&menuNo=200011"
+  },
+  {
+    "name": "[서울상상나라] 그림책 작업실:엉뚱하고 기발한",
+    "gu": "광진구",
+    "venue": "서울상상나라 지하 1층 기획전시실",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 광진구의 서울상상나라 지하 1층 기획전시실에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2025-07-15",
+    "endDate": "2026-07-15",
+    "latitude": 37.55055,
+    "longitude": 127.077569,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=154150&menuNo=200009"
+  },
+  {
+    "name": "[국립중앙박물관] 각角진 백자 이야기",
+    "gu": "용산구",
+    "venue": "국립중앙박물관 상설전시관 3층",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 용산구의 국립중앙박물관 상설전시관 3층에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2025-08-26",
+    "endDate": "2026-06-21",
+    "latitude": 37.52385582212769,
+    "longitude": 126.98020301648832,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156377&menuNo=200009"
+  },
+  {
+    "name": "[서울시립 북서울미술관] 유후공간 전시 《지구울림-헤르츠앤도우 Sonic Planet?Hertz and Dough》",
+    "gu": "노원구",
+    "venue": "서울시립 북서울미술관 2층 유휴공간",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "야간"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 노원구의 서울시립 북서울미술관 2층 유휴공간에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2025-09-02",
+    "endDate": "2026-05-31",
+    "latitude": 37.6406604547872,
+    "longitude": 127.066865579183,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=154897&menuNo=200009"
+  },
+  {
+    "name": "[서울기록원] 전시 [어느 도시의 탑승록]",
+    "gu": "은평구",
+    "venue": "서울기록원 2층 제1전시실",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 은평구의 서울기록원 2층 제1전시실에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2025-10-23",
+    "endDate": "2028-08-31",
+    "latitude": 37.6075510290657,
+    "longitude": 126.93482332974094,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=155379&menuNo=200009"
+  },
+  {
+    "name": "[서울기록원] 기록으로 산책하기_서울의 공원 展",
+    "gu": "은평구",
+    "venue": "서울기록원 2층 제2전시실",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 은평구의 서울기록원 2층 제2전시실에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2025-10-23",
+    "endDate": "2026-09-29",
+    "latitude": 37.6075510290657,
+    "longitude": 126.93482332974094,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157188&menuNo=200009"
+  },
+  {
+    "name": "[중랑문화재단] AI 기반 미디어아트 전시 [뉴-미디어의 재해-석]",
+    "gu": "중랑구",
+    "venue": "중랑아트센터 실감미디어 전시실",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 중랑구의 중랑아트센터 실감미디어 전시실에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2025-10-28",
+    "endDate": "2026-07-04",
+    "latitude": 37.5983328190955,
+    "longitude": 127.091624142481,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=155178&menuNo=200009"
+  },
+  {
+    "name": "[국립중앙박물관] 보존과학, 새로운 시작 함께하는 미래",
+    "gu": "용산구",
+    "venue": "국립중앙박물관 보존과학센터 1층",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 용산구의 국립중앙박물관 보존과학센터 1층에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2025-10-28",
+    "endDate": "2026-06-30",
+    "latitude": 37.52385582212769,
+    "longitude": 126.98020301648832,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156376&menuNo=200009"
+  },
+  {
+    "name": "[서울상상나라] 통-하다",
+    "gu": "광진구",
+    "venue": "서울상상나라 1층 상설전시실",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 광진구의 서울상상나라 1층 상설전시실에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2025-11-11",
+    "endDate": "2026-11-11",
+    "latitude": 37.55055,
+    "longitude": 127.077569,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=155891&menuNo=200009"
+  },
+  {
+    "name": "[동작문화재단] 2026 까망돌어울마당 아트홀 상반기 정기 기획공연 [까망돌 칸타빌레]",
+    "gu": "동작구",
+    "venue": "까망돌어울마당 아트홀",
+    "category": "콘서트",
+    "tags": [
+      "가성비",
+      "무료",
+      "공연",
+      "음악"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 동작구의 까망돌어울마당 아트홀에서 진행되는 콘서트 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-01-28",
+    "endDate": "2026-06-24",
+    "latitude": 37.5051202142839,
+    "longitude": 126.960611023195,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156492&menuNo=200008"
+  },
+  {
+    "name": "[서울하수도과학관] 하수처리장 견학",
+    "gu": "성동구",
+    "venue": "서울하수도과학관",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 성동구의 서울하수도과학관에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-02-04",
+    "endDate": "2026-11-26",
+    "latitude": 37.5604666954517,
+    "longitude": 127.060364943935,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156708&menuNo=200011"
+  },
+  {
+    "name": "[서울아트책보고] 처음 만나는 세계",
+    "gu": "구로구",
+    "venue": "서울아트책보고 북카페 앤 라운지",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "야간"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 구로구의 서울아트책보고 북카페 앤 라운지에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-10",
+    "endDate": "2026-05-31",
+    "latitude": 37.4982125677913,
+    "longitude": 126.867088741096,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156892&menuNo=200009"
+  },
+  {
+    "name": "[서울시립 서서울미술관] SeMA 프로젝트V_얄루",
+    "gu": "금천구",
+    "venue": "서울시립 서서울미술관 기타",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "야간"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 금천구의 서울시립 서서울미술관 기타에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-12",
+    "endDate": "2026-07-26",
+    "latitude": 37.4580752536422,
+    "longitude": 126.894935931812,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156946&menuNo=200009"
+  },
+  {
+    "name": "[서울시립 서서울미술관] 서서울미술관 개관특별전 《우리의 시간은 여기서부터》",
+    "gu": "금천구",
+    "venue": "서서울미술관 스튜디오 1, 1층 로비, 잔디마당 1 등",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "야간"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 금천구의 서서울미술관 스튜디오 1, 1층 로비, 잔디마당 1 등에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-12",
+    "endDate": "2026-07-12",
+    "latitude": 37.4580752536422,
+    "longitude": 126.894935931812,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156945&menuNo=200009"
+  },
+  {
+    "name": "[서울생활사박물관] 2026년 상반기 변장나들이(유치원 및 어린이집 단체)",
+    "gu": "노원구",
+    "venue": "서울생활사박물관",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 노원구의 서울생활사박물관에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-17",
+    "endDate": "2026-06-02",
+    "latitude": 37.6201739154268,
+    "longitude": 127.076936195632,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156815&menuNo=200011"
+  },
+  {
+    "name": "[서울시립 사진미술관] 포토 디스커버리 프로젝트 《사진집》",
+    "gu": "도봉구",
+    "venue": "서울시립 사진미술관 1층 로비",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "야간"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 도봉구의 서울시립 사진미술관 1층 로비에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-18",
+    "endDate": "2026-06-14",
+    "latitude": 37.6555150225578,
+    "longitude": 127.048947814686,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157141&menuNo=200009"
+  },
+  {
+    "name": "[중랑문화재단] 중랑아트센터 기획전 [몸으로 맛보는 오감 놀이터-요리조리]",
+    "gu": "중랑구",
+    "venue": "중랑아트센터 제1전시실 (서울시 중랑구 망우로 353 이노시티 C동 B2F)",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 중랑구의 중랑아트센터 제1전시실 (서울시 중랑구 망우로 353 이노시티 C동 B2F)에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-24",
+    "endDate": "2026-06-20",
+    "latitude": 37.5983328190955,
+    "longitude": 127.091624142481,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157081&menuNo=200009"
+  },
+  {
+    "name": "[청계천박물관] 2026년 상반기 온라인 교육 [톡톡톡 청계천]",
+    "gu": "성동구",
+    "venue": "각 기관 (온라인 교육)",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 성동구의 각 기관 (온라인 교육)에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-25",
+    "endDate": "2026-06-24",
+    "latitude": 37.5712661734969,
+    "longitude": 127.03504316401,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156800&menuNo=200011"
+  },
+  {
+    "name": "[김근태기념도서관] 민주해설사 양성과정 3기 [현장에서 배우는 민주, 해설로 잇다]",
+    "gu": "도봉구",
+    "venue": "김근태기념도서관(내부 이론교육 및 기관해설), 민주화운동기념관, 창동일대 ",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "북데이트"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 도봉구의 김근태기념도서관(내부 이론교육 및 기관해설), 민주화운동기념관, 창동일대 에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-26",
+    "endDate": "2026-05-28",
+    "latitude": 37.6876674374375,
+    "longitude": 127.044019937677,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156909&menuNo=200011"
+  },
+  {
+    "name": "[성북문화재단] 2026 성북구립미술관 기획전시 [1946, 성북회화연구소]",
+    "gu": "성북구",
+    "venue": "성북구립미술관",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 성북구의 성북구립미술관에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-26",
+    "endDate": "2026-05-24",
+    "latitude": 37.5948371972307,
+    "longitude": 126.994887077742,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157054&menuNo=200009"
+  },
+  {
+    "name": "[서울생활사박물관] 2026년 무브무브 나의 생활사 교육생 모집 (초등 3~4학년 학급단체)",
+    "gu": "노원구",
+    "venue": "서울생활사박물관",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 노원구의 서울생활사박물관에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-01",
+    "endDate": "2026-12-02",
+    "latitude": 37.6201739154268,
+    "longitude": 127.076936195632,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156701&menuNo=200011"
+  },
+  {
+    "name": "[금천구립독산도서관] 2026년 금천시민대학 [보이지 않던 것들의 미술사] - 권력, 침묵, 그리고 예술이 말을 걸 때",
+    "gu": "금천구",
+    "venue": "금천구립독산도서관 2층 강의실",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "북데이트"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 금천구의 금천구립독산도서관 2층 강의실에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-01",
+    "endDate": "2026-05-13",
+    "latitude": 37.4675801864797,
+    "longitude": 126.908105892677,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157180&menuNo=200011"
+  },
+  {
+    "name": "[서울시립 북서울미술관] 유휴공간 전시 [몸을 위한 간주곡 ? 소목장세미]",
+    "gu": "노원구",
+    "venue": "서울시립 북서울미술관 1층 라운지 1",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "야간"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 노원구의 서울시립 북서울미술관 1층 라운지 1에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-02",
+    "endDate": "2027-05-30",
+    "latitude": 37.6406604547872,
+    "longitude": 127.066865579183,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157098&menuNo=200009"
+  },
+  {
+    "name": "[서울생활사박물관] 2026년 조각조각 서울이야기 엮기(초등5~6학년 학급단체)",
+    "gu": "노원구",
+    "venue": "서울생활사박물관",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 노원구의 서울생활사박물관에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-02",
+    "endDate": "2026-11-26",
+    "latitude": 37.6201739154268,
+    "longitude": 127.076936195632,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156700&menuNo=200011"
+  },
+  {
+    "name": "[서울생활사박물관] 2026년 서울생활문화탐방-경춘선숲길(초등 4~6학년 학급 단체)",
+    "gu": "노원구",
+    "venue": "화랑대철도공원, 경춘선숲길, 서울생활사박물관",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 노원구의 화랑대철도공원, 경춘선숲길, 서울생활사박물관에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-06",
+    "endDate": "2026-09-21",
+    "latitude": 37.6201739154268,
+    "longitude": 127.076936195632,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156818&menuNo=200011"
+  },
+  {
+    "name": "[서울하수도과학관 체험형 기획전] 오염코드404: 비점오염원을 찾아라! ",
+    "gu": "성동구",
+    "venue": "서울하수도과학관 1층 로비 ",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 성동구의 서울하수도과학관 1층 로비 에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-07",
+    "endDate": "2026-08-30",
+    "latitude": 37.5604666954517,
+    "longitude": 127.060364943935,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157219&menuNo=200009"
+  },
+  {
+    "name": "[청계천박물관] 2026년 상반기 초등4~6학년 학급단체 교육 [졸졸졸 개천, 콸콸콸 준천]",
+    "gu": "성동구",
+    "venue": "청계천박물관(성동구)",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 성동구의 청계천박물관(성동구)에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-08",
+    "endDate": "2026-06-24",
+    "latitude": 37.5712661734969,
+    "longitude": 127.03504316401,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156943&menuNo=200011"
+  },
+  {
+    "name": "[서울아트책보고] 나와 타인을 알아가는 글쓰기",
+    "gu": "구로구",
+    "venue": "서울아트책보고",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 구로구의 서울아트책보고에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-08",
+    "endDate": "2026-05-13",
+    "latitude": 37.4982125677913,
+    "longitude": 126.867088741096,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156877&menuNo=200011"
+  },
+  {
+    "name": "[구립증산도서관] 2026 유아 독서 동아리 [책책박사] 1기",
+    "gu": "은평구",
+    "venue": "구립증산도서관 지하 문화강좌실",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "북데이트"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 은평구의 구립증산도서관 지하 문화강좌실에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-09",
+    "endDate": "2026-07-21",
+    "latitude": 37.5828094398328,
+    "longitude": 126.907671330325,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157340&menuNo=200011"
+  },
+  {
+    "name": "[서울시립 사진미술관] 2026 서울사진축제 : Photo SeMA 기획서가 [모두를 위한 사진책]",
+    "gu": "도봉구",
+    "venue": "서울시립 사진미술관 4층 포토라이브러리",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "축제"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 도봉구의 서울시립 사진미술관 4층 포토라이브러리에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-09",
+    "endDate": "2026-07-05",
+    "latitude": 37.6555150225578,
+    "longitude": 127.048947814686,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157578&menuNo=200009"
+  },
+  {
+    "name": "[서울시립 사진미술관] 2026 서울사진축제 : 아티스트 토크 [작가의 방]",
+    "gu": "도봉구",
+    "venue": "서울시립 사진미술관 2층  영상홀",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "축제"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 도봉구의 서울시립 사진미술관 2층  영상홀에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-09",
+    "endDate": "2026-06-14",
+    "latitude": 37.6555150225578,
+    "longitude": 127.048947814686,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157475&menuNo=200009"
+  },
+  {
+    "name": "[서울시립 사진미술관] 2026 서울사진축제 [서울 사진 산책]",
+    "gu": "도봉구",
+    "venue": "서울 시내 24개소 문화공간 / 외부 별도 장소",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "축제"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 도봉구의 서울 시내 24개소 문화공간 / 외부 별도 장소에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-09",
+    "endDate": "2026-06-14",
+    "latitude": 37.6555150225578,
+    "longitude": 127.048947814686,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157349&menuNo=200009"
+  },
+  {
+    "name": "[서울시립 사진미술관] 서울사진축제 《컴백홈》",
+    "gu": "도봉구",
+    "venue": "서울시립 사진미술관",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "축제"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 도봉구의 서울시립 사진미술관에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-09",
+    "endDate": "2026-06-14",
+    "latitude": 37.6555150225578,
+    "longitude": 127.048947814686,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157269&menuNo=200009"
+  },
+  {
+    "name": "[청계천박물관] 2026년 상반기 유아 단체 교육 [꼬물꼬물 청계천 보물찾기]",
+    "gu": "성동구",
+    "venue": "청계천박물관(성동구)",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 성동구의 청계천박물관(성동구)에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-09",
+    "endDate": "2026-06-04",
+    "latitude": 37.5712661734969,
+    "longitude": 127.03504316401,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156942&menuNo=200011"
+  },
+  {
+    "name": "[삼각산금암미술관] 머묾 Sojourn",
+    "gu": "은평구",
+    "venue": "삼각산금암미술관",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 은평구의 삼각산금암미술관에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-14",
+    "endDate": "2026-06-14",
+    "latitude": 37.6416280285312,
+    "longitude": 126.940911076697,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157618&menuNo=200009"
+  },
+  {
+    "name": "[양천중앙도서관] K-POP다가치",
+    "gu": "양천구",
+    "venue": "양천중앙도서관 B1 세미나실1",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "북데이트"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 양천구의 양천중앙도서관 B1 세미나실1에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-14",
+    "endDate": "2026-05-26",
+    "latitude": 37.5136519608227,
+    "longitude": 126.833629748577,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157030&menuNo=200011"
+  },
+  {
+    "name": "[양천중앙도서관] 퇴근 후 디지털 클래스 노션(Notion) 실습 과정",
+    "gu": "양천구",
+    "venue": "양천중앙도서관 4층 디지털자료실",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "북데이트"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 양천구의 양천중앙도서관 4층 디지털자료실에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-14",
+    "endDate": "2026-05-19",
+    "latitude": 37.5136519608227,
+    "longitude": 126.833629748577,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156979&menuNo=200011"
+  },
+  {
+    "name": "[서울문화예술교육센터 용산] 렉처in살롱 [클래식 음악 여행]",
+    "gu": "용산구",
+    "venue": "서울문화예술교육센터 용산 6층 다목적홀",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "공연"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 용산구의 서울문화예술교육센터 용산 6층 다목적홀에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-15",
+    "endDate": "2026-06-17",
+    "latitude": 37.5269056148241,
+    "longitude": 126.966566172294,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157013&menuNo=200011"
+  },
+  {
+    "name": "[서울문화예술교육센터 용산] 렉처in살롱 [재즈를 즐기는 세 가지 방법] (4월)",
+    "gu": "용산구",
+    "venue": "서울문화예술교육센터 용산 6층 다목적홀",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "야간"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 용산구의 서울문화예술교육센터 용산 6층 다목적홀에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-16",
+    "endDate": "2026-06-18",
+    "latitude": 37.5269056148241,
+    "longitude": 126.966566172294,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157002&menuNo=200011"
+  },
+  {
+    "name": "2026 한강이야기여행 [한강역사탐방] ",
+    "gu": "용산구",
+    "venue": "광나루, 잠실, 뚝섬, 잠원, 반포, 이촌, 여의도, 양화, 난지, 망원, 강서",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 용산구의 광나루, 잠실, 뚝섬, 잠원, 반포, 이촌, 여의도, 양화, 난지, 망원, 강서에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-20",
+    "endDate": "2026-11-15",
+    "latitude": 37.5172524381641,
+    "longitude": 126.970577601301,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157700&menuNo=200011"
+  },
+  {
+    "name": "[온에어갤러리] 지각의 층위와 그 지형",
+    "gu": "서대문구",
+    "venue": "온에어갤러리",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 서대문구의 온에어갤러리에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-21",
+    "endDate": "2026-05-17",
+    "latitude": 37.5662657676458,
+    "longitude": 126.93438086461,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157559&menuNo=200009"
+  },
+  {
+    "name": "[서울시립 서서울미술관] 서서울미술관 미디어랩 파일럿-리딩랩",
+    "gu": "금천구",
+    "venue": "서울시립 서서울미술관 스튜디오 2",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 금천구의 서울시립 서서울미술관 스튜디오 2에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-22",
+    "endDate": "2026-06-20",
+    "latitude": 37.4580752536422,
+    "longitude": 126.894935931812,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157579&menuNo=200011"
+  },
+  {
+    "name": "[서울시립 북서울미술관] Buk SeMA 미술사 산책 강연 시리즈 [창작하다]",
+    "gu": "노원구",
+    "venue": "서울시립 북서울미술관 B1 다목적홀",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 노원구의 서울시립 북서울미술관 B1 다목적홀에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-22",
+    "endDate": "2026-06-17",
+    "latitude": 37.6406604547872,
+    "longitude": 127.066865579183,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157283&menuNo=200011"
+  },
+  {
+    "name": "[동대문문화재단] 2026 답십리영화미디어아트센터 협력전시 [중간의 끝]",
+    "gu": "동대문구",
+    "venue": "답십리영화미디어아트센터 1층 기획전시실, 홀",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 동대문구의 답십리영화미디어아트센터 1층 기획전시실, 홀에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-22",
+    "endDate": "2026-05-31",
+    "latitude": 37.5717963732602,
+    "longitude": 127.063764029874,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157663&menuNo=200009"
+  },
+  {
+    "name": "[청담종합사회복지관] 청년 요리?사회참여 커뮤니티 [ON(溫)마을 행복한 밥상]",
+    "gu": "금천구",
+    "venue": "청담종합사회복지관 구관 1층 청담수랏간 및 소규모 회의실 등",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "야간"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 금천구의 청담종합사회복지관 구관 1층 청담수랏간 및 소규모 회의실 등에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-23",
+    "endDate": "2026-11-26",
+    "latitude": 37.4512729452486,
+    "longitude": 126.914088466401,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157052&menuNo=200011"
+  },
+  {
+    "name": "[서울시립 북서울미술관] 글짓, 쓰는 예술",
+    "gu": "노원구",
+    "venue": "서울시립 북서울미술관 1, 2층 전시실 1, 2, 3, 4, 별 마당",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "야간"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 노원구의 서울시립 북서울미술관 1, 2층 전시실 1, 2, 3, 4, 별 마당에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-23",
+    "endDate": "2026-07-12",
+    "latitude": 37.6406604547872,
+    "longitude": 127.066865579183,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157328&menuNo=200009"
+  },
+  {
+    "name": "[서울상상나라] 놀이의 가능성: 보다",
+    "gu": "광진구",
+    "venue": "서울상상나라 1층 로비",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 광진구의 서울상상나라 1층 로비에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-28",
+    "endDate": "2026-10-31",
+    "latitude": 37.55055,
+    "longitude": 127.077569,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157801&menuNo=200009"
+  },
+  {
+    "name": "[G밸리산업박물관] 기획전 [수학을 깨우는 산업 놀이터]",
+    "gu": "구로구",
+    "venue": "G밸리산업박물관 기획전시실",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 구로구의 G밸리산업박물관 기획전시실에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-28",
+    "endDate": "2026-09-26",
+    "latitude": 37.4798477003537,
+    "longitude": 126.895318461208,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157473&menuNo=200009"
+  },
+  {
+    "name": "[서울시립 서서울미술관] 서서울미술관 개관특별 프로젝트 [태각(胎刻)]",
+    "gu": "금천구",
+    "venue": "서울시립 서서울미술관 1층 미디어랩",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "야간"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 금천구의 서울시립 서서울미술관 1층 미디어랩에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-28",
+    "endDate": "2026-07-12",
+    "latitude": 37.4580752536422,
+    "longitude": 126.894935931812,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157669&menuNo=200009"
+  },
+  {
+    "name": "[관악문화재단] 2026년 예술의전당 싹온스크린(SAC ON SCREEN) 4월 상영작 안내",
+    "gu": "관악구",
+    "venue": "싱글벙글교육센터 싱글동 1층 다목적강당",
+    "category": "클래식",
+    "tags": [
+      "가성비",
+      "무료",
+      "공연",
+      "클래식",
+      "감성"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 관악구의 싱글벙글교육센터 싱글동 1층 다목적강당에서 진행되는 클래식 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-29",
+    "endDate": "2026-12-23",
+    "latitude": 37.4760962512417,
+    "longitude": 126.956288055678,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157608&menuNo=200008"
+  },
+  {
+    "name": "2026 방도 기획 공모 당선작 [Self-Clipper]",
+    "gu": "영등포구",
+    "venue": "2~3층",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "야간"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 영등포구의 2~3층에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-04",
+    "endDate": "2026-05-22",
+    "latitude": 37.5197542228629,
+    "longitude": 126.908890002748,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157810&menuNo=200009"
+  },
+  {
+    "name": "[구립증산도서관] 책 따라 걷는 도서관 5월 원화 전시 [백 개의 꽃씨와 쥐]",
+    "gu": "은평구",
+    "venue": "구립증산도서관 1층 로비 / 3층 어린이열람실",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "북데이트"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 은평구의 구립증산도서관 1층 로비 / 3층 어린이열람실에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-04",
+    "endDate": "2026-05-21",
+    "latitude": 37.5828094398328,
+    "longitude": 126.907671330325,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157733&menuNo=200009"
+  },
+  {
+    "name": "[중랑구립정보도서관] 2026 상반기 [중랑 공감소통 인문]",
+    "gu": "중랑구",
+    "venue": "중랑구립정보도서관 4층 강당",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "북데이트"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 중랑구의 중랑구립정보도서관 4층 강당에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-06",
+    "endDate": "2026-06-25",
+    "latitude": 37.6151705656244,
+    "longitude": 127.086906408215,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157447&menuNo=200011"
+  },
+  {
+    "name": "[서울문화예술교육센터 용산] 독서가이드 [고전발견 : 마침내, 인간]",
+    "gu": "용산구",
+    "venue": "서울문화예술교육센터 용산 5층 홀",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 용산구의 서울문화예술교육센터 용산 5층 홀에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-06",
+    "endDate": "2026-05-27",
+    "latitude": 37.5269056148241,
+    "longitude": 126.966566172294,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157709&menuNo=200011"
+  },
+  {
+    "name": "임하리 작가의 개인전 [구루구루 GURUGURU]",
+    "gu": "강남구",
+    "venue": "갤러리 플래닛 (서울시 강남구 압구정로 71길 14,2층)",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 강남구의 갤러리 플래닛 (서울시 강남구 압구정로 71길 14,2층)에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-07",
+    "endDate": "2026-05-30",
+    "latitude": 37.5275164514377,
+    "longitude": 127.045900812708,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157687&menuNo=200009"
+  },
+  {
+    "name": "[구립증산도서관] 스마트 아카데미 수강생 모집 (상반기)",
+    "gu": "은평구",
+    "venue": "구립증산도서관 1층 문화교육실",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트",
+      "북데이트"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 은평구의 구립증산도서관 1층 문화교육실에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-07",
+    "endDate": "2026-05-28",
+    "latitude": 37.5828094398328,
+    "longitude": 126.907671330325,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157522&menuNo=200011"
+  },
+  {
+    "name": "제8회 어르니마켓 서울 커먼그라운드",
+    "gu": "광진구",
+    "venue": "커먼그라운드 야외광장",
+    "category": "축제-기타",
+    "tags": [
+      "가성비",
+      "무료",
+      "축제",
+      "야외",
+      "야간"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 광진구의 커먼그라운드 야외광장에서 진행되는 축제-기타 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-09",
+    "endDate": "2026-05-17",
+    "latitude": 37.5410566332301,
+    "longitude": 127.065669226745,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157624&menuNo=200010"
+  },
+  {
+    "name": "[연세대학교 미래교육원] 서대문구 행복캠퍼스 연세 인생학교: AI 인사이트",
+    "gu": "서대문구",
+    "venue": "연세대학교 이윤재관",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 서대문구의 연세대학교 이윤재관에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-12",
+    "endDate": "2026-06-16",
+    "latitude": 37.5660508394158,
+    "longitude": 126.943916239886,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157542&menuNo=200011"
+  },
+  {
+    "name": "[서울문화예술교육센터 용산] 미술독서회 [질문하는 미술: 미술과 책으로 그려보는 오늘의 세계]",
+    "gu": "용산구",
+    "venue": "서울문화예술교육센터 용산 6층 다목적홀",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 용산구의 서울문화예술교육센터 용산 6층 다목적홀에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-12",
+    "endDate": "2026-06-02",
+    "latitude": 37.5269056148241,
+    "longitude": 126.966566172294,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157506&menuNo=200011"
+  },
+  {
+    "name": "[서울시립 서서울미술관] 개관 특별 미디어 소장품전 《서서울의 투명한 |청소년| 기계》",
+    "gu": "금천구",
+    "venue": "서울시립 서서울미술관 1층 제3전시실, B1 제 1,2전시실",
+    "category": "전시/미술",
+    "tags": [
+      "가성비",
+      "무료",
+      "전시",
+      "실내",
+      "야간"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 금천구의 서울시립 서서울미술관 1층 제3전시실, B1 제 1,2전시실에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-14",
+    "endDate": "2026-07-26",
+    "latitude": 37.4580752536422,
+    "longitude": 126.894935931812,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157782&menuNo=200009"
+  },
+  {
+    "name": "[중랑문화재단] 제 18회 중랑 서울장미축제",
+    "gu": "중랑구",
+    "venue": "중랑장미공원",
+    "category": "축제-자연/경관",
+    "tags": [
+      "가성비",
+      "무료",
+      "축제",
+      "야외"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 중랑구의 중랑장미공원에서 진행되는 축제-자연/경관 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-15",
+    "endDate": "2026-05-23",
+    "latitude": 37.6155290428269,
+    "longitude": 127.07327070655,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157630&menuNo=200010"
+  },
+  {
+    "name": "[서울문화재단] 춤추는 라운지 [바흐x무브먼트 in SDCC]",
+    "gu": "은평구",
+    "venue": "서울무용창작센터",
+    "category": "무용",
+    "tags": [
+      "가성비",
+      "무료"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 은평구의 서울무용창작센터에서 진행되는 무용 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-16",
+    "endDate": "2026-05-16",
+    "latitude": 37.5851270962157,
+    "longitude": 126.893782364905,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157494&menuNo=200008"
+  },
+  {
+    "name": "[양천중앙도서관] 북스타트 주간 공연 [나는 고양이로소이다]",
+    "gu": "양천구",
+    "venue": "양천중앙도서관 중앙홀",
+    "category": "연극",
+    "tags": [
+      "가성비",
+      "무료",
+      "공연",
+      "연극",
+      "북데이트"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 양천구의 양천중앙도서관 중앙홀에서 진행되는 연극 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-16",
+    "endDate": "2026-05-16",
+    "latitude": 37.5136519608227,
+    "longitude": 126.833629748577,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157427&menuNo=200008"
+  },
+  {
+    "name": "[구로문화재단] 2026 이달의 공연 [사운드트립]_5월 조환지&정승원",
+    "gu": "구로구",
+    "venue": "구로근린공원(기상 상황에 따라 변경될 수 있음)",
+    "category": "뮤지컬/오페라",
+    "tags": [
+      "가성비",
+      "무료",
+      "공연",
+      "뮤지컬"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 구로구의 구로근린공원(기상 상황에 따라 변경될 수 있음)에서 진행되는 뮤지컬/오페라 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-16",
+    "endDate": "2026-05-16",
+    "latitude": 37.4971233611345,
+    "longitude": 126.889592707143,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157597&menuNo=200008"
+  },
+  {
+    "name": "[용산역사박물관] 2026 용산역사박물관 [월간 청음회] 5월",
+    "gu": "용산구",
+    "venue": "용산역사박물관 1층 로비",
+    "category": "국악",
+    "tags": [
+      "가성비",
+      "무료"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 용산구의 용산역사박물관 1층 로비에서 진행되는 국악 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-16",
+    "endDate": "2026-05-16",
+    "latitude": 37.5256680404431,
+    "longitude": 126.965769395985,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157627&menuNo=200008"
+  },
+  {
+    "name": "2026년 2차 [논현글로벌평생학습센터] 학습자 모집",
+    "gu": "강남구",
+    "venue": "논현글로벌평생학습센터 3층 강의실",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 강남구의 논현글로벌평생학습센터 3층 강의실에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-18",
+    "endDate": "2026-08-14",
+    "latitude": 37.5138471082679,
+    "longitude": 127.027106142157,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157484&menuNo=200011"
+  },
+  {
+    "name": "[중랑문화재단] 중장년 문화예술교육 프로그램 [틈으로 바라본 삶의 초상]",
+    "gu": "중랑구",
+    "venue": "중랑아트센터 시청각실",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 중랑구의 중랑아트센터 시청각실에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-20",
+    "endDate": "2026-07-15",
+    "latitude": 37.5983328190955,
+    "longitude": 127.091624142481,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157808&menuNo=200011"
+  },
+  {
+    "name": "그 시절의 즐거움을, 지금 다시 함께 즐기는 축제 [낭만페스티벌]",
+    "gu": "성동구",
+    "venue": "언더스텐드에비뉴 중앙광장, 아트스텐드",
+    "category": "축제-기타",
+    "tags": [
+      "가성비",
+      "무료",
+      "축제",
+      "야외",
+      "야간"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 성동구의 언더스텐드에비뉴 중앙광장, 아트스텐드에서 진행되는 축제-기타 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-22",
+    "endDate": "2026-05-24",
+    "latitude": 37.5436228045917,
+    "longitude": 127.043585906393,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157694&menuNo=200010"
+  },
+  {
+    "name": "[세종문화회관] 제 4회 야외오페라 라 트라비아타",
+    "gu": "영등포구",
+    "venue": "여의도 한강공원 물빛무대",
+    "category": "뮤지컬/오페라",
+    "tags": [
+      "가성비",
+      "무료",
+      "공연",
+      "뮤지컬",
+      "야간"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 영등포구의 여의도 한강공원 물빛무대에서 진행되는 뮤지컬/오페라 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-22",
+    "endDate": "2026-05-23",
+    "latitude": 37.5328789407919,
+    "longitude": 126.929129692926,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157572&menuNo=200008"
+  },
+  {
+    "name": "[동작문화재단] 본동어울마당 아트홀 '본동 세레나데' 5회차 [여우락예술단의 독보적인 국악 한마당]",
+    "gu": "동작구",
+    "venue": "본동어울마당 아트홀",
+    "category": "국악",
+    "tags": [
+      "가성비",
+      "무료"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 동작구의 본동어울마당 아트홀에서 진행되는 국악 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-22",
+    "endDate": "2026-05-22",
+    "latitude": 37.5105308023837,
+    "longitude": 126.956894813525,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157480&menuNo=200008"
+  },
+  {
+    "name": "제7회 이수진 가야금 독주회 [絃의 여행 IV]",
+    "gu": "강남구",
+    "venue": "한국문화의집 kous",
+    "category": "국악",
+    "tags": [
+      "가성비",
+      "무료"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 강남구의 한국문화의집 kous에서 진행되는 국악 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-30",
+    "endDate": "2026-05-30",
+    "latitude": 37.5068278109456,
+    "longitude": 127.060465476538,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157722&menuNo=200008"
+  },
+  {
+    "name": "[광대생각] 2026 유아문화예술교육 [나를 데려다줘!] 참여 유아교육기관 모집",
+    "gu": "강북구",
+    "venue": "1회차  유아교육기관(유치원/어린이집) / 2~4회차 성북문화예술교육센터",
+    "category": "교육/체험",
+    "tags": [
+      "가성비",
+      "무료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 강북구의 1회차  유아교육기관(유치원/어린이집) / 2~4회차 성북문화예술교육센터에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-06-01",
+    "endDate": "2026-06-30",
+    "latitude": 37.6102411295211,
+    "longitude": 127.049789635556,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157657&menuNo=200011"
+  },
+  {
+    "name": "[구로문화재단] 2026 이달의 공연 [사운드트립]_6월 최정원&드림뮤지컬",
+    "gu": "구로구",
+    "venue": "구로근린공원 (기상악화 시 구로구청 강당)",
+    "category": "뮤지컬/오페라",
+    "tags": [
+      "가성비",
+      "무료",
+      "공연",
+      "뮤지컬"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 구로구의 구로근린공원 (기상악화 시 구로구청 강당)에서 진행되는 뮤지컬/오페라 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-06-13",
+    "endDate": "2026-06-13",
+    "latitude": 37.4971233611345,
+    "longitude": 126.889592707143,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157710&menuNo=200008"
+  },
+  {
+    "name": "[서울문화예술교육센터 강북] 공연 '라이브씨어터' [단편소설극장]",
+    "gu": "강북구",
+    "venue": "2층 예술당솔샘",
+    "category": "연극",
+    "tags": [
+      "가성비",
+      "무료",
+      "공연",
+      "연극",
+      "야간"
+    ],
+    "score": 8.1,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 강북구의 2층 예술당솔샘에서 진행되는 연극 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-06-26",
+    "endDate": "2026-06-27",
+    "latitude": 37.6195551709225,
+    "longitude": 127.017722183323,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157704&menuNo=200008"
+  },
+  {
+    "name": "2026 도암 인문학 클래스: 에피소드로 듣는 서양예술사",
+    "gu": "종로구",
+    "venue": "서울아트센터 도암 3층 도암갤러리 내 아카데미룸",
+    "category": "교육/체험",
+    "tags": [
+      "유료",
+      "체험",
+      "이색데이트",
+      "야간",
+      "인기지역"
+    ],
+    "score": 8.0,
+    "reason": "종로구의 서울아트센터 도암 3층 도암갤러리 내 아카데미룸에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-10",
+    "endDate": "2026-06-02",
+    "latitude": 37.6057079931502,
+    "longitude": 126.967906461707,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156684&menuNo=200011"
+  },
+  {
+    "name": "[세종문화회관] 세종예술아카데미 [히든보이스]",
+    "gu": "종로구",
+    "venue": "세종문화회관 서클홀",
+    "category": "교육/체험",
+    "tags": [
+      "유료",
+      "체험",
+      "이색데이트",
+      "인기지역"
+    ],
+    "score": 8.0,
+    "reason": "종로구의 세종문화회관 서클홀에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-17",
+    "endDate": "2026-06-30",
+    "latitude": 37.5726241,
+    "longitude": 126.9760053,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156809&menuNo=200011"
+  },
+  {
+    "name": "[서울생활문화센터 낙원] 초보기타 교실 추가모집 / 색소폰 교실 & 클리닉",
+    "gu": "종로구",
+    "venue": "서울생활문화센터 낙원 5번 안내실",
+    "category": "교육/체험",
+    "tags": [
+      "유료",
+      "체험",
+      "이색데이트",
+      "인기지역"
+    ],
+    "score": 8.0,
+    "reason": "종로구의 서울생활문화센터 낙원 5번 안내실에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-18",
+    "endDate": "2026-06-24",
+    "latitude": 37.5727635233966,
+    "longitude": 126.987902476529,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156978&menuNo=200011"
+  },
+  {
+    "name": "[세종문화회관] 세종예술아카데미 [클래식브런치]",
+    "gu": "종로구",
+    "venue": "세종문화회관 서클홀",
+    "category": "교육/체험",
+    "tags": [
+      "유료",
+      "체험",
+      "이색데이트",
+      "공연",
+      "클래식"
+    ],
+    "score": 8.0,
+    "reason": "종로구의 세종문화회관 서클홀에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-18",
+    "endDate": "2026-05-20",
+    "latitude": 37.5726241,
+    "longitude": 126.9760053,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156880&menuNo=200011"
+  },
+  {
+    "name": "[세종문화회관] 세종예술아카데미 [이야기가 있는 클래식]",
+    "gu": "종로구",
+    "venue": "세종문화회관 서클홀",
+    "category": "교육/체험",
+    "tags": [
+      "유료",
+      "체험",
+      "이색데이트",
+      "공연",
+      "클래식"
+    ],
+    "score": 8.0,
+    "reason": "종로구의 세종문화회관 서클홀에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-19",
+    "endDate": "2026-05-28",
+    "latitude": 37.5726241,
+    "longitude": 126.9760053,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156883&menuNo=200011"
+  },
+  {
+    "name": "[세종문화회관] 세종예술아카데미 [미술사가 이 현의 전시와 함께보는 서양 미술사 - 바로크와 로코코]",
+    "gu": "종로구",
+    "venue": "세종문화회관 서클홀",
+    "category": "교육/체험",
+    "tags": [
+      "유료",
+      "체험",
+      "이색데이트",
+      "인기지역"
+    ],
+    "score": 8.0,
+    "reason": "종로구의 세종문화회관 서클홀에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-19",
+    "endDate": "2026-05-21",
+    "latitude": 37.5726241,
+    "longitude": 126.9760053,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156881&menuNo=200011"
+  },
+  {
+    "name": "[세종문화회관] 세종예술아카데미 [그레이스 발레 (성인 취미 발레)]",
+    "gu": "종로구",
+    "venue": "세종문화회관 예술동 4층 종합연습실",
+    "category": "교육/체험",
+    "tags": [
+      "유료",
+      "체험",
+      "이색데이트",
+      "인기지역"
+    ],
+    "score": 8.0,
+    "reason": "종로구의 세종문화회관 예술동 4층 종합연습실에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-30",
+    "endDate": "2026-06-29",
+    "latitude": 37.5726241,
+    "longitude": 126.9760053,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156885&menuNo=200011"
+  },
+  {
+    "name": "[세종문화회관] 세종예술아카데미 [정승빈 작가] 스테들러와 함께하는 여행드로잉 클래스",
+    "gu": "종로구",
+    "venue": "세종예술아카데미 스퀘어홀",
+    "category": "교육/체험",
+    "tags": [
+      "유료",
+      "체험",
+      "이색데이트",
+      "인기지역"
+    ],
+    "score": 8.0,
+    "reason": "종로구의 세종예술아카데미 스퀘어홀에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-31",
+    "endDate": "2026-09-15",
+    "latitude": 37.5726241,
+    "longitude": 126.9760053,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157026&menuNo=200011"
+  },
+  {
+    "name": "[세종문화회관] 세종예술아카데미 [박인홍 작가] 스테들러와 함께하는 여행드로잉 클래스",
+    "gu": "종로구",
+    "venue": "세종예술아카데미 스퀘어홀",
+    "category": "교육/체험",
+    "tags": [
+      "유료",
+      "체험",
+      "이색데이트",
+      "인기지역"
+    ],
+    "score": 8.0,
+    "reason": "종로구의 세종예술아카데미 스퀘어홀에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-31",
+    "endDate": "2026-08-31",
+    "latitude": 37.5726241,
+    "longitude": 126.9760053,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157025&menuNo=200011"
+  },
+  {
+    "name": "2026년 집옥재(팔우정 포함) 작은 도서관 개방",
+    "gu": "종로구",
+    "venue": "경복궁 집옥재?팔우정",
+    "category": "교육/체험",
+    "tags": [
+      "유료",
+      "체험",
+      "이색데이트",
+      "북데이트",
+      "정적인"
+    ],
+    "score": 8.0,
+    "reason": "종로구의 경복궁 집옥재?팔우정에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-01",
+    "endDate": "2026-10-31",
+    "latitude": 37.5759040910202,
+    "longitude": 126.976842133821,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157383&menuNo=200011"
+  },
+  {
+    "name": "2026년 경복궁 [경회루?향원정] 특별관람",
+    "gu": "종로구",
+    "venue": "경복궁 경회루?향원정",
+    "category": "교육/체험",
+    "tags": [
+      "유료",
+      "체험",
+      "이색데이트",
+      "인기지역"
+    ],
+    "score": 8.0,
+    "reason": "종로구의 경복궁 경회루?향원정에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-01",
+    "endDate": "2026-10-30",
+    "latitude": 37.5759040910202,
+    "longitude": 126.976842133821,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157389&menuNo=200011"
+  },
+  {
+    "name": "[운현궁] 2026 서울 운현궁 예절교실",
+    "gu": "종로구",
+    "venue": "운현궁 이로당, 노락당",
+    "category": "교육/체험",
+    "tags": [
+      "유료",
+      "체험",
+      "이색데이트",
+      "인기지역"
+    ],
+    "score": 8.0,
+    "reason": "종로구의 운현궁 이로당, 노락당에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-01",
+    "endDate": "2026-06-12",
+    "latitude": 37.57607864675475,
+    "longitude": 126.987083357962,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156901&menuNo=200011"
+  },
+  {
+    "name": "기.기.기(奇.己.氣): 동시대와 시행착오",
+    "gu": "종로구",
+    "venue": "일민미술관",
+    "category": "전시/미술",
+    "tags": [
+      "유료",
+      "전시",
+      "실내",
+      "야간",
+      "인기지역"
+    ],
+    "score": 8.0,
+    "reason": "종로구의 일민미술관에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-01",
+    "endDate": "2026-05-31",
+    "latitude": 37.5698677620456,
+    "longitude": 126.977657083792,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157256&menuNo=200009"
+  },
+  {
+    "name": "[경복궁] 2026 생과방(상반기)",
+    "gu": "종로구",
+    "venue": "경복궁 생과방",
+    "category": "교육/체험",
+    "tags": [
+      "유료",
+      "체험",
+      "이색데이트",
+      "인기지역"
+    ],
+    "score": 8.0,
+    "reason": "종로구의 경복궁 생과방에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-08",
+    "endDate": "2026-05-27",
+    "latitude": 37.5759040910202,
+    "longitude": 126.976842133821,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157368&menuNo=200011"
+  },
+  {
+    "name": "2026년 창덕궁 달빛기행(상반기)",
+    "gu": "종로구",
+    "venue": "창덕궁",
+    "category": "교육/체험",
+    "tags": [
+      "유료",
+      "체험",
+      "이색데이트",
+      "야간",
+      "인기지역"
+    ],
+    "score": 8.0,
+    "reason": "종로구의 창덕궁에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-16",
+    "endDate": "2026-05-31",
+    "latitude": 37.5788697347103,
+    "longitude": 126.989710338876,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157394&menuNo=200011"
+  },
+  {
+    "name": "Catherine & Renato CASCIANI: Somebody has to collect it",
+    "gu": "종로구",
+    "venue": "서울시 종로구 토탈미술관 전관",
+    "category": "전시/미술",
+    "tags": [
+      "유료",
+      "전시",
+      "실내",
+      "인기지역"
+    ],
+    "score": 8.0,
+    "reason": "종로구의 서울시 종로구 토탈미술관 전관에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-30",
+    "endDate": "2026-05-31",
+    "latitude": 37.6121218314376,
+    "longitude": 126.975674758078,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157628&menuNo=200009"
+  },
+  {
+    "name": "김영준 x 요시다 유니 기획전 Face to face",
+    "gu": "중구",
+    "venue": "DDP 이간수문전시장",
+    "category": "전시/미술",
+    "tags": [
+      "유료",
+      "전시",
+      "실내",
+      "야간",
+      "인기지역"
+    ],
+    "score": 8.0,
+    "reason": "중구의 DDP 이간수문전시장에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-07",
+    "endDate": "2026-06-07",
+    "latitude": 37.56735731522952,
+    "longitude": 127.0097797348434,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157672&menuNo=200009"
+  },
+  {
+    "name": "2026 Creative AI : Computer Vision",
+    "gu": "종로구",
+    "venue": "서울 종로구 율곡로 1길 37",
+    "category": "교육/체험",
+    "tags": [
+      "유료",
+      "체험",
+      "이색데이트",
+      "야간",
+      "인기지역"
+    ],
+    "score": 8.0,
+    "reason": "종로구의 서울 종로구 율곡로 1길 37에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-12",
+    "endDate": "2026-06-09",
+    "latitude": 37.5696912777696,
+    "longitude": 126.980303746598,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157502&menuNo=200011"
+  },
+  {
+    "name": "[세종문화회관] In the Bamboo Forest",
+    "gu": "종로구",
+    "venue": "세종M씨어터",
+    "category": "무용",
+    "tags": [
+      "유료",
+      "야간",
+      "인기지역"
+    ],
+    "score": 8.0,
+    "reason": "종로구의 세종M씨어터에서 진행되는 무용 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-15",
+    "endDate": "2026-05-17",
+    "latitude": 37.5726241,
+    "longitude": 126.9760053,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156602&menuNo=200008"
+  },
+  {
+    "name": "황건영 피아노 독주회",
+    "gu": "종로구",
+    "venue": "세종체임버홀",
+    "category": "독주/독창회",
+    "tags": [
+      "유료",
+      "야간",
+      "인기지역"
+    ],
+    "score": 8.0,
+    "reason": "종로구의 세종체임버홀에서 진행되는 독주/독창회 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-15",
+    "endDate": "2026-05-15",
+    "latitude": 37.5726241,
+    "longitude": 126.9760053,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157575&menuNo=200008"
+  },
+  {
+    "name": "[서울남산국악당] 제26회 서울국제즉흥춤축제 개막공연",
+    "gu": "중구",
+    "venue": "서울남산국악당",
+    "category": "국악",
+    "tags": [
+      "유료",
+      "축제",
+      "야외",
+      "야간",
+      "인기지역"
+    ],
+    "score": 8.0,
+    "reason": "중구의 서울남산국악당에서 진행되는 국악 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-16",
+    "endDate": "2026-05-16",
+    "latitude": 37.5583499463987,
+    "longitude": 126.994021611776,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157322&menuNo=200008"
+  },
+  {
+    "name": "[춘섬이의 거짓말] - 제47회 서울연극제 공식선정작",
+    "gu": "종로구",
+    "venue": "아르코예술극장 대극장",
+    "category": "연극",
+    "tags": [
+      "유료",
+      "공연",
+      "연극",
+      "야간",
+      "인기지역"
+    ],
+    "score": 8.0,
+    "reason": "종로구의 아르코예술극장 대극장에서 진행되는 연극 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-22",
+    "endDate": "2026-05-31",
+    "latitude": 37.5811855191284,
+    "longitude": 127.002999899724,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157550&menuNo=200008"
+  },
+  {
+    "name": "윤은경 피아노 독주회",
+    "gu": "종로구",
+    "venue": "세종체임버홀",
+    "category": "독주/독창회",
+    "tags": [
+      "유료",
+      "야간",
+      "인기지역"
+    ],
+    "score": 8.0,
+    "reason": "종로구의 세종체임버홀에서 진행되는 독주/독창회 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-23",
+    "endDate": "2026-05-23",
+    "latitude": 37.5726241,
+    "longitude": 126.9760053,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157590&menuNo=200008"
+  },
+  {
+    "name": "[세종문화회관] 세종예술아카데미 [어반드로잉(입문)]",
+    "gu": "종로구",
+    "venue": "세종문화회관 스퀘어홀",
+    "category": "교육/체험",
+    "tags": [
+      "유료",
+      "체험",
+      "이색데이트",
+      "인기지역"
+    ],
+    "score": 8.0,
+    "reason": "종로구의 세종문화회관 스퀘어홀에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-27",
+    "endDate": "2026-06-24",
+    "latitude": 37.5726241,
+    "longitude": 126.9760053,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157100&menuNo=200011"
+  },
+  {
+    "name": "[세종문화회관] 세종예술아카데미 [어반드로잉(기초)]",
+    "gu": "종로구",
+    "venue": "세종문화회관 스퀘어홀",
+    "category": "교육/체험",
+    "tags": [
+      "유료",
+      "체험",
+      "이색데이트",
+      "인기지역"
+    ],
+    "score": 8.0,
+    "reason": "종로구의 세종문화회관 스퀘어홀에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-27",
+    "endDate": "2026-06-24",
+    "latitude": 37.5726241,
+    "longitude": 126.9760053,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157099&menuNo=200011"
+  },
+  {
+    "name": "[세종문화회관] 26세종시즌 [Re-프로젝트 형식의 재발견]",
+    "gu": "종로구",
+    "venue": "세종문화회관 세종M씨어터",
+    "category": "국악",
+    "tags": [
+      "유료",
+      "야간",
+      "인기지역"
+    ],
+    "score": 8.0,
+    "reason": "종로구의 세종문화회관 세종M씨어터에서 진행되는 국악 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-29",
+    "endDate": "2026-05-29",
+    "latitude": 37.5726241,
+    "longitude": 126.9760053,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157681&menuNo=200008"
+  },
+  {
+    "name": "[서울돈화문국악당] 2026 돈화문 국악위크 [사이... 소리... 숨...]",
+    "gu": "종로구",
+    "venue": "서울돈화문국악당",
+    "category": "국악",
+    "tags": [
+      "유료",
+      "야간",
+      "인기지역"
+    ],
+    "score": 8.0,
+    "reason": "종로구의 서울돈화문국악당에서 진행되는 국악 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-06-05",
+    "endDate": "2026-06-06",
+    "latitude": 37.5772502822,
+    "longitude": 126.9907306641,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157811&menuNo=200008"
+  },
+  {
+    "name": "제5회 서초구 아버지센터 [서리풀 아마추어 남성 성악 콩쿠르]",
+    "gu": "서초구",
+    "venue": "방배열린문화센터 4층 대강당",
+    "category": "기타",
+    "tags": [
+      "유료",
+      "인기지역"
+    ],
+    "score": 8.0,
+    "reason": "서초구의 방배열린문화센터 4층 대강당에서 진행되는 기타 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-06-13",
+    "endDate": "2026-06-13",
+    "latitude": 37.48915960825706,
+    "longitude": 126.99374704778856,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157668&menuNo=200013"
+  },
+  {
+    "name": "[마포문화재단] 체홉 4대 장막 낭독극 [공놀이클럽의 사계절 체홉: 바냐 아저씨]",
+    "gu": "마포구",
+    "venue": " 마포아트센터 플레이맥",
+    "category": "연극",
+    "tags": [
+      "유료",
+      "공연",
+      "연극",
+      "인기지역"
+    ],
+    "score": 8.0,
+    "reason": "마포구의  마포아트센터 플레이맥에서 진행되는 연극 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-06-20",
+    "endDate": "2026-06-20",
+    "latitude": 37.5499060881738,
+    "longitude": 126.945533810385,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157803&menuNo=200008"
+  },
+  {
+    "name": "[서울상상나라] 2F 기획전시 [사랑하는 모양이야]",
+    "gu": "광진구",
+    "venue": "2층 서울형 키즈카페 시립 서울상상나라점",
+    "category": "전시/미술",
+    "tags": [
+      "유료",
+      "전시",
+      "실내"
+    ],
+    "score": 7.8,
+    "reason": "광진구의 2층 서울형 키즈카페 시립 서울상상나라점에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2025-11-15",
+    "endDate": "2026-11-15",
+    "latitude": 37.55055,
+    "longitude": 127.077569,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156165&menuNo=200009"
+  },
+  {
+    "name": "[노원문화재단] 인상파, 찬란한 순간들: 모네, 르누아르, 반 고흐 그리고 세잔",
+    "gu": "노원구",
+    "venue": "노원문화예술회관 4층 노원아트뮤지엄",
+    "category": "전시/미술",
+    "tags": [
+      "유료",
+      "전시",
+      "실내",
+      "야간"
+    ],
+    "score": 7.8,
+    "reason": "노원구의 노원문화예술회관 4층 노원아트뮤지엄에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2025-12-19",
+    "endDate": "2026-05-31",
+    "latitude": 37.6502368524442,
+    "longitude": 127.080267103033,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=155934&menuNo=200009"
+  },
+  {
+    "name": "[서울시] 2026년 서울청년문화패스 신청자 모집",
+    "gu": "중구",
+    "venue": "온라인 접수",
+    "category": "기타",
+    "tags": [
+      "가성비",
+      "무료",
+      "인기지역"
+    ],
+    "score": 7.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 중구의 온라인 접수에서 진행되는 기타 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2025-12-22",
+    "endDate": "2026-12-31",
+    "latitude": 37.56672958991572,
+    "longitude": 126.97860700965404,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156277&menuNo=200013"
+  },
+  {
+    "name": "[마포구립서강도서관] 독서토론회 [2026년 목, 수다]",
+    "gu": "마포구",
+    "venue": "마포구립서강도서관 3층 Book C",
+    "category": "기타",
+    "tags": [
+      "가성비",
+      "무료",
+      "북데이트",
+      "정적인",
+      "인기지역"
+    ],
+    "score": 7.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 마포구의 마포구립서강도서관 3층 Book C에서 진행되는 기타 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-01-22",
+    "endDate": "2026-12-24",
+    "latitude": 37.5477347268018,
+    "longitude": 126.932061794829,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156177&menuNo=200013"
+  },
+  {
+    "name": "[은평역사한옥박물관] 2026년 상반기 소목교실",
+    "gu": "은평구",
+    "venue": "은평역사한옥박물관 목공실",
+    "category": "교육/체험",
+    "tags": [
+      "유료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 7.8,
+    "reason": "은평구의 은평역사한옥박물관 목공실에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-07",
+    "endDate": "2026-05-30",
+    "latitude": 37.6404009547,
+    "longitude": 126.9380554763,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156683&menuNo=200011"
+  },
+  {
+    "name": "[은평역사한옥박물관] 지혜가 담긴 한옥-온돌",
+    "gu": "은평구",
+    "venue": "은평역사한옥박물관 교육실 및 전시실 ",
+    "category": "교육/체험",
+    "tags": [
+      "유료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 7.8,
+    "reason": "은평구의 은평역사한옥박물관 교육실 및 전시실 에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-10",
+    "endDate": "2026-07-31",
+    "latitude": 37.6404009547,
+    "longitude": 126.9380554763,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157129&menuNo=200011"
+  },
+  {
+    "name": "[서울시립과학관] 미스터리 AI 사라진 가족의 행방",
+    "gu": "노원구",
+    "venue": "서울시립과학관 1층 메이커스튜디오",
+    "category": "교육/체험",
+    "tags": [
+      "유료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 7.8,
+    "reason": "노원구의 서울시립과학관 1층 메이커스튜디오에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-11",
+    "endDate": "2026-08-22",
+    "latitude": 37.6419941138165,
+    "longitude": 127.07743706477,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157492&menuNo=200011"
+  },
+  {
+    "name": "[서울도서관] 2026년 서울야외도서관 (책읽는 서울광장, 광화문 책마당, 책읽는 맑은 냇가)",
+    "gu": "중구",
+    "venue": "서울광장, 광화문 광장, 청계천 일대",
+    "category": "축제-문화/예술",
+    "tags": [
+      "가성비",
+      "무료",
+      "축제",
+      "야외",
+      "북데이트"
+    ],
+    "score": 7.8,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 중구의 서울광장, 광화문 광장, 청계천 일대에서 진행되는 축제-문화/예술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-23",
+    "endDate": "2026-11-01",
+    "latitude": 37.5653338689441,
+    "longitude": 126.97769782752,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156879&menuNo=200010"
+  },
+  {
+    "name": "절망에서 기쁨으로 : From Despair to Joy",
+    "gu": "성동구",
+    "venue": "서울숲 STUDIO301",
+    "category": "클래식",
+    "tags": [
+      "유료",
+      "공연",
+      "클래식",
+      "감성"
+    ],
+    "score": 7.8,
+    "reason": "성동구의 서울숲 STUDIO301에서 진행되는 클래식 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-25",
+    "endDate": "2026-05-30",
+    "latitude": 37.5478626400492,
+    "longitude": 127.041318800252,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157403&menuNo=200008"
+  },
+  {
+    "name": "[서울시립과학관] 세상을 담은 밥 한 그릇의 의미",
+    "gu": "노원구",
+    "venue": "서울시립과학관",
+    "category": "교육/체험",
+    "tags": [
+      "유료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 7.8,
+    "reason": "노원구의 서울시립과학관에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-26",
+    "endDate": "2026-05-31",
+    "latitude": 37.6419941138165,
+    "longitude": 127.07743706477,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157493&menuNo=200011"
+  },
+  {
+    "name": "[중랑문화재단] 봉화산 옹기문화마당 5월~6월 체험프로그램",
+    "gu": "중랑구",
+    "venue": "봉화산 옹기문화마당(중랑구 신내로21길 115-1)",
+    "category": "교육/체험",
+    "tags": [
+      "유료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 7.8,
+    "reason": "중랑구의 봉화산 옹기문화마당(중랑구 신내로21길 115-1)에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-02",
+    "endDate": "2026-06-27",
+    "latitude": 37.6126537169803,
+    "longitude": 127.088519359108,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157529&menuNo=200011"
+  },
+  {
+    "name": "[서울식물원] 2026 낭만수국전 HYDRANGEA SHOW",
+    "gu": "강서구",
+    "venue": "서울식물원 전시온실 지중해관",
+    "category": "전시/미술",
+    "tags": [
+      "유료",
+      "전시",
+      "실내"
+    ],
+    "score": 7.8,
+    "reason": "강서구의 서울식물원 전시온실 지중해관에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-02",
+    "endDate": "2026-05-31",
+    "latitude": 37.569657094189104,
+    "longitude": 126.83500723721524,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157795&menuNo=200009"
+  },
+  {
+    "name": "[서울상상나라] To. 외계인",
+    "gu": "광진구",
+    "venue": "서울상상나라 B1 창의놀이실",
+    "category": "교육/체험",
+    "tags": [
+      "유료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 7.8,
+    "reason": "광진구의 서울상상나라 B1 창의놀이실에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-09",
+    "endDate": "2026-07-19",
+    "latitude": 37.55055,
+    "longitude": 127.077569,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157797&menuNo=200011"
+  },
+  {
+    "name": "[서울상상나라] 에너지 위기! 대체에너지 탐험",
+    "gu": "광진구",
+    "venue": "서울상상나라 B1 표현놀이실",
+    "category": "교육/체험",
+    "tags": [
+      "유료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 7.8,
+    "reason": "광진구의 서울상상나라 B1 표현놀이실에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-09",
+    "endDate": "2026-07-19",
+    "latitude": 37.55055,
+    "longitude": 127.077569,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157798&menuNo=200011"
+  },
+  {
+    "name": "[서울상상나라] 우리 가족 얼굴 피자",
+    "gu": "광진구",
+    "venue": "서울상상나라 B1 요리놀이실",
+    "category": "교육/체험",
+    "tags": [
+      "유료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 7.8,
+    "reason": "광진구의 서울상상나라 B1 요리놀이실에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-09",
+    "endDate": "2026-05-31",
+    "latitude": 37.55055,
+    "longitude": 127.077569,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157800&menuNo=200011"
+  },
+  {
+    "name": "[서울상상나라] 연두빛 타르트",
+    "gu": "광진구",
+    "venue": "서울상상나라 B1 요리놀이실",
+    "category": "교육/체험",
+    "tags": [
+      "유료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 7.8,
+    "reason": "광진구의 서울상상나라 B1 요리놀이실에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-09",
+    "endDate": "2026-05-31",
+    "latitude": 37.55055,
+    "longitude": 127.077569,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157799&menuNo=200011"
+  },
+  {
+    "name": "[서초문화재단] 서리풀 전곡 연주 시리즈 [하이든 교향곡 107 'Military']",
+    "gu": "성동구",
+    "venue": "반포심산아트홀",
+    "category": "클래식",
+    "tags": [
+      "유료",
+      "공연",
+      "클래식",
+      "감성",
+      "야간"
+    ],
+    "score": 7.8,
+    "reason": "성동구의 반포심산아트홀에서 진행되는 클래식 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-14",
+    "endDate": "2026-05-14",
+    "latitude": 37.4988344628,
+    "longitude": 126.9912424758,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157718&menuNo=200008"
+  },
+  {
+    "name": "[서울로봇인공지능과학관] 2026년 성인 대상 프로그램 [기록으로 기억하다]",
+    "gu": "도봉구",
+    "venue": "서울로봇인공지능과학관 2층 세미나실",
+    "category": "교육/체험",
+    "tags": [
+      "유료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 7.8,
+    "reason": "도봉구의 서울로봇인공지능과학관 2층 세미나실에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-20",
+    "endDate": "2026-05-21",
+    "latitude": 37.6555838047766,
+    "longitude": 127.049506212905,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157676&menuNo=200011"
+  },
+  {
+    "name": "이민지 바이올린 독주회",
+    "gu": "서대문구",
+    "venue": "금호아트홀 연세",
+    "category": "클래식",
+    "tags": [
+      "유료",
+      "공연",
+      "클래식",
+      "감성"
+    ],
+    "score": 7.8,
+    "reason": "서대문구의 금호아트홀 연세에서 진행되는 클래식 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-25",
+    "endDate": "2026-05-25",
+    "latitude": 37.5660508394158,
+    "longitude": 126.943916239886,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157791&menuNo=200008"
+  },
+  {
+    "name": "GS아트센터 x 국립심포니오케스트라 라이브 애니메이션 시네스테틱스 [피터와 늑대 & 어미 거위]",
+    "gu": "강남구",
+    "venue": "GS아트센터",
+    "category": "클래식",
+    "tags": [
+      "유료",
+      "공연",
+      "클래식",
+      "감성",
+      "야간"
+    ],
+    "score": 7.8,
+    "reason": "강남구의 GS아트센터에서 진행되는 클래식 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-28",
+    "endDate": "2026-05-28",
+    "latitude": 37.5019949322814,
+    "longitude": 127.037336400239,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156579&menuNo=200008"
+  },
+  {
+    "name": "[국립박물관문화재단] 뮤지엄 모먼트 [인문학 클래식 콘서트]",
+    "gu": "용산구",
+    "venue": "국립중앙박물관 극장 용",
+    "category": "클래식",
+    "tags": [
+      "유료",
+      "공연",
+      "클래식",
+      "감성",
+      "음악"
+    ],
+    "score": 7.8,
+    "reason": "용산구의 국립중앙박물관 극장 용에서 진행되는 클래식 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-06-10",
+    "endDate": "2026-06-11",
+    "latitude": 37.5247022357875,
+    "longitude": 126.977740246542,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157588&menuNo=200008"
+  },
+  {
+    "name": "[국립박물관문화재단] 인문학콘서트 [유물로 읽는 삶]",
+    "gu": "용산구",
+    "venue": "국립중앙박물관 극장 용",
+    "category": "클래식",
+    "tags": [
+      "유료",
+      "공연",
+      "클래식",
+      "감성",
+      "음악"
+    ],
+    "score": 7.8,
+    "reason": "용산구의 국립중앙박물관 극장 용에서 진행되는 클래식 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-06-17",
+    "endDate": "2026-06-18",
+    "latitude": 37.5247022357875,
+    "longitude": 126.977740246542,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157589&menuNo=200008"
+  },
+  {
+    "name": "[강북문화재단] 2026 마티네 콘서트 [탱고가 흐르는 아침]",
+    "gu": "강북구",
+    "venue": "강북문화예술회관 강북진달래홀",
+    "category": "콘서트",
+    "tags": [
+      "유료",
+      "공연",
+      "음악"
+    ],
+    "score": 7.8,
+    "reason": "강북구의 강북문화예술회관 강북진달래홀에서 진행되는 콘서트 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-06-17",
+    "endDate": "2026-06-17",
+    "latitude": 37.6409897866256,
+    "longitude": 127.013878144422,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157711&menuNo=200008"
+  },
+  {
+    "name": "[꿈의숲아트센터] 꿈의숲 마티네 콘서트 [벨에포크 아트&뮤직] 시리즈2",
+    "gu": "강북구",
+    "venue": "꿈의숲아트센터 콘서트홀",
+    "category": "콘서트",
+    "tags": [
+      "유료",
+      "공연",
+      "음악"
+    ],
+    "score": 7.8,
+    "reason": "강북구의 꿈의숲아트센터 콘서트홀에서 진행되는 콘서트 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-06-24",
+    "endDate": "2026-06-24",
+    "latitude": 37.6202544613023,
+    "longitude": 127.044324732036,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157755&menuNo=200008"
+  },
+  {
+    "name": "[GS아트센터] 양인모 X 김치앤칩스",
+    "gu": "강남구",
+    "venue": "GS아트센터",
+    "category": "클래식",
+    "tags": [
+      "유료",
+      "공연",
+      "클래식",
+      "감성",
+      "야간"
+    ],
+    "score": 7.8,
+    "reason": "강남구의 GS아트센터에서 진행되는 클래식 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-06-30",
+    "endDate": "2026-06-30",
+    "latitude": 37.5019949322814,
+    "longitude": 127.037336400239,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156772&menuNo=200008"
+  },
+  {
+    "name": "해외바이어가 직접 찾는 글로벌 전시회 [2026 인터참코리아] InterCHARM Korea",
+    "gu": "강남구",
+    "venue": "코엑스 A홀, C홀 ",
+    "category": "전시/미술",
+    "tags": [
+      "유료",
+      "전시",
+      "실내"
+    ],
+    "score": 7.8,
+    "reason": "강남구의 코엑스 A홀, C홀 에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-07-01",
+    "endDate": "2026-07-03",
+    "latitude": 37.5118239121138,
+    "longitude": 127.059159043842,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156571&menuNo=200009"
+  },
+  {
+    "name": "서울일러스트레이션페어V.21",
+    "gu": "강남구",
+    "venue": "서울 코엑스 C홀",
+    "category": "전시/미술",
+    "tags": [
+      "유료",
+      "전시",
+      "실내"
+    ],
+    "score": 7.8,
+    "reason": "강남구의 서울 코엑스 C홀에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-07-30",
+    "endDate": "2026-08-02",
+    "latitude": 37.5118239121138,
+    "longitude": 127.059159043842,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157622&menuNo=200009"
+  },
+  {
+    "name": "2026 한강불빛 공연 [드론라이트쇼]",
+    "gu": "영등포구",
+    "venue": "여의도?뚝섬?잠실한강공원",
+    "category": "축제-자연/경관",
+    "tags": [
+      "가성비",
+      "무료",
+      "축제",
+      "야외",
+      "야간"
+    ],
+    "score": 7.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 영등포구의 여의도?뚝섬?잠실한강공원에서 진행되는 축제-자연/경관 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-10",
+    "endDate": "2026-06-05",
+    "latitude": 37.5328789407919,
+    "longitude": 126.929129692926,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157197&menuNo=200010"
+  },
+  {
+    "name": "2026 책읽는 한강공원",
+    "gu": "영등포구",
+    "venue": "여의도한강공원 멀티플라자 및 잔디한강 일대",
+    "category": "기타",
+    "tags": [
+      "가성비",
+      "무료",
+      "야간"
+    ],
+    "score": 7.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 영등포구의 여의도한강공원 멀티플라자 및 잔디한강 일대에서 진행되는 기타 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-11",
+    "endDate": "2026-05-23",
+    "latitude": 37.52641658305322,
+    "longitude": 126.93522205907573,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157701&menuNo=200013"
+  },
+  {
+    "name": "[서울시립 사진미술관] 2026 서울사진축제 : 미술관 속 영화관 [진과 세계 사이에서]",
+    "gu": "도봉구",
+    "venue": "서울시립 사진미술관 2층 영상홀",
+    "category": "영화",
+    "tags": [
+      "가성비",
+      "무료",
+      "축제",
+      "야외"
+    ],
+    "score": 7.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 도봉구의 서울시립 사진미술관 2층 영상홀에서 진행되는 영화 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-24",
+    "endDate": "2026-05-29",
+    "latitude": 37.6555150225578,
+    "longitude": 127.048947814686,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157489&menuNo=200013"
+  },
+  {
+    "name": "2026 서로장터",
+    "gu": "성동구",
+    "venue": "서울광장, 서울숲, 양재시민의 숲, 잠수교",
+    "category": "축제-기타",
+    "tags": [
+      "가성비",
+      "무료",
+      "축제",
+      "야외"
+    ],
+    "score": 7.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 성동구의 서울광장, 서울숲, 양재시민의 숲, 잠수교에서 진행되는 축제-기타 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-26",
+    "endDate": "2026-11-01",
+    "latitude": 37.5430701468405,
+    "longitude": 127.041799099222,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157478&menuNo=200010"
+  },
+  {
+    "name": "2026 서울국제정원박람회",
+    "gu": "성동구",
+    "venue": "서울숲 일대",
+    "category": "축제-자연/경관",
+    "tags": [
+      "가성비",
+      "무료",
+      "축제",
+      "야외",
+      "야간"
+    ],
+    "score": 7.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 성동구의 서울숲 일대에서 진행되는 축제-자연/경관 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-01",
+    "endDate": "2026-10-27",
+    "latitude": 37.5430701468405,
+    "longitude": 127.041799099222,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156916&menuNo=200010"
+  },
+  {
+    "name": "[구립증산도서관] 2026년 5월 북인사이트 : 책으로 만나는 축제",
+    "gu": "은평구",
+    "venue": "구립증산도서관 2층 종합자료실 앞",
+    "category": "축제-문화/예술",
+    "tags": [
+      "가성비",
+      "무료",
+      "축제",
+      "야외",
+      "북데이트"
+    ],
+    "score": 7.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 은평구의 구립증산도서관 2층 종합자료실 앞에서 진행되는 축제-문화/예술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-01",
+    "endDate": "2026-05-31",
+    "latitude": 37.5828094398328,
+    "longitude": 126.907671330325,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157737&menuNo=200010"
+  },
+  {
+    "name": "[성동구립성수도서관] 다문화인식개선 교육 인형극 [아랫마을에서 온 두루미]",
+    "gu": "성동구",
+    "venue": "성수아트홀 2층 성수책마루",
+    "category": "연극",
+    "tags": [
+      "가성비",
+      "무료",
+      "공연",
+      "연극",
+      "북데이트"
+    ],
+    "score": 7.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 성동구의 성수아트홀 2층 성수책마루에서 진행되는 연극 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-12",
+    "endDate": "2026-05-12",
+    "latitude": 37.5454288300956,
+    "longitude": 127.046948095951,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157576&menuNo=200008"
+  },
+  {
+    "name": "[구립증산도서관] 가정의 달 특별공연 [마술연필을 가진 마술사]",
+    "gu": "은평구",
+    "venue": "구립증산도서관 2층 강당",
+    "category": "기타",
+    "tags": [
+      "가성비",
+      "무료",
+      "북데이트",
+      "정적인",
+      "야간"
+    ],
+    "score": 7.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 은평구의 구립증산도서관 2층 강당에서 진행되는 기타 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-12",
+    "endDate": "2026-05-12",
+    "latitude": 37.5828094398328,
+    "longitude": 126.907671330325,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157730&menuNo=200013"
+  },
+  {
+    "name": "[동대문문화재단] 브런치 콘서트 아트리움 - 국립오페라단: 국립오페라스튜디오",
+    "gu": "동대문구",
+    "venue": "선농단역사문화관 지하 3층 중정",
+    "category": "뮤지컬/오페라",
+    "tags": [
+      "가성비",
+      "무료",
+      "공연",
+      "음악",
+      "뮤지컬"
+    ],
+    "score": 7.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 동대문구의 선농단역사문화관 지하 3층 중정에서 진행되는 뮤지컬/오페라 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-13",
+    "endDate": "2026-05-13",
+    "latitude": 37.5811837728607,
+    "longitude": 127.031888509482,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157329&menuNo=200008"
+  },
+  {
+    "name": "[성동문화재단] 세계 영화 상영회 4회차 [스페인 영화]",
+    "gu": "성동구",
+    "venue": "성수아트홀",
+    "category": "영화",
+    "tags": [
+      "가성비",
+      "무료",
+      "야간"
+    ],
+    "score": 7.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 성동구의 성수아트홀에서 진행되는 영화 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-13",
+    "endDate": "2026-05-13",
+    "latitude": 37.5454288300956,
+    "longitude": 127.046948095951,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157500&menuNo=200013"
+  },
+  {
+    "name": "[성동문화재단] 다락(樂)옥수 '문화, 곁으로 오다' 4월 [SAC on Screen]",
+    "gu": "성동구",
+    "venue": "다락옥수",
+    "category": "뮤지컬/오페라",
+    "tags": [
+      "가성비",
+      "무료",
+      "공연",
+      "뮤지컬",
+      "야간"
+    ],
+    "score": 7.6,
+    "reason": "무료로 즐길 수 있어 부담이 낮고, 성동구의 다락옥수에서 진행되는 뮤지컬/오페라 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-27",
+    "endDate": "2026-05-27",
+    "latitude": 37.5429326268813,
+    "longitude": 127.016893391887,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157499&menuNo=200008"
+  },
+  {
+    "name": "[중구문화재단] 뮤지컬 [홍련]",
+    "gu": "중구",
+    "venue": "충무아트센터 중극장 블랙",
+    "category": "뮤지컬/오페라",
+    "tags": [
+      "유료",
+      "공연",
+      "뮤지컬",
+      "인기지역"
+    ],
+    "score": 7.5,
+    "reason": "중구의 충무아트센터 중극장 블랙에서 진행되는 뮤지컬/오페라 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-02-28",
+    "endDate": "2026-05-17",
+    "latitude": 37.5659409687669,
+    "longitude": 127.014790889728,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156539&menuNo=200008"
+  },
+  {
+    "name": "[국가유산청 궁능유적본부] 수문장 순라의식",
+    "gu": "종로구",
+    "venue": "(토요일)경복궁 내부 (일요일, 공휴일)인사동 문화의 거리",
+    "category": "기타",
+    "tags": [
+      "유료",
+      "인기지역"
+    ],
+    "score": 7.5,
+    "reason": "종로구의 (토요일)경복궁 내부 (일요일, 공휴일)인사동 문화의 거리에서 진행되는 기타 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-01",
+    "endDate": "2026-11-29",
+    "latitude": 37.5759040910202,
+    "longitude": 126.976842133821,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156996&menuNo=200013"
+  },
+  {
+    "name": "연극 [운베난트]",
+    "gu": "종로구",
+    "venue": "예스24스테이지 3관",
+    "category": "연극",
+    "tags": [
+      "유료",
+      "공연",
+      "연극",
+      "야간",
+      "인기지역"
+    ],
+    "score": 7.5,
+    "reason": "종로구의 예스24스테이지 3관에서 진행되는 연극 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-27",
+    "endDate": "2026-06-07",
+    "latitude": 37.5827488289051,
+    "longitude": 127.003160727291,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157115&menuNo=200008"
+  },
+  {
+    "name": "[남산골한옥마을] 남산골 전통혼례",
+    "gu": "중구",
+    "venue": "관훈동 민씨가옥 안채 마당 (야외 혼례)",
+    "category": "축제-전통/역사",
+    "tags": [
+      "유료",
+      "축제",
+      "야외",
+      "인기지역"
+    ],
+    "score": 7.5,
+    "reason": "중구의 관훈동 민씨가옥 안채 마당 (야외 혼례)에서 진행되는 축제-전통/역사 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-28",
+    "endDate": "2026-11-15",
+    "latitude": 37.559304933707146,
+    "longitude": 126.994440072131,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156333&menuNo=200010"
+  },
+  {
+    "name": "2026 국립정동극장 예술단 [광대]",
+    "gu": "중구",
+    "venue": "국립정동극장 (서울시 중구 정동길 43)",
+    "category": "국악",
+    "tags": [
+      "유료",
+      "야간",
+      "인기지역"
+    ],
+    "score": 7.5,
+    "reason": "중구의 국립정동극장 (서울시 중구 정동길 43)에서 진행되는 국악 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-03",
+    "endDate": "2026-05-30",
+    "latitude": 37.5659336365406,
+    "longitude": 126.972844434584,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156992&menuNo=200008"
+  },
+  {
+    "name": "[마포문화재단] 2026 마포문화재단 가족?어린이 축제 [해피 마포 와글와글] 뮤지컬 [푸른 사자 와니니]",
+    "gu": "마포구",
+    "venue": "마포아트센터 아트홀맥",
+    "category": "뮤지컬/오페라",
+    "tags": [
+      "유료",
+      "공연",
+      "뮤지컬",
+      "축제",
+      "야외"
+    ],
+    "score": 7.5,
+    "reason": "마포구의 마포아트센터 아트홀맥에서 진행되는 뮤지컬/오페라 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-01",
+    "endDate": "2026-05-24",
+    "latitude": 37.5499060881738,
+    "longitude": 126.945533810385,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157464&menuNo=200008"
+  },
+  {
+    "name": "빛과 어둠의 경계에서",
+    "gu": "종로구",
+    "venue": "세종문화회관 세종S씨어터",
+    "category": "연극",
+    "tags": [
+      "유료",
+      "공연",
+      "연극",
+      "야간",
+      "인기지역"
+    ],
+    "score": 7.5,
+    "reason": "종로구의 세종문화회관 세종S씨어터에서 진행되는 연극 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-02",
+    "endDate": "2026-05-25",
+    "latitude": 37.5726241,
+    "longitude": 126.9760053,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157335&menuNo=200008"
+  },
+  {
+    "name": "[종로문화재단] 2026 키우피우 오브제극축제 [봉장취]",
+    "gu": "종로구",
+    "venue": "종로 아이들극장",
+    "category": "연극",
+    "tags": [
+      "유료",
+      "공연",
+      "연극",
+      "축제",
+      "야외"
+    ],
+    "score": 7.5,
+    "reason": "종로구의 종로 아이들극장에서 진행되는 연극 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-14",
+    "endDate": "2026-05-16",
+    "latitude": 37.59029701704756,
+    "longitude": 126.99830160838778,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157043&menuNo=200008"
+  },
+  {
+    "name": "김민준 피아노 독주회",
+    "gu": "종로구",
+    "venue": "세종체임버홀",
+    "category": "독주/독창회",
+    "tags": [
+      "유료",
+      "야간",
+      "인기지역"
+    ],
+    "score": 7.5,
+    "reason": "종로구의 세종체임버홀에서 진행되는 독주/독창회 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-18",
+    "endDate": "2026-05-18",
+    "latitude": 37.5726241,
+    "longitude": 126.9760053,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157574&menuNo=200008"
+  },
+  {
+    "name": "이영주 피아노 리사이틀 [슈베르트 피아노 소나타 전곡 시리즈 I]",
+    "gu": "종로구",
+    "venue": "세종체임버홀",
+    "category": "독주/독창회",
+    "tags": [
+      "유료",
+      "야간",
+      "인기지역"
+    ],
+    "score": 7.5,
+    "reason": "종로구의 세종체임버홀에서 진행되는 독주/독창회 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-19",
+    "endDate": "2026-05-19",
+    "latitude": 37.5726241,
+    "longitude": 126.9760053,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157573&menuNo=200008"
+  },
+  {
+    "name": "연극 [화이트 래빗 레드 래빗 (WHITE RABBIT RED RABBIT)]",
+    "gu": "종로구",
+    "venue": "세종S씨어터",
+    "category": "연극",
+    "tags": [
+      "유료",
+      "공연",
+      "연극",
+      "인기지역"
+    ],
+    "score": 7.5,
+    "reason": "종로구의 세종S씨어터에서 진행되는 연극 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-27",
+    "endDate": "2026-06-07",
+    "latitude": 37.5726241,
+    "longitude": 126.9760053,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157682&menuNo=200008"
+  },
+  {
+    "name": "이한올 플루트 독주회",
+    "gu": "종로구",
+    "venue": "세종체임버홀",
+    "category": "독주/독창회",
+    "tags": [
+      "유료",
+      "야간",
+      "인기지역"
+    ],
+    "score": 7.5,
+    "reason": "종로구의 세종체임버홀에서 진행되는 독주/독창회 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-06-01",
+    "endDate": "2026-06-01",
+    "latitude": 37.5726241,
+    "longitude": 126.9760053,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157754&menuNo=200008"
+  },
+  {
+    "name": "[마포문화재단] 연극 [미미의 미미한 연애]",
+    "gu": "마포구",
+    "venue": "마포아트센터 플레이맥",
+    "category": "연극",
+    "tags": [
+      "유료",
+      "공연",
+      "연극",
+      "야간",
+      "인기지역"
+    ],
+    "score": 7.5,
+    "reason": "마포구의 마포아트센터 플레이맥에서 진행되는 연극 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-06-03",
+    "endDate": "2026-06-07",
+    "latitude": 37.5499060881738,
+    "longitude": 126.945533810385,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157450&menuNo=200008"
+  },
+  {
+    "name": "구민희 피아노 독주회",
+    "gu": "종로구",
+    "venue": "세종체임버홀",
+    "category": "독주/독창회",
+    "tags": [
+      "유료",
+      "인기지역"
+    ],
+    "score": 7.5,
+    "reason": "종로구의 세종체임버홀에서 진행되는 독주/독창회 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-06-03",
+    "endDate": "2026-06-03",
+    "latitude": 37.5726241,
+    "longitude": 126.9760053,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157753&menuNo=200008"
+  },
+  {
+    "name": "[서울식물원] 2025년 서울식물원 기획 전시 [우리들의 자연, 행성적 공존]",
+    "gu": "강서구",
+    "venue": "식물문화센터 프로젝트홀2, 주제원, 온실",
+    "category": "전시/미술",
+    "tags": [
+      "유료",
+      "전시",
+      "실내"
+    ],
+    "score": 7.3,
+    "reason": "강서구의 식물문화센터 프로젝트홀2, 주제원, 온실에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2025-05-27",
+    "endDate": "2026-05-24",
+    "latitude": 37.569657094189104,
+    "longitude": 126.83500723721524,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=153826&menuNo=200009"
+  },
+  {
+    "name": "[성북여성문화센터] 2026 봄학기 수강생 모집",
+    "gu": "성북구",
+    "venue": "성북여성문화센터",
+    "category": "교육/체험",
+    "tags": [
+      "유료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 7.3,
+    "reason": "성북구의 성북여성문화센터에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-02",
+    "endDate": "2026-05-31",
+    "latitude": 37.59561706859412,
+    "longitude": 127.00866241383996,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156648&menuNo=200011"
+  },
+  {
+    "name": "[영등포문화재단] 도림생활문화센터 2026 사계절클래스 [봄] 프로그램",
+    "gu": "영등포구",
+    "venue": "도림 생활문화센터",
+    "category": "교육/체험",
+    "tags": [
+      "유료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 7.3,
+    "reason": "영등포구의 도림 생활문화센터에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-18",
+    "endDate": "2026-05-28",
+    "latitude": 37.5099911988676,
+    "longitude": 126.908050531966,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156871&menuNo=200011"
+  },
+  {
+    "name": "[영등포문화재단] YDP창의예술교육센터 [예술놀이터 봄 프로그램]",
+    "gu": "영등포구",
+    "venue": "YDP창의예술교육센터",
+    "category": "교육/체험",
+    "tags": [
+      "유료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 7.3,
+    "reason": "영등포구의 YDP창의예술교육센터에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-24",
+    "endDate": "2026-05-31",
+    "latitude": 37.5377136039448,
+    "longitude": 126.895802789396,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156980&menuNo=200011"
+  },
+  {
+    "name": "[서울시립과학관] 2026 고교탐구교실",
+    "gu": "노원구",
+    "venue": "서울시립과학관 1~4교육실",
+    "category": "교육/체험",
+    "tags": [
+      "유료",
+      "체험",
+      "이색데이트",
+      "야간"
+    ],
+    "score": 7.3,
+    "reason": "노원구의 서울시립과학관 1~4교육실에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-01",
+    "endDate": "2026-12-31",
+    "latitude": 37.6419941138165,
+    "longitude": 127.07743706477,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156520&menuNo=200011"
+  },
+  {
+    "name": "[서울시립과학관] 2026 이공계 특화 진로 탐색",
+    "gu": "노원구",
+    "venue": "서울시립과학관 1~4교육실",
+    "category": "교육/체험",
+    "tags": [
+      "유료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 7.3,
+    "reason": "노원구의 서울시립과학관 1~4교육실에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-01",
+    "endDate": "2026-12-06",
+    "latitude": 37.6419941138165,
+    "longitude": 127.07743706477,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156519&menuNo=200011"
+  },
+  {
+    "name": "[서울시립과학관] 2026 과학테마교실",
+    "gu": "노원구",
+    "venue": "서울시립과학관 1~4교육실",
+    "category": "교육/체험",
+    "tags": [
+      "유료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 7.3,
+    "reason": "노원구의 서울시립과학관 1~4교육실에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-01",
+    "endDate": "2026-12-04",
+    "latitude": 37.6419941138165,
+    "longitude": 127.07743706477,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156523&menuNo=200011"
+  },
+  {
+    "name": "[영등포문화재단] 2026 도림 생활문화센터 특별프로그램",
+    "gu": "영등포구",
+    "venue": "도림 생활문화센터(영등포구 도신로 33길 4)",
+    "category": "교육/체험",
+    "tags": [
+      "유료",
+      "체험",
+      "이색데이트",
+      "야간"
+    ],
+    "score": 7.3,
+    "reason": "영등포구의 도림 생활문화센터(영등포구 도신로 33길 4)에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-02",
+    "endDate": "2026-07-21",
+    "latitude": 37.5099911988676,
+    "longitude": 126.908050531966,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157073&menuNo=200011"
+  },
+  {
+    "name": "[서울식물원] 주제정원 봄 전시 [봄빛 정원: 땅에서 피어난 봄빛]",
+    "gu": "강서구",
+    "venue": "서울식물원 주제정원 내 계류 주변",
+    "category": "전시/미술",
+    "tags": [
+      "유료",
+      "전시",
+      "실내"
+    ],
+    "score": 7.3,
+    "reason": "강서구의 서울식물원 주제정원 내 계류 주변에서 진행되는 전시/미술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-15",
+    "endDate": "2026-05-31",
+    "latitude": 37.569657094189104,
+    "longitude": 126.83500723721524,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157582&menuNo=200009"
+  },
+  {
+    "name": "[영등포문화재단] 2026 영등포아트홀 기획공연 [마티네콘서트 With 금난새]",
+    "gu": "영등포구",
+    "venue": "영등포아트홀",
+    "category": "클래식",
+    "tags": [
+      "유료",
+      "공연",
+      "클래식",
+      "감성",
+      "음악"
+    ],
+    "score": 7.3,
+    "reason": "영등포구의 영등포아트홀에서 진행되는 클래식 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-16",
+    "endDate": "2026-10-15",
+    "latitude": 37.5260087284496,
+    "longitude": 126.900109255921,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156776&menuNo=200008"
+  },
+  {
+    "name": "[관악문화재단] 2026 미디어센터관악[ AI 관악 미디어 크리에이터 아카데미 시즌1]",
+    "gu": "관악구",
+    "venue": "미디어센터 관악",
+    "category": "교육/체험",
+    "tags": [
+      "유료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 7.3,
+    "reason": "관악구의 미디어센터 관악에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-16",
+    "endDate": "2026-05-28",
+    "latitude": 37.4824643621379,
+    "longitude": 126.916405836212,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157336&menuNo=200011"
+  },
+  {
+    "name": "[서울시립과학관] 2026 과학관 성인교육 [내 몸 그림 설명서 - 그리고 움직이기]",
+    "gu": "노원구",
+    "venue": "서울시립과학관 3층 3교육실",
+    "category": "교육/체험",
+    "tags": [
+      "유료",
+      "체험",
+      "이색데이트"
+    ],
+    "score": 7.3,
+    "reason": "노원구의 서울시립과학관 3층 3교육실에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-12",
+    "endDate": "2026-05-26",
+    "latitude": 37.6419941138165,
+    "longitude": 127.07743706477,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157358&menuNo=200011"
+  },
+  {
+    "name": "[영둥포문화재단] 기획공연 발레 [피터팬]",
+    "gu": "영등포구",
+    "venue": "영등포아트홀",
+    "category": "무용",
+    "tags": [
+      "유료"
+    ],
+    "score": 7.3,
+    "reason": "영등포구의 영등포아트홀에서 진행되는 무용 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-23",
+    "endDate": "2026-05-24",
+    "latitude": 37.5260087284496,
+    "longitude": 126.900109255921,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156872&menuNo=200008"
+  },
+  {
+    "name": "[구로문화재단] 오류아트홀 5월기획공연 [춤이 말하다; 문소리X리아킴]",
+    "gu": "구로구",
+    "venue": "오류아트홀",
+    "category": "무용",
+    "tags": [
+      "유료"
+    ],
+    "score": 7.3,
+    "reason": "구로구의 오류아트홀에서 진행되는 무용 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-23",
+    "endDate": "2026-05-23",
+    "latitude": 37.4953581177106,
+    "longitude": 126.846035797544,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157600&menuNo=200008"
+  },
+  {
+    "name": "제3회 쉬엄쉬엄 한강 3종축제",
+    "gu": "광진구",
+    "venue": "뚝섬한강공원,잠실한강공원 일대",
+    "category": "축제-관광/체육",
+    "tags": [
+      "유료",
+      "축제",
+      "야외"
+    ],
+    "score": 7.3,
+    "reason": "광진구의 뚝섬한강공원,잠실한강공원 일대에서 진행되는 축제-관광/체육 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-06-05",
+    "endDate": "2026-06-07",
+    "latitude": 37.5293645718995,
+    "longitude": 127.073978164616,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157429&menuNo=200010"
+  },
+  {
+    "name": "[구로문화재단] 퓨전국악 콘서트_6월의 퀸(Queen)",
+    "gu": "구로구",
+    "venue": "오류아트홀",
+    "category": "국악",
+    "tags": [
+      "유료",
+      "공연",
+      "음악",
+      "야간"
+    ],
+    "score": 7.3,
+    "reason": "구로구의 오류아트홀에서 진행되는 국악 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-06-19",
+    "endDate": "2026-06-19",
+    "latitude": 37.4953581177106,
+    "longitude": 126.846035797544,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157620&menuNo=200008"
+  },
+  {
+    "name": "[관악문화재단] 음악공장 노올량 [플레이리스트 : 세대별 아리랑]",
+    "gu": "관악구",
+    "venue": "관악아트홀 공연장",
+    "category": "국악",
+    "tags": [
+      "유료"
+    ],
+    "score": 7.3,
+    "reason": "관악구의 관악아트홀 공연장에서 진행되는 국악 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-06-27",
+    "endDate": "2026-06-27",
+    "latitude": 37.4675533645757,
+    "longitude": 126.944962394132,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157768&menuNo=200008"
+  },
+  {
+    "name": "[GS아트센터] 다미앵 잘레 X 코헤이 나와 [프리즘]",
+    "gu": "강남구",
+    "venue": "GS아트센터",
+    "category": "무용",
+    "tags": [
+      "유료",
+      "야간"
+    ],
+    "score": 7.3,
+    "reason": "강남구의 GS아트센터에서 진행되는 무용 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-06-28",
+    "endDate": "2026-06-28",
+    "latitude": 37.5019949322814,
+    "longitude": 127.037336400239,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156773&menuNo=200008"
+  },
+  {
+    "name": "[GS아트센터] NDT 1 - 필름 스크리닝 [미스트]",
+    "gu": "강남구",
+    "venue": "GS아트센터",
+    "category": "무용",
+    "tags": [
+      "유료"
+    ],
+    "score": 7.3,
+    "reason": "강남구의 GS아트센터에서 진행되는 무용 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-06-28",
+    "endDate": "2026-06-28",
+    "latitude": 37.5019949322814,
+    "longitude": 127.037336400239,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156774&menuNo=200008"
+  },
+  {
+    "name": "[덕수궁] 2026 밤의 석조전(상반기)",
+    "gu": "중구",
+    "venue": "덕수궁 석조전 일원",
+    "category": "축제-전통/역사",
+    "tags": [
+      "유료",
+      "축제",
+      "야외",
+      "야간",
+      "인기지역"
+    ],
+    "score": 7.0,
+    "reason": "중구의 덕수궁 석조전 일원에서 진행되는 축제-전통/역사 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-08",
+    "endDate": "2026-05-17",
+    "latitude": 37.5677154464989,
+    "longitude": 126.974461639777,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157365&menuNo=200010"
+  },
+  {
+    "name": "[중구문화재단] 뮤지컬 [스윙 데이즈_암호명 A]",
+    "gu": "중구",
+    "venue": "충무아트센터 대극장",
+    "category": "뮤지컬/오페라",
+    "tags": [
+      "유료",
+      "공연",
+      "뮤지컬",
+      "야간",
+      "인기지역"
+    ],
+    "score": 7.0,
+    "reason": "중구의 충무아트센터 대극장에서 진행되는 뮤지컬/오페라 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-04-16",
+    "endDate": "2026-07-05",
+    "latitude": 37.5659409687669,
+    "longitude": 127.014790889728,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156673&menuNo=200008"
+  },
+  {
+    "name": "[GS아트센터] 2026 기획 시즌 안내",
+    "gu": "강남구",
+    "venue": "GS아트센터",
+    "category": "축제-문화/예술",
+    "tags": [
+      "유료",
+      "축제",
+      "야외"
+    ],
+    "score": 6.8,
+    "reason": "강남구의 GS아트센터에서 진행되는 축제-문화/예술 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-03-27",
+    "endDate": "2026-06-30",
+    "latitude": 37.5019949322814,
+    "longitude": 127.037336400239,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156413&menuNo=200010"
+  },
+  {
+    "name": "2026 한강 웰니스 위크",
+    "gu": "영등포구",
+    "venue": "광나루 한강공원 헬스장 주변",
+    "category": "축제-관광/체육",
+    "tags": [
+      "유료",
+      "축제",
+      "야외"
+    ],
+    "score": 6.8,
+    "reason": "영등포구의 광나루 한강공원 헬스장 주변에서 진행되는 축제-관광/체육 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-02",
+    "endDate": "2026-06-14",
+    "latitude": 37.5328789407919,
+    "longitude": 126.929129692926,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157703&menuNo=200010"
+  },
+  {
+    "name": "대한독립영화만세 Chapter.02 환경다큐 3편 [수라, 바로 지금 여기, 땅에 쓰는 시]",
+    "gu": "은평구",
+    "venue": "이호철북콘서트홀",
+    "category": "영화",
+    "tags": [
+      "유료",
+      "공연",
+      "음악"
+    ],
+    "score": 6.8,
+    "reason": "은평구의 이호철북콘서트홀에서 진행되는 영화 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-10",
+    "endDate": "2026-05-24",
+    "latitude": 37.6139964990436,
+    "longitude": 126.926499742667,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157760&menuNo=200013"
+  },
+  {
+    "name": "[노원문화재단] 어린이뮤지컬 [책키와 북키]",
+    "gu": "노원구",
+    "venue": "노원어린이극장",
+    "category": "뮤지컬/오페라",
+    "tags": [
+      "유료",
+      "공연",
+      "뮤지컬"
+    ],
+    "score": 6.8,
+    "reason": "노원구의 노원어린이극장에서 진행되는 뮤지컬/오페라 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-13",
+    "endDate": "2026-05-25",
+    "latitude": 37.6544500497108,
+    "longitude": 127.063692307584,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157423&menuNo=200008"
+  },
+  {
+    "name": "한국현대춤협회 [제39회 한국현대춤작가 12인전]",
+    "gu": "광진구",
+    "venue": "나루아트센터 대공연장",
+    "category": "무용",
+    "tags": [
+      "유료",
+      "야간"
+    ],
+    "score": 6.8,
+    "reason": "광진구의 나루아트센터 대공연장에서 진행되는 무용 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-05-13",
+    "endDate": "2026-05-20",
+    "latitude": 37.5375706269359,
+    "longitude": 127.070576040786,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157561&menuNo=200008"
+  },
+  {
+    "name": "[다미앵 잘레 X 코헤이 나와] 플래닛 [방랑자]",
+    "gu": "강남구",
+    "venue": "GS아트센터(역삼역)",
+    "category": "무용",
+    "tags": [
+      "유료",
+      "야간"
+    ],
+    "score": 6.8,
+    "reason": "강남구의 GS아트센터(역삼역)에서 진행되는 무용 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-06-24",
+    "endDate": "2026-06-26",
+    "latitude": 37.5019949322814,
+    "longitude": 127.037336400239,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157653&menuNo=200008"
+  },
+  {
+    "name": "[삼청각] 수요 상설 공연 [삼청일화예술단]",
+    "gu": "성북구",
+    "venue": "삼청각 일화당",
+    "category": "국악",
+    "tags": [
+      "유료",
+      "야간"
+    ],
+    "score": 6.3,
+    "reason": "성북구의 삼청각 일화당에서 진행되는 국악 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-02-25",
+    "endDate": "2026-12-30",
+    "latitude": 37.5972821698538,
+    "longitude": 126.983526326222,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=156402&menuNo=200008"
+  },
+  {
+    "name": "[세종문화회관] 26세종시즌 [더 트라이브]",
+    "gu": "은평구",
+    "venue": "세종M씨어터",
+    "category": "뮤지컬/오페라",
+    "tags": [
+      "유료",
+      "공연",
+      "뮤지컬",
+      "야간"
+    ],
+    "score": 6.3,
+    "reason": "은평구의 세종M씨어터에서 진행되는 뮤지컬/오페라 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
+    "startDate": "2026-06-09",
+    "endDate": "2026-06-27",
+    "latitude": 37.5726241,
+    "longitude": 126.9760053,
+    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157723&menuNo=200008"
   }
 ];
