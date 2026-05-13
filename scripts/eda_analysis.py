@@ -325,6 +325,102 @@ def write_filter_options(df: pd.DataFrame) -> None:
     )
 
 
+def count_series(series: pd.Series, limit: int = 12) -> list[dict]:
+    return [
+        {"name": str(index), "y": int(value)}
+        for index, value in series.value_counts().head(limit).items()
+    ]
+
+
+def write_insight_charts(df: pd.DataFrame, kw_df: pd.DataFrame) -> None:
+    DOCS_DATA_DIR.mkdir(parents=True, exist_ok=True)
+    day_labels = {
+        "Monday": "월",
+        "Tuesday": "화",
+        "Wednesday": "수",
+        "Thursday": "목",
+        "Friday": "금",
+        "Saturday": "토",
+        "Sunday": "일",
+    }
+    day_order = list(day_labels.keys())
+    monthly_counts = df["분석_월"].value_counts().sort_index()
+    day_counts = df["분석_요일"].value_counts().reindex(day_order).fillna(0).astype(int)
+    charts = [
+        {
+            "id": "event-category",
+            "title": "행사 분류별 빈도",
+            "description": "교육/체험, 전시, 클래식이 상위권을 차지하며 다양한 데이트 테마 활용이 가능합니다.",
+            "type": "bar",
+            "xAxisTitle": "행사 분류",
+            "yAxisTitle": "행사 수",
+            "seriesName": "행사 수",
+            "data": count_series(df[COLUMNS["category"]], 12),
+        },
+        {
+            "id": "gu-events",
+            "title": "자치구별 개최 현황",
+            "description": "종로구, 중구, 서초구 순으로 문화 인프라가 집중되어 있어 초기 추천 지역으로 적합합니다.",
+            "type": "bar",
+            "xAxisTitle": "자치구",
+            "yAxisTitle": "행사 수",
+            "seriesName": "행사 수",
+            "data": count_series(df[COLUMNS["gu"]], 12),
+        },
+        {
+            "id": "monthly-trend",
+            "title": "월별 행사 트렌드",
+            "description": "5월과 9월~11월 사이 가을 시즌에 행사가 집중되어 시즌별 마케팅이 유효합니다.",
+            "type": "line",
+            "xAxisTitle": "월",
+            "yAxisTitle": "행사 수",
+            "seriesName": "행사 수",
+            "categories": [f"{month}월" for month in monthly_counts.index.astype(int)],
+            "data": [int(value) for value in monthly_counts.values],
+        },
+        {
+            "id": "day-of-week",
+            "title": "요일별 시작 현황",
+            "description": "금요일과 토요일에 행사가 집중되어 있어 주말 데이트 코스 구성에 유리합니다.",
+            "type": "column",
+            "xAxisTitle": "요일",
+            "yAxisTitle": "행사 수",
+            "seriesName": "행사 수",
+            "categories": [day_labels[day] for day in day_order],
+            "data": [int(day_counts[day]) for day in day_order],
+        },
+        {
+            "id": "top-venues",
+            "title": "주요 행사 장소",
+            "description": "세종체임버홀, 서울아트책보고 등 반복적으로 개최되는 거점 장소를 집중 관리합니다.",
+            "type": "bar",
+            "xAxisTitle": "장소",
+            "yAxisTitle": "행사 수",
+            "seriesName": "행사 수",
+            "data": count_series(df[COLUMNS["venue"]], 12),
+        },
+        {
+            "id": "keywords",
+            "title": "핵심 키워드 분석",
+            "description": "콘서트, 전시, 클래식 등 핵심 키워드를 통해 데이트 태그를 자동 생성할 수 있습니다.",
+            "type": "bar",
+            "xAxisTitle": "키워드",
+            "yAxisTitle": "TF-IDF 가중치",
+            "seriesName": "가중치",
+            "data": [
+                {"name": str(row["keyword"]), "y": round(float(row["weight"]), 2)}
+                for _, row in kw_df.head(12).iterrows()
+            ],
+        },
+    ]
+    json_text = json.dumps(charts, ensure_ascii=False, indent=2)
+    (DOCS_DATA_DIR / "insight-charts.json").write_text(json_text + "\n", encoding="utf-8")
+    (DOCS_DATA_DIR / "insight-charts.js").write_text(
+        "window.DECO_INSIGHT_CHARTS = " + json_text + ";\n",
+        encoding="utf-8",
+    )
+
+
 def main() -> None:
     args = parse_args()
     REPORT_DIR.mkdir(exist_ok=True)
@@ -479,6 +575,7 @@ def main() -> None:
 
     write_recommendations(df)
     write_filter_options(df)
+    write_insight_charts(df, kw_df)
 
     report_content = f"""# 서울시 문화행사 정보 탐색적 데이터 분석(EDA) 보고서
 

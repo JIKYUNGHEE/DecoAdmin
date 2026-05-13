@@ -3521,25 +3521,6 @@
     "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157507&menuNo=200011"
   },
   {
-    "name": "[서울문화예술교육센터 은평] 성인 원데이 클래스 [나를 세우는 발레핏(5월)]",
-    "gu": "은평구",
-    "venue": "서울문화예술교육센터 은평 댄스스튜디오1",
-    "category": "교육/체험",
-    "tags": [
-      "가성비",
-      "무료",
-      "체험",
-      "이색데이트"
-    ],
-    "score": 8.6,
-    "reason": "무료로 즐길 수 있어 부담이 낮고, 은평구의 서울문화예술교육센터 은평 댄스스튜디오1에서 진행되는 교육/체험 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
-    "startDate": "2026-05-12",
-    "endDate": "2026-05-12",
-    "latitude": 37.5851270962157,
-    "longitude": 126.893782364905,
-    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157647&menuNo=200011"
-  },
-  {
     "name": "[서울문화예술교육센터 은평] 영유아 원데이 [베베음악요가(오후반)]",
     "gu": "은평구",
     "venue": "서울문화예술교육센터 은평 댄스스튜디오1",
@@ -7297,46 +7278,6 @@
     "latitude": 37.5828094398328,
     "longitude": 126.907671330325,
     "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157737&menuNo=200010"
-  },
-  {
-    "name": "[성동구립성수도서관] 다문화인식개선 교육 인형극 [아랫마을에서 온 두루미]",
-    "gu": "성동구",
-    "venue": "성수아트홀 2층 성수책마루",
-    "category": "연극",
-    "tags": [
-      "가성비",
-      "무료",
-      "공연",
-      "연극",
-      "북데이트"
-    ],
-    "score": 7.6,
-    "reason": "무료로 즐길 수 있어 부담이 낮고, 성동구의 성수아트홀 2층 성수책마루에서 진행되는 연극 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
-    "startDate": "2026-05-12",
-    "endDate": "2026-05-12",
-    "latitude": 37.5454288300956,
-    "longitude": 127.046948095951,
-    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157576&menuNo=200008"
-  },
-  {
-    "name": "[구립증산도서관] 가정의 달 특별공연 [마술연필을 가진 마술사]",
-    "gu": "은평구",
-    "venue": "구립증산도서관 2층 강당",
-    "category": "기타",
-    "tags": [
-      "가성비",
-      "무료",
-      "북데이트",
-      "정적인",
-      "야간"
-    ],
-    "score": 7.6,
-    "reason": "무료로 즐길 수 있어 부담이 낮고, 은평구의 구립증산도서관 2층 강당에서 진행되는 기타 콘텐츠로 데이트 코스에 연결하기 좋습니다.",
-    "startDate": "2026-05-12",
-    "endDate": "2026-05-12",
-    "latitude": 37.5828094398328,
-    "longitude": 126.907671330325,
-    "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157730&menuNo=200013"
   },
   {
     "name": "[동대문문화재단] 브런치 콘서트 아트리움 - 국립오페라단: 국립오페라스튜디오",

@@ -3,217 +3,306 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Deco Admin - 서울 데이트 코스 관리</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Deco Admin - 서울 데이트 코스 운영</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="admin-shell">
+        <aside class="sidebar">
+            <div class="brand">
+                <div class="brand-mark">D</div>
+                <div>
+                    <strong>Deco Admin</strong>
+                    <span>데이트 코스 운영</span>
+                </div>
+            </div>
+            <nav class="side-nav" aria-label="관리자 메뉴">
+                <button class="nav-item is-active" type="button" data-tab="dashboard">대시보드</button>
+                <button class="nav-item" type="button" data-tab="events">문화행사</button>
+                <button class="nav-item" type="button" data-tab="recommendations">추천 후보</button>
+                <button class="nav-item" type="button" data-tab="tags">태그 관리</button>
+                <button class="nav-item" type="button" data-tab="reports">분석 리포트</button>
+                <button class="nav-item" type="button" data-tab="integration">앱 연동 구조</button>
+            </nav>
+            <div class="sidebar-note">
+                <strong>운영 목적</strong>
+                <p>서울시 문화행사 데이터를 Deco 앱의 초기 추천 콘텐츠로 전환합니다.</p>
+            </div>
+        </aside>
 
-    <header>
-        <div class="container">
-            <h1>Deco Admin</h1>
-            <p>서울 문화행사 데이터 기반 데이트 장소 추천 관리 대시보드</p>
+        <main class="content">
+            <header class="topbar">
+                <div>
+                    <p class="eyebrow">Seoul Cultural Event Curation</p>
+                    <h1 id="page-title">대시보드</h1>
+                </div>
+                <div class="topbar-actions">
+                    <span id="data-status">추천 데이터 로딩 중</span>
+                </div>
+            </header>
+
+            <section class="tab-panel is-active" id="tab-dashboard" data-title="대시보드">
+                <div class="kpi-grid">
+                    <div class="kpi-card">
+                        <h3>전체 행사 수</h3>
+                        <p class="value">3,907</p>
+                    </div>
+                    <div class="kpi-card">
+                        <h3>주요 집중 자치구</h3>
+                        <p class="value">종로구</p>
+                    </div>
+                    <div class="kpi-card">
+                        <h3>최다 행사 분류</h3>
+                        <p class="value">교육/체험</p>
+                    </div>
+                    <div class="kpi-card">
+                        <h3>토요일 시작 행사</h3>
+                        <p class="value">1,019</p>
+                    </div>
+                </div>
+
+                <div class="section-grid two-col">
+                    <section class="card">
+                        <div class="section-heading">
+                            <h2>핵심 인사이트 요약</h2>
+                            <p>운영자가 먼저 봐야 할 문화행사 데이터 신호입니다.</p>
+                        </div>
+                        <div id="dashboard-insights" class="summary-list"></div>
+                    </section>
+
+                    <section class="card">
+                        <div class="section-heading">
+                            <h2>운영자 초기 큐레이션 전략</h2>
+                            <p>콜드 스타트 구간에서 바로 실행할 운영 전략입니다.</p>
+                        </div>
+                        <div class="strategy-grid compact">
+                            <article>
+                                <strong>초기 거점 확보</strong>
+                                <p>종로/중구 등 행사 밀집 지역을 중심으로 실패 없는 정석 코스를 먼저 등록합니다.</p>
+                            </article>
+                            <article>
+                                <strong>앱 검색 태그 최적화</strong>
+                                <p>전시, 체험, 무료, 야간 같은 태그를 필터의 우선 항목으로 배치합니다.</p>
+                            </article>
+                            <article>
+                                <strong>주말 운영</strong>
+                                <p>금/토 시작 행사가 많으므로 목요일 오후 주말 추천 후보를 확정합니다.</p>
+                            </article>
+                            <article>
+                                <strong>상세 가이드</strong>
+                                <p>추천 이유를 Deco 앱 상세 설명의 운영자 가이드 문장으로 전환합니다.</p>
+                            </article>
+                        </div>
+                    </section>
+                </div>
+            </section>
+
+            <section class="tab-panel" id="tab-events" data-title="문화행사">
+                <section class="card">
+                    <div class="section-heading">
+                        <h2>서울시 문화행사 대표 목록</h2>
+                        <p>정적 배포를 위해 추천 후보 데이터에서 운영 검토용 대표 행사를 보여줍니다.</p>
+                    </div>
+                    <div class="toolbar compact-toolbar">
+                        <label class="field">
+                            <span>자치구</span>
+                            <select id="event-gu-filter"><option value="">전체</option></select>
+                        </label>
+                        <label class="field">
+                            <span>분류</span>
+                            <select id="event-category-filter"><option value="">전체</option></select>
+                        </label>
+                        <label class="field">
+                            <span>유/무료</span>
+                            <select id="event-free-filter">
+                                <option value="">전체</option>
+                                <option value="무료">무료</option>
+                                <option value="유료">유료</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div class="table-container">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>행사명</th>
+                                    <th>자치구</th>
+                                    <th>장소</th>
+                                    <th>분류</th>
+                                    <th>시작일</th>
+                                    <th>종료일</th>
+                                    <th>유/무료</th>
+                                    <th>행사시간</th>
+                                </tr>
+                            </thead>
+                            <tbody id="event-body"></tbody>
+                        </table>
+                    </div>
+                </section>
+            </section>
+
+            <section class="tab-panel" id="tab-recommendations" data-title="추천 후보">
+                <section class="card">
+                    <div class="section-heading">
+                        <h2>추천 후보 TOP 리스트</h2>
+                        <p>현재 필터 조건에 맞는 후보 중 상위 12개를 운영 검토 대상으로 표시합니다.</p>
+                    </div>
+
+                    <div class="tag-filter-bar" id="quick-tag-filters" aria-label="추천 태그 필터">
+                        <button class="tag-filter is-active" type="button" data-tag="">전체</button>
+                        <button class="tag-filter" type="button" data-tag="무료">무료</button>
+                        <button class="tag-filter" type="button" data-tag="전시">전시</button>
+                        <button class="tag-filter" type="button" data-tag="공연">공연</button>
+                        <button class="tag-filter" type="button" data-tag="체험">체험</button>
+                        <button class="tag-filter" type="button" data-tag="주말">주말</button>
+                        <button class="tag-filter" type="button" data-tag="야간">야간</button>
+                        <button class="tag-filter" type="button" data-tag="산책">산책</button>
+                    </div>
+
+                    <div class="toolbar">
+                        <label class="field">
+                            <span>검색</span>
+                            <input id="candidate-search" type="search" placeholder="행사명, 장소, 지역">
+                        </label>
+                        <label class="field">
+                            <span>지역</span>
+                            <select id="gu-filter"><option value="">전체</option></select>
+                        </label>
+                        <label class="field">
+                            <span>분류</span>
+                            <select id="category-filter"><option value="">전체</option></select>
+                        </label>
+                        <label class="field">
+                            <span>정렬</span>
+                            <select id="sort-select">
+                                <option value="score-desc">점수 높은순</option>
+                                <option value="date-asc">가까운 날짜순</option>
+                                <option value="gu-asc">지역순</option>
+                            </select>
+                        </label>
+                    </div>
+
+                    <div class="candidate-summary">
+                        <p id="candidate-count">추천 후보 0개</p>
+                        <p id="selected-count">앱 등록 후보 0개</p>
+                    </div>
+
+                    <div class="table-container">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>선택</th>
+                                    <th>행사명</th>
+                                    <th>자치구</th>
+                                    <th>장소</th>
+                                    <th>분류</th>
+                                    <th>추천 태그</th>
+                                    <th>추천 점수</th>
+                                    <th>추천 이유</th>
+                                    <th>상태</th>
+                                </tr>
+                            </thead>
+                            <tbody id="recommendation-body"></tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <div class="section-grid two-col map-layout">
+                    <section class="card">
+                        <div class="section-heading">
+                            <h2>추천 점수 산정 기준</h2>
+                            <p>이 추천은 머신러닝이 아니라 설명 가능한 규칙 기반 추천입니다.</p>
+                        </div>
+                        <ul class="rule-list">
+                            <li>무료 여부와 가성비 태그를 반영합니다.</li>
+                            <li>종로구, 중구, 마포구 등 인기 지역 가중치를 반영합니다.</li>
+                            <li>전시, 공연, 체험, 야간 등 데이트 적합 태그를 반영합니다.</li>
+                            <li>지도 연동이 가능한 위치 정보 보유 여부를 반영합니다.</li>
+                            <li>행사 기간과 주말 시작 여부를 운영 관점에서 반영합니다.</li>
+                        </ul>
+                    </section>
+
+                    <section class="card map-card">
+                        <div class="section-heading">
+                            <h2>추천 후보 위치 지도</h2>
+                            <p>현재 추천 후보 TOP 20 중 좌표가 유효한 장소만 표시합니다.</p>
+                        </div>
+                        <div id="recommendation-map" class="recommendation-map">
+                            <p class="empty-state">지도를 불러오는 중입니다.</p>
+                        </div>
+                    </section>
+                </div>
+            </section>
+
+            <section class="tab-panel" id="tab-tags" data-title="태그 관리">
+                <section class="card">
+                    <div class="section-heading">
+                        <h2>Deco용 추천 태그</h2>
+                        <p>추천 후보를 앱 필터와 상세 설명으로 전환하기 위한 태그 운영 기준입니다.</p>
+                    </div>
+                    <div id="tag-management-grid" class="tag-management-grid"></div>
+                </section>
+                <section class="card">
+                    <div class="section-heading">
+                        <h2>태그 생성 규칙</h2>
+                        <p>원본 문화행사 데이터에서 설명 가능한 방식으로 태그를 부여합니다.</p>
+                    </div>
+                    <div class="strategy-grid">
+                        <article><strong>무료/가성비</strong><p>유무료 컬럼과 이용요금 문구를 기준으로 비용 태그를 부여합니다.</p></article>
+                        <article><strong>전시/공연/체험</strong><p>행사 분류와 제목 키워드를 기준으로 데이트 테마 태그를 부여합니다.</p></article>
+                        <article><strong>야간/주말</strong><p>행사시간과 시작 요일을 기준으로 시간대 태그를 확장합니다.</p></article>
+                        <article><strong>실내/야외</strong><p>전시관, 공연장, 광장, 공원 등 장소 단서를 활용해 보조 태그를 부여합니다.</p></article>
+                    </div>
+                </section>
+            </section>
+
+            <section class="tab-panel" id="tab-reports" data-title="분석 리포트">
+                <section class="card">
+                    <div class="section-heading">
+                        <h2>EDA 그래프 리포트</h2>
+                        <p>Highcharts 기반 인터랙티브 분석 차트와 Deco 운영자 관점의 짧은 해석입니다.</p>
+                    </div>
+                    <div id="report-chart-grid" class="report-grid"></div>
+                </section>
+            </section>
+
+            <section class="tab-panel" id="tab-integration" data-title="앱 연동 구조">
+                <section class="card integration-card">
+                    <div class="section-heading">
+                        <h2>Deco 앱 서비스 연결 구조</h2>
+                        <p>Admin에서 선별한 후보가 Deco 앱 사용자 경험으로 연결되는 흐름입니다.</p>
+                    </div>
+                    <div class="roadmap-grid">
+                        <article><strong>1. 데이터 선별 → 앱 홈 추천</strong><p>추천 후보 TOP 리스트는 Deco 앱 홈의 오늘의 추천 코스 영역으로 공급됩니다.</p></article>
+                        <article><strong>2. 태그 관리 → 검색 필터</strong><p>무료, 전시, 체험, 야간 등 운영 태그는 앱 필터와 태그 클라우드로 확장됩니다.</p></article>
+                        <article><strong>3. 위치 정보 → 지도 연동</strong><p>위도/경도 좌표는 앱 지도 핀, 이동 동선, 주변 장소 추천에 활용됩니다.</p></article>
+                        <article><strong>4. 추천 이유 → 상세 가이드</strong><p>운영자 추천 이유는 코스 상세 페이지의 신뢰도 높은 설명 문구로 전환됩니다.</p></article>
+                        <article><strong>5. 사용자 반응 → 추천 고도화</strong><p>향후 좋아요, 저장, 조회수, 방문 완료 데이터를 반영해 개인화 추천으로 확장합니다.</p></article>
+                    </div>
+                </section>
+            </section>
+        </main>
+    </div>
+
+    <div id="chart-modal" class="chart-modal" hidden>
+        <div class="chart-modal-backdrop" data-close-chart-modal></div>
+        <div class="chart-modal-panel" role="dialog" aria-modal="true" aria-labelledby="chart-modal-title">
+            <button class="modal-close" type="button" data-close-chart-modal aria-label="닫기">&times;</button>
+            <h3 id="chart-modal-title"></h3>
+            <p id="chart-modal-desc"></p>
+            <div id="chart-modal-container" class="modal-chart"></div>
         </div>
-    </header>
+    </div>
 
-    <main class="container">
-        <!-- KPI Cards -->
-        <section class="kpi-grid">
-            <div class="kpi-card">
-                <h3>전체 행사 수</h3>
-                <p class="value">3,907</p>
-            </div>
-            <div class="kpi-card">
-                <h3>주요 집중 자치구</h3>
-                <p class="value">종로구</p>
-            </div>
-            <div class="kpi-card">
-                <h3>최다 행사 분류</h3>
-                <p class="value">교육/체험</p>
-            </div>
-            <div class="kpi-card">
-                <h3>토요일 시작 행사</h3>
-                <p class="value">1,019</p>
-            </div>
-        </section>
-
-        <!-- EDA Insights Section -->
-        <section id="eda-insights">
-            <h2>EDA 핵심 인사이트</h2>
-            <div class="eda-grid">
-                <div class="eda-card">
-                    <img src="images/01_event_category_counts.png" alt="행사 분류">
-                    <div class="content">
-                        <h4>행사 분류별 빈도</h4>
-                        <p>교육/체험, 전시, 클래식이 상위권을 차지하며 다양한 데이트 테마 활용이 가능합니다.</p>
-                    </div>
-                </div>
-                <div class="eda-card">
-                    <img src="images/02_gu_event_counts.png" alt="자치구별 행사">
-                    <div class="content">
-                        <h4>자치구별 개최 현황</h4>
-                        <p>종로구, 중구, 서초구 순으로 문화 인프라가 집중되어 있어 초기 추천 지역으로 적합합니다.</p>
-                    </div>
-                </div>
-                <div class="eda-card">
-                    <img src="images/04_monthly_trend.png" alt="월별 트렌드">
-                    <div class="content">
-                        <h4>월별 행사 트렌드</h4>
-                        <p>5월과 9월~11월 사이 가을 시즌에 행사가 집중되어 시즌별 마케팅이 유효합니다.</p>
-                    </div>
-                </div>
-                <div class="eda-card">
-                    <img src="images/09_day_of_week.png" alt="요일별 현황">
-                    <div class="content">
-                        <h4>요일별 시작 현황</h4>
-                        <p>금요일과 토요일에 행사가 집중되어 있어 주말 데이트 코스 구성에 유리합니다.</p>
-                    </div>
-                </div>
-                <div class="eda-card">
-                    <img src="images/07_top_venues.png" alt="주요 장소">
-                    <div class="content">
-                        <h4>주요 행사 장소</h4>
-                        <p>세종체임버홀, 서울아트책보고 등 반복적으로 개최되는 거점 장소를 집중 관리합니다.</p>
-                    </div>
-                </div>
-                <div class="eda-card">
-                    <img src="images/10_keywords_tfidf.png" alt="키워드 분석">
-                    <div class="content">
-                        <h4>핵심 키워드 분석</h4>
-                        <p>콘서트, 전시, 클래식 등 핵심 키워드를 통해 데이트 태그를 자동 생성할 수 있습니다.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Deco Operator Insights -->
-        <section id="operator-insights">
-            <h2>운영자 초기 큐레이션 전략</h2>
-            <div class="insight-box">
-                <p style="margin-bottom: 1.5rem; color: var(--text-main); font-weight: 600;">앱 출시 초기, 사용자 코스 데이터 부족 문제를 공공데이터 기반 큐레이션으로 해결합니다.</p>
-                <div class="insight-list">
-                    <div class="insight-item">
-                        <strong>📍 초기 거점 확보</strong>
-                        <p>종로/중구 등 행사가 밀집된 지역을 중심으로 '실패 없는 정석 코스'를 먼저 등록하여 초기 사용자 체류 시간을 확보합니다.</p>
-                    </div>
-                    <div class="insight-item">
-                        <strong>🏷️ 앱 검색 태그 최적화</strong>
-                        <p>EDA로 도출된 '전시', '체험', '무료' 등의 키워드를 앱 필터에 우선 배치하여 사용자가 원하는 테마를 빠르게 찾게 합니다.</p>
-                    </div>
-                    <div class="insight-item">
-                        <strong>⏰ 마케팅 타이밍</strong>
-                        <p>금/토 시작 행사가 압도적이므로, 목요일 오후 '주말 데이트 치트키' 푸시 알림을 통해 앱 접속을 유도하는 전략이 유효합니다.</p>
-                    </div>
-                    <div class="insight-item">
-                        <strong>🎯 큐레이션 가이드</strong>
-                        <p>단순 정보 제공이 아닌, 운영자의 '추천 이유'를 앱 가이드 텍스트로 활용해 Deco만의 전문적이고 친절한 톤앤매너를 구축합니다.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Recommendation Candidate Management -->
-        <section id="recommendations">
-            <h2>추천 후보 리스트 (Deco 앱 데이터 공급원)</h2>
-            <p class="section-desc" style="margin-bottom: 1rem; color: var(--text-muted);">아래 선별된 데이터는 Deco 앱의 <strong>홈 화면 추천 코스</strong> 및 <strong>상세 페이지</strong>의 원천 데이터로 활용됩니다.</p>
-            <div class="candidate-toolbar" aria-label="추천 후보 필터">
-                <label class="field">
-                    <span>검색</span>
-                    <input id="candidate-search" type="search" placeholder="행사명, 장소, 지역">
-                </label>
-                <label class="field">
-                    <span>지역</span>
-                    <select id="gu-filter">
-                        <option value="">전체</option>
-                    </select>
-                </label>
-                <label class="field">
-                    <span>분류</span>
-                    <select id="category-filter">
-                        <option value="">전체</option>
-                    </select>
-                </label>
-                <label class="field">
-                    <span>태그</span>
-                    <select id="tag-filter">
-                        <option value="">전체</option>
-                    </select>
-                </label>
-                <label class="field">
-                    <span>정렬</span>
-                    <select id="sort-select">
-                        <option value="score-desc">점수 높은순</option>
-                        <option value="date-asc">가까운 날짜순</option>
-                        <option value="gu-asc">지역순</option>
-                    </select>
-                </label>
-                <label class="check-field">
-                    <input id="selected-only" type="checkbox">
-                    <span>앱 등록 후보만</span>
-                </label>
-            </div>
-            <div class="candidate-summary">
-                <p id="candidate-count">추천 후보 0개</p>
-                <p id="selected-count">앱 등록 후보 0개</p>
-            </div>
-            <div class="table-container">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>등록</th>
-                            <th>행사명 (Deco 홈 노출)</th>
-                            <th>지역 (지도 연동)</th>
-                            <th>장소</th>
-                            <th>분류</th>
-                            <th>추천 태그 (앱 필터)</th>
-                            <th>추천 점수</th>
-                            <th>일정</th>
-                            <th>상세</th>
-                            <th>추천 이유 (상세 설명 활용)</th>
-                        </tr>
-                    </thead>
-                    <tbody id="recommendation-body">
-                        <!-- JS로 채워질 예정 -->
-                    </tbody>
-                </table>
-            </div>
-            <aside id="candidate-detail" class="candidate-detail" aria-live="polite">
-                <p class="empty-detail">후보 행을 선택하면 앱 상세 등록에 필요한 정보가 표시됩니다.</p>
-            </aside>
-        </section>
-
-        <!-- Roadmap Section -->
-        <section class="roadmap">
-            <h2>Deco 앱 서비스 연결 구조</h2>
-            <div class="roadmap-grid">
-                <div class="step">
-                    <h4>1. 데이터 선별 &rarr; 앱 홈 추천</h4>
-                    <p>Admin의 '추천 후보 TOP 5' 데이터는 Deco 앱 홈 화면의 '오늘의 추천 코스' 섹션으로 즉시 공급됩니다.</p>
-                </div>
-                <div class="step">
-                    <h4>2. 태그 관리 &rarr; 앱 검색 필터</h4>
-                    <p>Admin에서 정의한 '실내', '야간', '가성비' 등의 태그는 앱 내 검색 필터 및 태그 클라우드 시스템과 동기화됩니다.</p>
-                </div>
-                <div class="step">
-                    <h4>3. 위치 정보 &rarr; 앱 지도 서비스</h4>
-                    <p>공공데이터의 위경도 좌표 정보를 활용하여, 앱의 지도 화면에서 장소 간 이동 경로를 최적화하여 보여줍니다.</p>
-                </div>
-                <div class="step">
-                    <h4>4. 추천 이유 &rarr; 상세 가이드</h4>
-                    <p>운영자가 작성한 '추천 이유'는 앱 코스 상세 페이지에서 사용자에게 신뢰도 높은 가이드 텍스트로 노출됩니다.</p>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2026 Deco Project. Seoul Cultural Event Data Analysis.</p>
-    </footer>
-
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="data/filter-options.js"></script>
     <script src="data/recommendations.js"></script>
+    <script src="data/insight-charts.js"></script>
     <script src="app.js"></script>
 </body>
 </html>
